@@ -33,3 +33,15 @@
 @import "ember-cli-bootstrap-4/carousel";
 @import "ember-cli-bootstrap-4/utilities";
 @import "ember-cli-bootstrap-4/print";
+
+.g-map{
+  height: 100%;
+}
+.g-map-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  padding-top: 66px;
+}
