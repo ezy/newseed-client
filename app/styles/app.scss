@@ -35,12 +35,10 @@
 @import "ember-cli-bootstrap-4/print";
 @import "./landing-page";
 
-.g-map{
-  height: 100%;
-}
-.g-map-canvas {
+.leaflet-container {
   width: 100%;
-  height: 100%;
+  height: 300px;
+  font-family: inherit;
 }
 
 .main {
