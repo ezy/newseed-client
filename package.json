@@ -50,6 +50,7 @@
     "ember-welcome-page": "^3.0.0",
     "eslint-plugin-ember": "^5.0.0",
     "express": "^4.8.5",
+    "faker": "^4.1.0",
     "foundation-sites": "6.4.1",
     "glob": "^4.0.5",
     "install": "^0.10.4",
