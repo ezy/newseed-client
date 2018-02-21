@@ -35,7 +35,6 @@
           </ol>
           <div class="carousel-inner">
             {{#each slides as |slide index|}}
-            {{log slide}}
               <div class="carousel-item {{if (eq index 0) "active" }}">
                 <img class="d-block w-100" src={{slide.image}} alt={{slide.title}}>
               </div>
