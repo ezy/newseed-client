@@ -35,13 +35,13 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="http://via.placeholder.com/2160x600/999999/" alt="First slide">
+              <img class="d-block w-100" src="http://via.placeholder.com/2160x800/999999/" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="http://via.placeholder.com/2160x600/555555/" alt="Second slide">
+              <img class="d-block w-100" src="http://via.placeholder.com/2160x800/555555/" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="http://via.placeholder.com/2160x600/222222/" alt="Third slide">
+              <img class="d-block w-100" src="http://via.placeholder.com/2160x800/222222/" alt="Third slide">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -58,35 +58,27 @@
   </div>
 
   <hr>
-
   <div class="container-fluid mt-3">
     <div class="row">
       <div class="col-6">
+        <h3>Notices</h3>
         <ul>
+          {{#each notices as |notice|}}
           <li>
-            <h3>Title</h3>
-            <p><span class="badge badge-info">New</span> Lorem ipsum dolor sit amet.</p>
+            <h3>{{notice.title}}</h3>
+            <p>{{date-format notice.date 'd MMM YY'}} <span class="badge badge-success">{{notice.category}}</span></p>
+            <p>{{notice.body}}</p>
           </li>
-          <li>
-            <h3>Title </h3>
-            <p><span class="badge badge-info">New</span> Lorem ipsum dolor sit amet.</p>
-          </li>
-          <li>
-            <h3>Title </h3>
-            <p><span class="badge badge-info">New</span> Lorem ipsum dolor sit amet.</p>
-          </li>
-          <li>
-            <h3>Title </h3>
-            <p><span class="badge badge-info">New</span> Lorem ipsum dolor sit amet.</p>
-          </li>
+          {{/each}}
         </ul>
       </div>
       <div class="col-6">
+        <h3>Sermons</h3>
         <ul>
           {{#each sermons as |sermon|}}
             <li>
               <h3><a href="#">{{sermon.title}}</a></h3>
-              <p><span class="badge badge-info">New</span> {{sermon.blurb}}</p>
+              <p><span class="badge badge-info">New</span> {{sermon.summary}}</p>
               <p>
                 {{#each sermon.tags as |tag|}}
                   <span class="badge badge-secondary">{{tag}}</span>
@@ -103,6 +95,15 @@
 
   <div class="container-fluid mt-3">
     <div class="row">
+      <div class="col-6">
+        <address>
+          <strong>The Olive Tree Church</strong><br>
+          476-486 Jackson Street<br>
+          Petone<br>
+          Lower Hutt<br>
+          P: (04) 891 0557
+        </address>
+      </div>
       <div class="col-6" style="height: 300px;">
         {{#leaflet-map lat=-41.230087 lng=174.894357 zoom=16}}
 
@@ -119,15 +120,6 @@
           {{/marker-layer}}
 
         {{/leaflet-map}}
-      </div>
-      <div class="col-6">
-        <address>
-          <strong>The Olive Tree Church</strong><br>
-          476-486 Jackson Street<br>
-          Petone<br>
-          Lower Hutt<br>
-          P: (04) 891 0557
-        </address>
       </div>
     </div>
   </div>

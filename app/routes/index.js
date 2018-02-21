@@ -5,5 +5,8 @@ export default Route.extend({
     this.store.findAll('audio').then(function(audio) {
       controller.set('sermons', audio);
     });
+    this.store.findAll('notice').then(function(notice) {
+      controller.set('notices', notice);
+    });
   }
 });
