@@ -2,20 +2,16 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <div class="card text-white bg-secondary mb-3">
+        <div class="service-times card card-square text-white bg-olive mb-3">
           <div class="card-body">
             <div class="row">
               <div class="col">
-                <p>
-                  Service time: <br>
-                  Speaker:
-                </p>
+                This Sunday
               </div>
               <div class="col">
-                <p class="float-right">
-                  10:30AM <br>
-                  Bruce Bell
-                </p>
+                <span class="float-right">
+                  Bruce Bell - 10:30AM
+                </span>
               </div>
             </div>
           </div>
@@ -85,7 +81,7 @@
         </address>
       </div>
       <div class="col-6" style="height: 300px;">
-        {{#leaflet-map lat=-41.230087 lng=174.894357 zoom=16}}
+        {{#leaflet-map lat=-41.230087 lng=174.894357 zoom=16 scrollWheelZoom=false}}
 
           {{tile-layer url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
           {{!-- {{tile-layer url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"}} --}}

@@ -33,7 +33,12 @@
 @import "ember-cli-bootstrap-4/carousel";
 @import "ember-cli-bootstrap-4/utilities";
 @import "ember-cli-bootstrap-4/print";
+@import "./colour";
+@import "./typography";
+@import "_or-carousel";
+@import "_or-nav";
 @import "./landing-page";
+@import "./olive-tree";
 
 .leaflet-container {
   width: 100%;

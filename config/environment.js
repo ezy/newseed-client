@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'olive',
+    modulePrefix: 'mustard',
     environment,
     rootURL: '/',
     locationType: 'auto',
