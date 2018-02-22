@@ -1,0 +1,14 @@
+<ul>
+  {{#each notices as |notice|}}
+  <li>
+    <h3>{{notice.title}}</h3>
+    <p>{{date-format notice.date 'd MMM YY'}} <span class="badge badge-success">{{notice.category}}</span></p>
+    <p>{{notice.body}}</p>
+    <p>
+      {{#each notice.tags as |tag|}}
+        <span class="badge badge-secondary">{{tag}}</span>
+      {{/each}}
+    </p>
+  </li>
+  {{/each}}
+</ul>
