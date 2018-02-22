@@ -1,0 +1,70 @@
+.footer {
+  background-color: white;
+  line-height: 20px;
+  .powered {
+    font-size: 12px;
+    font-weight: $font-thin;
+  }
+}
+.footer nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.footer nav > ul a:not(.btn) {
+  color: #9a9a9a;
+  display: block;
+  margin-bottom: 3px;
+}
+.footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
+  color: #777777;
+}
+.footer .social-area {
+  padding: 15px 0;
+}
+.footer .social-area h5 {
+  padding-bottom: 15px;
+}
+.footer .social-area > a:not(.btn) {
+  color: #9a9a9a;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 5px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+}
+.footer .social-area > a:not(.btn):hover, .footer .social-area > a:not(.btn):focus {
+  color: #777777;
+}
+.footer .copyright {
+  color: #777777;
+  padding: 10px 15px;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+}
+.footer hr {
+  border-color: #dddddd;
+}
+.footer .title {
+  color: #777777;
+}
+
+.footer:not(.footer-big) nav > ul {
+  font-size: 16px;
+}
+.footer:not(.footer-big) nav > ul li {
+  margin-left: 20px;
+  float: left;
+}
+.footer:not(.footer-big) nav > ul a {
+  padding: 10px 0px;
+  margin: 15px 10px 15px 0px;
+}
+
+.footer-default {
+  background-color: whitesmoke;
+}

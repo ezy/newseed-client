@@ -38,6 +38,7 @@
 @import "_or-carousel";
 @import "_or-nav";
 @import "./landing-page";
+@import "./footer";
 @import "./olive-tree";
 
 .leaflet-container {
@@ -68,4 +69,5 @@
   height: 60px;
   line-height: 60px;
   background-color: #f5f5f5;
+  font-weight: $font-light;
 }

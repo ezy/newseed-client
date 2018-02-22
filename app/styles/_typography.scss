@@ -15,7 +15,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-s
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  font-weight: 400;
+  font-weight: $font-medium;
   margin: 30px 0 15px;
 }
 
@@ -50,5 +50,6 @@ h6, .h6 {
 
 p {
   font-size: 16px;
+  font-weight: $font-light;
   line-height: 1.5;
 }

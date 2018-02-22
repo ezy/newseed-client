@@ -69,36 +69,7 @@
 
   <hr>
 
-  <div class="container-fluid mt-3">
-    <div class="row">
-      <div class="col-6">
-        <address>
-          <strong>The Olive Tree Church</strong><br>
-          476-486 Jackson Street<br>
-          Petone<br>
-          Lower Hutt<br>
-          P: (04) 891 0557
-        </address>
-      </div>
-      <div class="col-6" style="height: 300px;">
-        {{#leaflet-map lat=-41.230087 lng=174.894357 zoom=16 scrollWheelZoom=false}}
-
-          {{tile-layer url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
-          {{!-- {{tile-layer url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"}} --}}
-          {{!-- {{tile-layer url="http://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"}} --}}
-
-          {{#marker-layer location=location}}
-            {{#popup-layer}}
-              <h3>The Olive Tree Church</h3>
-              476-486 Jackson Street<br>
-              Petone
-            {{/popup-layer}}
-          {{/marker-layer}}
-
-        {{/leaflet-map}}
-      </div>
-    </div>
-  </div>
+  {{address-map }}
 
 </div>
 {{!-- End .main --}}
