@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('audio', 'Unit | Model | audio', {
+moduleForModel('ministry', 'Unit | Model | ministry', {
   // Specify the other units that are required for this test.
   needs: []
 });
