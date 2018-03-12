@@ -34,5 +34,19 @@ module.exports = {
       notice.push(tempObj);
     }
     return notice;
+  },
+
+  genMinistry() {
+    let ministry = [];
+    for (let i = 0; i < numRecords; i++) {
+      let tempObj = {};
+      tempObj['id'] = i+1;
+      tempObj['title'] = faker.lorem.words();
+      // tempObj['image'] = `http://via.placeholder.com/2160x800/${col}`;
+      tempObj['image'] = faker.random.image();
+      tempObj['body'] = faker.lorem.paragraph();
+      ministry.push(tempObj);
+    }
+    return ministry;
   }
 };
