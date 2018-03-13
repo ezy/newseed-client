@@ -1,0 +1,18 @@
+<div class="main">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        {{#link-to 'ministries'}}
+          Back to ministries
+        {{/link-to}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h1>{{model.title}}</h1>
+        <img src="{{model.image}}" alt={{model.title}} />
+        <p>{{model.body}}</p>
+      </div>
+    </div>
+  </div>
+</div>

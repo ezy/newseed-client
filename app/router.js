@@ -15,7 +15,9 @@ Router.map(function() {
     this.route('story');
   });
   this.route('contact');
-  this.route('ministries');
+  this.route('ministries', function() {
+    this.route('ministry', { path: ':id' });
+  });
 });
 
 export default Router;

@@ -1,4 +1,4 @@
-<div class="main">
+<div class="main ministries">
   <div class="container-fluid">
     <div class="row">
       {{#each model as |ministry|}}
@@ -8,7 +8,9 @@
             <div class="card-body">
               <h5 class="card-title">{{ministry.title}}</h5>
               <p class="card-text">{{ministry.body}}</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              {{#link-to "ministries.ministry" ministry.id class="btn btn-primary"}}
+                {{ministry.title}}
+              {{/link-to}}
             </div>
           </div>
         </div>
