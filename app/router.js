@@ -18,6 +18,7 @@ Router.map(function() {
   this.route('ministries', function() {
     this.route('ministry', { path: ':id' });
   });
+  this.route('login');
 });
 
 export default Router;
