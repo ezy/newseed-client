@@ -20,6 +20,16 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    // This needs to be removed for EC2 when ready https://github.com/firebase/emberfire
+    firebase: {
+      apiKey: "AIzaSyCF-dgU03LP5AlFzAS4T76MhmWd7AMFAIY",
+      authDomain: "olive-8020d.firebaseapp.com",
+      databaseURL: "https://olive-8020d.firebaseio.com",
+      projectId: "olive-8020d",
+      storageBucket: "olive-8020d.appspot.com",
+      messagingSenderId: "7867707961"
     }
   };
 
