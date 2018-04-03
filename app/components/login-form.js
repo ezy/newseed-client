@@ -3,6 +3,7 @@ import { inject as service } from '@ember/service';
 
 export default Component.extend({
   session: service(),
+  router: service(),
 
   actions: {
     authenticate: function authenticate(provider) {
@@ -10,7 +11,9 @@ export default Component.extend({
         provider: provider,
         email: this.get('email'),
         password: this.get('password')
-      });
+      }).then(
+        this.get('router').transitionTo('index')
+      );
     }
   }
 });
