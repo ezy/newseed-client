@@ -30,11 +30,18 @@ module.exports = function(environment) {
       projectId: "olive-8020d",
       storageBucket: "olive-8020d.appspot.com",
       messagingSenderId: "7867707961"
-    }
+    },
+    torii: {
+      sessionServiceName: 'session',
+      providers: {
+        'firebase-simple-auth': {
+        }
+      }
+    },
   };
 
   ENV['ember-simple-auth'] = {
-    authenticationRoute: 'auth.login',
+    authenticationRoute: 'login',
     routeAfterAuthentication: 'index',
     routeIfAlreadyAuthenticated: 'index'
   };
