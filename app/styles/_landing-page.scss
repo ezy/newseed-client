@@ -742,6 +742,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
 .service-times {
   line-height: 2rem;
-  font-weight: 100;
-  border: 1px solid $olive-dark;
+  font-weight: $font-thin;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
