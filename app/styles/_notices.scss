@@ -8,12 +8,6 @@ Notice styles
   li {
     list-style: none;
   }
-  .category {
-    text-transform: uppercase;
-    padding: 0;
-    font-size: 12px;
-    font-weight: $font-thin;
-  }
   .title {
     font-size: 16px;
     font-weight: $font-bold;
@@ -27,14 +21,14 @@ Notice styles
     padding: 0;
     font-size: 12px;
     font-weight: $font-thin;
-    color: $gray-light;
+    color: $gray;
   }
   .tag-link {
     text-decoration: underline;
     padding: 0;
     font-size: 12px;
     font-weight: $font-light;
-    color: $gray-light;
+    color: $gray;
     margin-left: .25em;
   }
 }

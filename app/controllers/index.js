@@ -6,5 +6,9 @@ export default Controller.extend({
   slides: filter('notices', (notice) => {
     let tags = get(notice, 'tags');
     return tags.includes('slide');
+  }),
+  newsFeed: filter('notices', (notice) => {
+    let tags = get(notice, 'tags');
+    return !tags.includes('slide');
   })
 });
