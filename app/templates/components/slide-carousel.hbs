@@ -1,7 +1,7 @@
 <div id="sc-carousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     {{#each slides as |slide index|}}
-      <li data-target="#sc-carousel" data-slide-to= {{index}}></li>
+      <li data-target="#sc-carousel" data-slide-to={{index}} class="{{if (eq index 0) 'active' }}"></li>
     {{/each}}
   </ol>
   <div class="carousel-inner">
