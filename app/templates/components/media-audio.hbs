@@ -1,0 +1,19 @@
+<ul id="audios">
+  {{#each sortedAudio as |audio|}}
+    <li>
+      <article>
+        <header>
+          <h3><a href="#">{{audio.title}}</a></h3>
+        </header>
+        <p class="body">{{audio.summary}}</p>
+        <span class="datestamp">{{date-format notice.date 'd MMM YY'}}</span>
+        <p class="float-right">
+          {{#each audio.tags as |tag|}}
+            <span class="tag-link">{{tag}}</span>
+          {{/each}}
+        </p>
+      </article>
+    </li>
+    <hr>
+  {{/each}}
+</ul>

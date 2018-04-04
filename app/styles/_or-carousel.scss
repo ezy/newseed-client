@@ -1,12 +1,13 @@
-.carousel-container {
+#sc-carousel {
   background-color: $gray-lighter;
-  padding: 1em;
-  border-bottom: 1px solid $gray-light;
+  -webkit-box-shadow:inset 0px 0px 0px 1px $gray-light;
+  -moz-box-shadow:inset 0px 0px 0px 1px $gray-light;
+  box-shadow:inset 0px 0px 0px 1px $gray-light;
 }
 .carousel-indicators {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 1em;
+  top: 1em;
   z-index: 15;
   display: flex;
   justify-content: left;
@@ -50,6 +51,7 @@
   h4 {
     margin: 10px 0;
     text-transform: uppercase;
+    font-weight: $font-bold;
   }
 }
 .carousel-item {
