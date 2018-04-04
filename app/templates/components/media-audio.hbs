@@ -7,10 +7,8 @@
         </header>
         <p class="body">{{audio.summary}}</p>
         <span class="datestamp">{{date-format notice.date 'd MMM YY'}}</span>
-        <p class="float-right">
-          {{#each audio.tags as |tag|}}
-            <span class="tag-link">{{tag}}</span>
-          {{/each}}
+        <p class="float-right speaker">
+          Speaker: {{#link-to 'index'}}{{audio.speaker}}{{/link-to}}
         </p>
       </article>
     </li>

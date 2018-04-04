@@ -10,7 +10,9 @@
       <span class="datestamp">{{date-format notice.date 'd MMM YY'}}</span>
       <p class="float-right">
         {{#each notice.tags as |tag|}}
-          <span class="tag-link">{{tag}}</span>
+          {{#link-to 'index' class="tag-link"}}
+            {{tag}}
+          {{/link-to}}
         {{/each}}
       </p>
       <hr>
