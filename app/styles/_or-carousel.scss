@@ -59,18 +59,12 @@
   height: 320px;
   .img-wrapper {
     position: absolute;
-    top: -10%;
-    width: 100%;
     top: 0;
     width: 45%;
     right: 0;
     overflow: hidden;
     display: block;
     height: 100%;
-    img {
-      position: absolute;
-      top: 0;
-      width: 100%;
-    }
+    background-size: cover;
   }
 }

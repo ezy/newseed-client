@@ -24,7 +24,7 @@ module.exports = {
       let tempObj = {};
       tempObj['id'] = i+1;
       tempObj['title'] = faker.lorem.words();
-      tempObj['image'] = `https://placeimg.com/720/576/any`;
+      tempObj['image'] = `https://placeimg.com/800/600/any`;
       // tempObj['image'] = faker.random.image();
       tempObj['category'] = faker.random.arrayElement(["news","need","event"]);
       tempObj['date'] = faker.date.recent();
@@ -42,7 +42,8 @@ module.exports = {
       tempObj['id'] = i+1;
       tempObj['title'] = faker.lorem.words();
       // tempObj['image'] = `http://via.placeholder.com/2160x800/${col}`;
-      tempObj['image'] = faker.random.image();
+      // tempObj['image'] = faker.random.image();
+      tempObj['image'] = `https://placeimg.com/800/600/any`;
       tempObj['body'] = faker.lorem.paragraph();
       ministry.push(tempObj);
     }

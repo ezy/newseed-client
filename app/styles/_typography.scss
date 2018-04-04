@@ -61,4 +61,8 @@ p {
 a {
   color: $olive-light;
   font-weight: 300;
+  &:hover {
+    color: $olive;
+    text-decoration: none;
+  }
 }

@@ -57,4 +57,10 @@ Notice styles
       }
     }
   }
+  i {
+    font-size: 15px;
+    color: $gray-light;
+    vertical-align: text-bottom;
+    @include rotate(45deg);
+  }
 }

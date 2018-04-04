@@ -17,6 +17,11 @@ Notice styles
     a {
       font-weight: $font-bold;
     }
+    i {
+      color: $olive;
+      vertical-align: text-bottom;
+      font-size: 18px;
+    }
   }
   .body {
     font-size: 14px;
@@ -37,6 +42,10 @@ Notice styles
     a {
       text-decoration: underline;
       color: $gray;
+    }
+    i {
+      font-size: 15px;
+      vertical-align: text-bottom;
     }
   }
 }
