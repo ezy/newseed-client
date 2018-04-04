@@ -1,8 +1,14 @@
-<div class="main ministries">
+<div id="ministries" class="main">
   <div class="container-fluid">
     <div class="row">
+      <div class="col">
+        <h3>Ministries</h3>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
       {{#each model as |ministry|}}
-        <div class="col-3">
+        <div class="col-lg-3 col-md-4">
           <div class="card" style="width: 18rem;">
             <img class="card-img-top" src={{ministry.image}} alt={{ministry.title}} >
             <div class="card-body">
