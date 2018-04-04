@@ -3,8 +3,44 @@
     <div class="row">
       <div class="col">
         <h1>Notices</h1>
-        {{notice-summary notices=model}}
       </div>
     </div>
+    <hr>
+    <ul id="notices">
+      {{#each sortedNotices as |notice|}}
+        <li>
+          <article>
+            <div class="row">
+              <div class="col">
+                <header>
+                  <p class=title>{{notice.title}}</p>
+                </header>
+              </div>
+            </div>
+            <div class="row  no-gutters summary">
+              <div class="col-md-3 notice-img">
+                <img src="{{notice.image}}" alt="{{notice.title}}">
+              </div>
+              <div class="col-md-9">
+                <p class="body">{{notice.body}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <span class="category {{notice.category}}">{{notice.category}}</span><span class="datestamp">&nbsp;&nbsp;&nbsp;&nbsp;{{date-format notice.date 'd MMM YY'}}</span>
+                <p class="float-right">
+                  {{#each notice.tags as |tag|}}
+                    {{#link-to 'index' class="tag-link" }}
+                      {{tag}}
+                    {{/link-to}}
+                  {{/each}}
+                </p>
+                <hr>
+              </div>
+            </div>
+          </article>
+        </li>
+      {{/each}}
+    </ul>
   </div>
 </div>

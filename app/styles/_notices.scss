@@ -31,4 +31,16 @@ Notice styles
     color: $gray;
     margin-left: .25em;
   }
+  .summary {
+    margin: 1em 0;
+    .notice-img {
+      overflow: hidden;
+    }
+    img {
+      height: 10em;
+    }
+    .body {
+      padding-left: 1em;
+    }
+  }
 }
