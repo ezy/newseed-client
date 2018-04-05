@@ -2,29 +2,76 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            {{#link-to 'about.story' class='nav-link'}}
-              Our story
-            {{/link-to}}
-          </li>
-          <li class="nav-item">
-            {{#link-to 'about.statement' class='nav-link'}}
-              Statement of Faith
-            {{/link-to}}
-          </li>
-          <li class="nav-item">
-            {{#link-to 'about.people' class='nav-link'}}
-              Our people
-            {{/link-to}}
-          </li>
-        </ul>
+        <h3>About</h3>
+        <hr>
       </div>
     </div>
-    <hr>
     <div class="row">
       <div class="col">
-        {{outlet}}
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h5 class="mb-0">
+                Our story
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  The journey for The Olive Tree Church began when three experienced leaders sat down and over coffee wondered aloud what they would do if they could do it all over again. What would they do the same; what would they do differently; what would they
+                  do if they could start with the proverbial "blank sheet of paper." Their thoughts found a commonality of expression and soon other like minded people urged them to do something about it. And so the Olive Tree was born. It is not an attempt to
+                  do church the right way (as if there is only one way to love God and love others) just to do it a different way; to intentionally place the emphasis on the basics (original design).
+                </p>
+                <p>
+                  Given that the Bible has little to say on the "how" of doing church but a lot on the "why" we are committed to living together as a church community based primarily on the first principles of scripture. This means that we place more value on people than
+                  on performance or Church "bling". We want to keep church simple so that it fulfils its valuable contribution to a well lived Christian life but not at the expense of burning people out. We want to keep it real, which also means allowing people
+                  to be less than perfect and make mistakes. We want to practice servant leadership, firstly in the church but also in the world where we are consistently rising to the challenge of serving those Jesus describes as “the least of these.” We don't
+                  want people to come and build the church's vision but rather we want the church to equip and build people to live out their God given visions and dreams. We want to see the Kingdom of God developed in every aspect of where Christians live, not
+                  just for a few hours on a Sunday morning or one night a week.
+                </p>
+                <p>
+                  This is the journey we are committed to. This is the story we want to write. So what about you? What would you do if your life was a blank piece of paper and you could write what you wanted....?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              <h5 class="mb-0">
+                Statement of faith
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              <h5 class="mb-0">
+                People
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <h3>Andrea Rounthwaite</h3>
+                <p>
+                  I'm delighted to be part of The Olive Tree. What I hope to bring to this team is my heart for the broken-hearted in this community. I am a counsellor, Life Coach, Behavioural Analyst and Pastor. I have worked in the area of Recovery for over 30 years, specialising in relationships and addiction. I'm presently directing the programme "Celebrate Recovery" and "Boundaries." Jesus said He heals and hears the broken hearted, and I pray He will continue to empower me to bring His desire to this community.
+                </p>
+                <h3>Bruce Bell</h3>
+                <p>
+                  My background was as a lawyer before moving to work in the areas of law enforcement and defence.  I have always had a passion for the Word of God and this led to further study in theology and biblical studies.  As well as a degree in Law I also have a Post Graduate Diploma in Theology and a PhD in Theology.  I was the teaching pastor at another church before becoming part of the team at The Olive Tree.  I have an abiding interest in philosophy/worldviews, history, science and hermeneutics (interpreting scripture).  Apart from shepherding God’s people on a daily basis and watching them grow and develop, I love nothing more than being able to preach and teach His Word.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
