@@ -3,3 +3,21 @@
     margin-top: 2em;
   }
 }
+#ministry {
+  .back-link {
+    margin-top: 1em;
+    i {
+      font-size: 18px;
+      vertical-align: text-bottom;
+    }
+  }
+  img {
+    width: 100%;
+    margin: 1em 0;
+    @include media-breakpoint-up(md) {
+      max-height: 300px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
