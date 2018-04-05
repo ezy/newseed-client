@@ -11,6 +11,7 @@ module.exports = {
       tempObj['date'] = faker.date.recent();
       tempObj['summary'] = faker.lorem.sentence();
       tempObj['speaker'] = faker.name.findName();
+      tempObj['category'] = faker.lorem.word();
       audio.push(tempObj);
     }
     return audio;

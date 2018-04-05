@@ -2,13 +2,29 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <h1>Media</h1>
+        <h3>Sermons</h3>
         <hr>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        {{media-audio audios=model}}
+        <ul id="audios">
+          {{#each model as |audio|}}
+            <li>
+              <article>
+                <header>
+                  <h3><a href="#" data-toggle="tooltip" data-placement="right" title="Download file">{{material-design-icon name="file-download"}} {{audio.title}}</a></h3>
+                </header>
+                <p class="body">{{audio.summary}}</p>
+                <span class="datestamp">{{!-- <span class="category">{{audio.category}}</span>&nbsp;&nbsp;&nbsp;&nbsp; --}}{{date-format notice.date 'd MMM YY'}}</span>
+                <p class="float-right speaker">
+                  {{material-design-icon name='face'}} {{#link-to 'index'}}{{audio.speaker}}{{/link-to}}
+                </p>
+              </article>
+            </li>
+            <hr>
+          {{/each}}
+        </ul>
       </div>
     </div>
   </div>
