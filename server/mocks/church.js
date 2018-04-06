@@ -22,7 +22,7 @@ module.exports = function(app) {
         state: faker.address.state(),
         country: faker.address.country(),
         zip: faker.address.zipCode(),
-        users: [1]
+        users: ["1"]
       }
     });
   });
