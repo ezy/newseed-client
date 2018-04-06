@@ -5,5 +5,7 @@ export default DS.Model.extend({
   date: DS.attr('string'),
   summary: DS.attr('string'),
   speaker: DS.attr('string'),
-  category: DS.attr('string')
+  category: DS.attr('string'),
+
+  church: DS.belongsTo('church')
 });

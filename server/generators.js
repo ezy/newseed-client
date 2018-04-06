@@ -2,6 +2,7 @@ const faker = require('faker');
 const numRecords = 6;
 
 module.exports = {
+
   genAudio() {
     let audio = [];
     for (let i = 0; i < numRecords; i++) {
