@@ -17,13 +17,14 @@
                     <i class="material-icons">video_library</i> {{audio.title}}</a>
                   </h3>
                 </header>
+                <p class="body">{{audio.summary}}</p>
                 <div class="collapse" id="audioCollapse-{{index}}">
                   <video controls preload="auto" name="{{audio.title}}" poster="/assets/img/audio.png">
                     <source src="/assets/test-audio/20180211.mp3" type="audio/mp3">
                     Your browser doesn't support video/audio playback
                   </video>
+                  <br>
                 </div>
-                <p class="body">{{audio.summary}}</p>
                 <span class="datestamp">{{!-- <span class="category">{{audio.category}}</span>&nbsp;&nbsp;&nbsp;&nbsp; --}}{{date-format notice.date 'd MMM YY'}}</span>
                 <p class="float-right speaker">
                   <i class="material-icons">face</i> {{#link-to 'index'}}{{audio.speaker}}{{/link-to}}
