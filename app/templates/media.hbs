@@ -21,7 +21,8 @@
                 <div class="collapse" id="audioCollapse-{{index}}">
                   <video controls preload="auto" name="{{audio.title}}" poster="/assets/img/audio.png">
                     <source src="/assets/test-audio/20180211.mp3" type="audio/mp3">
-                    Your browser doesn't support video/audio playback
+                    <p class="body">Your browser doesn't support video/audio playback.</p>
+                    <p><a href="/assets/test-audio/20180211.mp3" download>Download {{audio.title}}</a></p>
                   </video>
                   <br>
                 </div>
