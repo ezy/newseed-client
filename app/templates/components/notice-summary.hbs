@@ -9,7 +9,7 @@
       <p class="body">{{notice.body}}</p>
       <span class="datestamp">{{date-format notice.date 'd MMM YY'}}</span>
       <p class="float-right">
-        {{material-design-icon name="label-outline"}}
+        <i class="material-icons">label_outline</i>
         {{#each notice.tags as |tag|}}
           {{#link-to 'index' class="tag-link"}}
             {{tag}}

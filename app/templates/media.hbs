@@ -13,12 +13,12 @@
             <li>
               <article>
                 <header>
-                  <h3><a href="#" data-toggle="tooltip" data-placement="right" title="Download file">{{material-design-icon name="file-download"}} {{audio.title}}</a></h3>
+                  <h3><a href="#" data-toggle="tooltip" data-placement="right" title="Download file"><i class="material-icons">file_download</i> {{audio.title}}</a></h3>
                 </header>
                 <p class="body">{{audio.summary}}</p>
                 <span class="datestamp">{{!-- <span class="category">{{audio.category}}</span>&nbsp;&nbsp;&nbsp;&nbsp; --}}{{date-format notice.date 'd MMM YY'}}</span>
                 <p class="float-right speaker">
-                  {{material-design-icon name='face'}} {{#link-to 'index'}}{{audio.speaker}}{{/link-to}}
+                  <i class="material-icons">face</i> {{#link-to 'index'}}{{audio.speaker}}{{/link-to}}
                 </p>
               </article>
             </li>

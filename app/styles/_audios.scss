@@ -26,6 +26,15 @@ Notice styles
   .body {
     font-size: 14px;
   }
+  audio, video {
+    display: block;
+    margin-bottom: .5em;
+    width: 100%;
+    max-width: 500px;
+  }
+  video[poster]{
+    vertical-align: bottom;
+  }
   .datestamp {
     text-transform: uppercase;
     padding: 0;

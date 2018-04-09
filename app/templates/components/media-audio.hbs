@@ -1,14 +1,22 @@
 <ul id="audios">
-  {{#each sortedAudio as |audio|}}
+  {{#each sortedAudio as |audio index|}}
     <li>
       <article>
         <header>
-          <h3><a href="#" data-toggle="tooltip" data-placement="right" title="Download file">{{material-design-icon name="file-download"}} {{audio.title}}</a></h3>
+          <h3><a data-toggle="collapse" href="#audioCollapse-{{index}}" aria-expanded="false" aria-controls="#audioCollapse-{{index}}">
+            <i class="material-icons">video_library</i> {{audio.title}}</a>
+          </h3>
         </header>
         <p class="body">{{audio.summary}}</p>
+        <div class="collapse" id="audioCollapse-{{index}}">
+          <video controls preload="auto" name="{{audio.title}}" poster="/assets/img/audio.png">
+            <source src="/assets/test-audio/20180211.mp3" type="audio/mp3">
+            Your browser doesn't support video/audio playback
+          </video>
+        </div>
         <span class="datestamp">{{date-format notice.date 'd MMM YY'}}</span>
         <p class="float-right speaker">
-          {{material-design-icon name='face'}} {{#link-to 'index'}}{{audio.speaker}}{{/link-to}}
+          <i class="material-icons">face</i> {{#link-to 'index'}}{{audio.speaker}}{{/link-to}}
         </p>
       </article>
     </li>
