@@ -5,6 +5,12 @@
     font-size: 12px;
     font-weight: $font-thin;
   }
+  .social {
+    padding-top: 5px;
+    a {
+      margin-right: 10px;
+    }
+  }
 }
 .footer nav > ul {
   list-style: none;
