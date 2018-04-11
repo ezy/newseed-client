@@ -1,0 +1,143 @@
+{
+  "church": {
+    "id": 1,
+    "name": "The Olive Tree",
+    "address1": "562 Manuela Track",
+    "address2": "Apt. 318",
+    "city": "Rutheburgh",
+    "state": "Indiana",
+    "country": "Trinidad and Tobago",
+    "zip": "48924",
+    "users": [1]
+  },
+  "audios": [{
+    "id": 1,
+    "title": "The Vanishing Truth",
+    "date": "2018-04-05T15:08:46.874Z",
+    "summary": "Et repellat aut quod tenetur.",
+    "speaker": "Bruce Bell",
+    "category": "sermon"
+  }, {
+    "id": 2,
+    "title": "10 commandments for a better life",
+    "date": "2018-03-28T06:40:49.862Z",
+    "summary": "Fuga et occaecati aut autem omnis ut.",
+    "speaker": "Wendy Smyth",
+    "category": "sermon"
+  }, {
+    "id": 3,
+    "title": "The great pair of ducks",
+    "date": "2018-03-15T02:32:26.622Z",
+    "speaker": "Bernard McLellan",
+    "category": "sermon"
+  }, {
+    "id": 4,
+    "title": "The Joy of the Lord",
+    "date": "2018-03-14T09:22:05.365Z",
+    "summary": "An exposition on why we keep sinning.",
+    "speaker": "Bruce Bell",
+    "category": "sermon"
+  }, {
+    "id": 5,
+    "title": "God's Ratbags",
+    "date": "2018-03-12T10:50:44.179Z",
+    "summary": "Error ducimus accusamus ipsam libero fuga.",
+    "speaker": "Bruce Bell",
+    "category": "sermon"
+  }, {
+    "id": 6,
+    "title": "Taking God with Us",
+    "date": "2018-03-05T05:02:21.178Z",
+    "summary": "Ducimus sit ratione deleniti numquam officiis.",
+    "speaker": "Bruce Bell",
+    "category": "sermon"
+  }],
+  "notices": [{
+    "id": 1,
+    "title": "Tinned food for the foodbank",
+    "image": "https://placeimg.com/800/600/people",
+    "category": "need",
+    "date": "2018-04-05T00:05:24.237Z",
+    "body": "Et est repudiandae et corporis consequatur dicta. Qui in nam dolorem ut. Eum eligendi rerum tempore. Asperiores dolor deleniti non incidunt beatae. Sint et nemo est.",
+    "tags": ["et", "modi", "ut"]
+  }, {
+    "id": 2,
+    "title": "Welcome to The Olive Tree",
+    "image": "http://www.olivetree.org.nz/userfiles/templates/olivetree10/images/header.jpg",
+    "category": "news",
+    "date": "2018-04-05T20:11:23.290Z",
+    "body": "The journey for The Olive Tree Church began when three experienced leaders sat down and over coffee wondered aloud what they would do if they could do it all over again.  What would they do the same; what would they do differently; what would they do if they could start with the proverbial 'blank sheet of paper.'",
+    "tags": ["maxime", "qui", "doloremque", "slide"]
+  }, {
+    "id": 3,
+    "title": "Big day out",
+    "image": "https://placeimg.com/800/600/animals",
+    "category": "event",
+    "date": "2018-04-05T01:16:15.541Z",
+    "body": "Velit dignissimos sint commodi minus corrupti. Aut qui eum sit aut corrupti et. Omnis totam alias error velit deserunt.",
+    "tags": ["vitae", "deserunt", "vel", "slide"]
+  }, {
+    "id": 4,
+    "title": "Someone to help clean the toilets",
+    "image": "https://placeimg.com/800/600/sepia",
+    "category": "need",
+    "date": "2018-04-05T05:08:55.750Z",
+    "body": "Et eligendi et voluptas laborum maiores explicabo dolores dignissimos molestiae. Blanditiis nihil aut sint at quia. Temporibus sint et aliquid animi tempore optio dicta. Totam dicta aut consequatur cum voluptatem nostrum. Magnam et autem est laborum aut veritatis asperiores. Dolor pariatur consequuntur.",
+    "tags": ["consequatur", "consequatur", "delectus"]
+  }, {
+    "id": 5,
+    "title": "ENLI graduation",
+    "image": "https://placeimg.com/800/600/people",
+    "category": "news",
+    "date": "2018-04-05T13:17:43.509Z",
+    "body": "Repudiandae et est et ducimus quia consequatur. Et fugiat voluptates possimus id autem suscipit quos. Veniam nostrum magni quaerat. Ipsam sunt delectus incidunt incidunt assumenda. Eum eum voluptates. Neque repellendus dolore.",
+    "tags": ["temporibus", "ullam", "enim"]
+  }, {
+    "id": 6,
+    "title": "Airsoft on Sunday",
+    "image": "https://placeimg.com/800/600/people",
+    "category": "news",
+    "date": "2018-04-05T03:28:23.779Z",
+    "body": "Dicta qui molestiae magni sed voluptas animi. Officiis voluptatibus molestiae et. Id molestias est quo.",
+    "tags": ["hic", "earum", "eius", "slide"]
+  }],
+  "people": [{
+    "id": 1,
+    "name": "Andrea Rounthwaite",
+    "copy": "I'm delighted to be part of The Olive Tree. What I hope to bring to this team is my heart for the broken-hearted in this community. I am a counsellor, Life Coach, Behavioural Analyst and Pastor. I have worked in the area of Recovery for over 30 years, specialising in relationships and addiction. I'm presently directing the programme 'Celebrate Recovery' and 'Boundaries.' Jesus said He heals and hears the broken hearted, and I pray He will continue to empower me to bring His desire to this community."
+  }, {
+    "id": 2,
+    "name": "Bruce Bell",
+    "copy": "My background was as a lawyer before moving to work in the areas of law enforcement and defence. I have always had a passion for the Word of God and this led to further study in theology and biblical studies. As well as a degree in Law I also have a Post Graduate Diploma in Theology and a PhD in Theology. I was the teaching pastor at another church before becoming part of the team at The Olive Tree. I have an abiding interest in philosophy/worldviews, history, science and hermeneutics (interpreting scripture). Apart from shepherding God’s people on a daily basis and watching them grow and develop, I love nothing more than being able to preach and teach His Word."
+  }, {
+    "id": 3,
+    "name": "Wendy Smythe",
+    "copy": "Et eligendi et voluptas laborum maiores explicabo dolores dignissimos molestiae. Blanditiis nihil aut sint at quia. Temporibus sint et aliquid animi tempore optio dicta. Totam dicta aut consequatur cum voluptatem nostrum. Magnam et autem est laborum aut veritatis asperiores. Dolor pariatur consequuntur."
+  }],
+  "ministries": [{
+        "id": 1,
+        "title": "Boundaries",
+        "image": "https://placeimg.com/800/600/people",
+        "body": "Boundaries are personal property lines that define who you are and who you are not, and influence all areas of your life. They enable you to say 'Yes' when you mean 'Yes' and 'No' when you mean 'No.' PHYSICAL Boundaries help you determine who may touch you and under what circumstances. MENTAL Boundaries give you the freedom to have your own thoughts and opinions. EMOTIONAL Boundaries help you deal with your own emotions and disengage from the harmful, manipulative emotions of others. We run the Boundaries Course at The Olive Tree from time to time.&nbsp; Check with Adria on dria.lg246@gmail.com for the next course."
+      }, {
+        "id": 2,
+        "title": "Celebrate recovery",
+        "image": "https://placeimg.com/800/600/people",
+        "body": "CR is a Christ centred recovery programme, written by John Baker in conjunction with Rick Warren of Saddleback Church in the States. This course is based on the 12 steps and 8 Principles (Beatitudes) and reaches out to those dealing with hurts, habits and hang-ups.  It runs 52 weeks a year, including a sponsor and accountability person to journey with you in your Recovery.  CR is currently on hold and in the meantime the following courses have been running:WOMENS SUPORT GROUPRunning weekly,offering support and encouragement.LIFES HEALING CHOICES16 week mini course of recovery,based on the Choices we can make.Regardless of what you are struggling with - whether it `s emotional, financial, relational. spiritual, or sexual- the principles that lead to happiness and healing are always the same, and the choice is always yours."
+  }, {
+    "id": 3,
+    "title": "Olive Tree Children's Church",
+    "image": "https://placeimg.com/800/600/people",
+    "body": "Everyone, at some stage of their Christian walk, would have read the words of Jesus, found in the book of Matthew in chapter 19, verse 14: Jesus said, 'Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.' There is such awe inspiring depth to these words that sometimes we forget that they are also equally profound taken at face value – kid’s matter.Within a child is a treasure waiting to flourish, waiting to dream, and waiting to grow. As a part of the Olive Tree Kid’s Church, it is not only our job to guide our future generation to encounter Jesus’ accepting love; it is also our honour to do so.  To be a part of a child’s encounters with who God, and Jesus is, is truly a blessing and an honour.  We can learn so much from kids, their brutal honesty and never ending joy and love, are attributes which mirror Jesus not only to us, but to their peers, their teachers, and their families.It is well known that big corporate companies target their advertising carefully to the times they know children will be watching television.  They understood that if they get the child’s attention, they would get the attention of the entire family.  Never underestimate the value and importance of children. Jesus didn’t and here at the Olive Tree Kids Church, we most certainly don’t either."
+  }, {
+    "id": 4,
+    "title": "Olive Tree Prayer Team",
+    "image": "https://placeimg.com/800/600/people",
+    "body": "A team of like-minded, committed people who have a heart to meet the prayer needs of the Olive Tree Church family. The prayer team invites and encourages others to share their prayer needs, and as a group offers prayers of praise, petition and thanksgiving to God.  A safe place for people to share their concerns, joys and heartaches, knowing that many are praying  and uplifting them on their behalf.  Prayer needs are promptly sent out to the team by email and we have regular prayer meeting where we join together with coffee, with God and pray. Personal prayer requests can be submitted here"
+  }, {
+    "id": 5,
+    "title": "Olive Tree Worship",
+    "image": "https://placeimg.com/800/600/people",
+    "body": "A God as good, gracious and loving as the God we serve deserves to be worshipped with all our heart, soul, mind and strength. Of course the question of how exactly this should be done is highly subjective and probably as old as church itself.  The ethos of the Olive Tree of keeping things simple and bringing things back to first principle extends to how we choose to worship God.The bible says that we should worship Him in spirit and in truth.  How exactly do we do that? Like most churches we recognise the power and the influence of music in our culture and this is a key medium through which we express our adoration to God (while also recognising that true worship encompasses so many more areas of our life).   That said we do not have a particular sound or way in which we would like to worship God.  We start again with the proverbial blank sheet of paper and begin to explore what it means to worship and how we can express ourselves creatively to God.  There are so many ways this can be done whether that is through traditional worship songs sung by the congregation, by video clips or items; by a large group of musicians or just one or two.The point is not what it looks like, but the heart that is offered up to God and the spirit in which it is done: to worship God in spirit and in truth."
+  }]
+}
