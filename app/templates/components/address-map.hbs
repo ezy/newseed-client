@@ -2,11 +2,12 @@
   <div class="row">
     <div class="col-md-6">
       <address>
-        <strong>The Olive Tree Church</strong><br>
-        476-486 Jackson Street<br>
-        Petone<br>
-        Lower Hutt<br>
-        P: (04) 891 0557
+        <strong>{{church.name}}</strong><br>
+        {{church.address1}}<br>
+        {{church.address2}}<br>
+        {{church.city}}<br>
+        {{church.state}}<br>
+        p: {{church.phone}}
       </address>
     </div>
     <div class="col-md-6" style="height: 300px;">
@@ -18,9 +19,8 @@
 
         {{#marker-layer location=location}}
           {{#popup-layer}}
-            <h3>The Olive Tree Church</h3>
-            476-486 Jackson Street<br>
-            Petone
+            <h5>{{church.name}}</h5>
+            <p></p>
           {{/popup-layer}}
         {{/marker-layer}}
 

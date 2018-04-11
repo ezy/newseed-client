@@ -8,5 +8,8 @@ export default Route.extend({
     this.get('store').findAll('notice').then(function(notice) {
       controller.set('notices', notice);
     });
+    this.get('store').findRecord('church', 0).then(function(church) {
+      controller.set('church', church);
+    });
   }
 });

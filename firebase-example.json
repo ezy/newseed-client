@@ -1,15 +1,17 @@
 {
-  "church": {
+  "churches": [{
     "id": 1,
-    "name": "The Olive Tree",
-    "address1": "562 Manuela Track",
-    "address2": "Apt. 318",
-    "city": "Rutheburgh",
-    "state": "Indiana",
-    "country": "Trinidad and Tobago",
+    "name": "The OLIVE TREE",
+    "address1": "476-486 Jackson Street",
+    "address2": "Petone",
+    "city": "Lower Hutt",
+    "state": "",
+    "country": "New Zealand",
     "zip": "48924",
+    "phone": "(04) 891 0557",
+    "email": "church@church.com",
     "users": [1]
-  },
+  }],
   "audios": [{
     "id": 1,
     "title": "The Vanishing Truth",
