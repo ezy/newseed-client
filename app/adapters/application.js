@@ -1,6 +1,10 @@
-import DS from 'ember-data';
+// import DS from 'ember-data';
+//
+// export default DS.RESTAdapter.extend({
+//   namespace: 'api'
+// });
 
-export default DS.RESTAdapter.extend({
-  // host: 'https://olive-8020d.firebaseio.com'
-  namespace: 'api'
+import FirebaseAdapter from 'emberfire/adapters/firebase';
+
+export default FirebaseAdapter.extend({
 });
