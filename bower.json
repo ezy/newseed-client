@@ -1,0 +1,6 @@
+{
+  "name": "mustard",
+  "dependencies": {
+    "pace": "^1.0.2"
+  }
+}

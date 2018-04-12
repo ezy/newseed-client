@@ -3039,6 +3039,13 @@ ember-cli-shims@^1.2.0:
     ember-rfc176-data "^0.3.1"
     silent-error "^1.0.1"
 
+ember-cli-spinkit@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-spinkit/-/ember-cli-spinkit-2.0.0.tgz#3fba52d24cd1170199076d255b75fa034510db1a"
+  dependencies:
+    chalk "^1.0.0"
+    ember-cli-babel "^5.1.6"
+
 ember-cli-sri@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ember-cli-sri/-/ember-cli-sri-2.1.1.tgz#971620934a4b9183cf7923cc03e178b83aa907fd"
