@@ -4,6 +4,23 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
+    mediumEditor: {
+      /**
+      * If true will include only JS in the build.
+      *
+      * @type Boolean
+      * @default false
+      */
+      excludeStyles: false,
+
+      /**
+      * List of themes: https://github.com/yabwe/medium-editor/tree/master/dist/css/themes
+      *
+      * @type String
+      * @default 'default'
+      */
+      theme: 'default'
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated

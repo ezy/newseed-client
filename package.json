@@ -47,6 +47,7 @@
     "ember-export-application-global": "^2.0.0",
     "ember-leaflet": "^3.0.13",
     "ember-load-initializers": "^1.0.0",
+    "ember-medium-editor": "^0.1.4",
     "ember-resolver": "^4.0.0",
     "ember-simple-auth": "^1.5.1",
     "ember-simple-auth-firebase": "^0.0.3",
