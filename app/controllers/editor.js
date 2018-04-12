@@ -1,10 +1,10 @@
 import Controller from '@ember/controller';
 
 export default Controller.extend({
-  value: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  value: "<h2>Lorem ipsum dolor sit amet,&nbsp;</h2><p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut&nbsp;</p><h3>aliquip ex ea commodo&nbsp;</h3><p>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu&nbsp;</p><p>fugiat nulla pariatur. <a href=\"http://google.com\">Excepteur</a> sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
   mediumEditorOptions: {
     "toolbar": {
-      "buttons": ['bold', 'italic', 'underline', 'anchor', 'h2', 'h3', 'unorderedlist', 'orderedlist'],
+      "buttons": ['h2', 'h3', 'bold', 'italic', 'underline', 'anchor', 'unorderedlist', 'orderedlist'],
     },
     "checkLinkFormat": true,
     "forcePlainText": true
