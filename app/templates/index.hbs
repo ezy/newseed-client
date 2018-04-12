@@ -1,3 +1,5 @@
+{{nav-header church=church}}
+
 <div class="main">
 
   {{slide-carousel id="home-carousel" slides=slides}}
@@ -13,14 +15,20 @@
           {{notice-summary notices=newsFeed}}
         </div>
       {{/if}}
-      <div class="col-md-6">
-        <h4 class="home">Messages</h4>
-        <hr>
-        {{media-audio audios=audios}}
-      </div>
+      {{#if audios}}
+        <div class="col-md-6">
+          <h4 class="home">Messages</h4>
+          <hr>
+          {{media-audio audios=audios}}
+        </div>
+      {{/if}}
     </div>
   </div>
-  
-  {{address-map church=church}}
+
+  {{#if church}}
+    {{address-map church=church}}
+  {{/if}}
 
 </div>
+
+{{nav-footer }}

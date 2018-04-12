@@ -1,13 +1,10 @@
 import Route from '@ember/routing/route';
 import ApplicationRouteMixin from 'ember-simple-auth/mixins/application-route-mixin';
-import { inject as service } from '@ember/service';
 
 export default Route.extend(ApplicationRouteMixin, {
 
-  session: service(),
-
   setupController(controller) {
-    this.get('store').findRecord('church', 0).then(function(church) {
+    this.get('store').findRecord('church', 1).then(function(church) {
       controller.set('church', church);
     });
   },
@@ -19,5 +16,11 @@ export default Route.extend(ApplicationRouteMixin, {
   //   else {
   //     this.transitionTo('index');
   //   }
-  // }
+  // },
+
+  actions: {
+    invalidateSession() {
+      this.get('session').invalidate();
+    }
+  }
 });
