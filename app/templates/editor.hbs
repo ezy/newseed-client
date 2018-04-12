@@ -1,2 +1,2 @@
-{{medium-editor value options=(hash) onChange=(action (mut value))}}
+{{medium-content-editable value=value options=mediumEditorOptions onFinishedTyping=(action "valueUpdated")}}
 {{log value}}
