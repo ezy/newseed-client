@@ -5,6 +5,11 @@ export default Component.extend({
   session: service(),
   router: service(),
 
+  didRender() {
+    this._super(...arguments);
+    console.log(this.get('session'));
+  },
+
   actions: {
     authenticate: function authenticate(provider) {
       this.get('session').authenticate('authenticator:firebase-simple-auth','firebase-simple-auth',{
