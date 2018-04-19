@@ -1,3 +1,19 @@
+#navbar-admin {
+  background: $template-dark;
+  border-top: 1px solid $template-lighter;
+  i {
+    font-size: 18px;
+    vertical-align: text-top;
+  }
+  a {
+    color: white;
+  }
+  .btn {
+    color: white;
+    border-color: white;
+  }
+}
+
 .navbar {
   font-size: 0.9rem;
   font-weight: 600;

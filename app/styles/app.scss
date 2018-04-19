@@ -37,15 +37,15 @@
 @import "./colour";
 @import "./bootstrap-overide";
 @import "./typography";
-@import "_or-carousel";
-@import "_or-nav";
+@import "./carousel";
+@import "./nav";
 @import "./landing-page";
 @import "./notices";
 @import "./audios";
 @import "./ministries";
 @import "./sunday";
 @import "./footer";
-@import "./olive-tree";
+@import "./template";
 
 #loading {
   background-color: $gray-lighter;
