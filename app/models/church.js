@@ -11,5 +11,6 @@ export default DS.Model.extend({
   phone: DS.attr('string'),
   email: DS.attr('string'),
 
-  users: DS.hasMany('user')
+  users: DS.hasMany('user'),
+  churches: DS.belongsTo('churches')
 });

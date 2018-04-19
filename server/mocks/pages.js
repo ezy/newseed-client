@@ -3,35 +3,35 @@
 
 module.exports = function(app) {
   const express = require('express');
-  let aboutRouter = express.Router();
+  let pagesRouter = express.Router();
 
-  aboutRouter.get('/', function(req, res) {
+  pagesRouter.get('/', function(req, res) {
     res.send({
-      'about': []
+      'pages': []
     });
   });
 
-  aboutRouter.post('/', function(req, res) {
+  pagesRouter.post('/', function(req, res) {
     res.status(201).end();
   });
 
-  aboutRouter.get('/:id', function(req, res) {
+  pagesRouter.get('/:id', function(req, res) {
     res.send({
-      'about': {
+      'pages': {
         id: req.params.id
       }
     });
   });
 
-  aboutRouter.put('/:id', function(req, res) {
+  pagesRouter.put('/:id', function(req, res) {
     res.send({
-      'about': {
+      'pages': {
         id: req.params.id
       }
     });
   });
 
-  aboutRouter.delete('/:id', function(req, res) {
+  pagesRouter.delete('/:id', function(req, res) {
     res.status(204).end();
   });
 
@@ -44,6 +44,6 @@ module.exports = function(app) {
   // After installing, you need to `use` the body-parser for
   // this mock uncommenting the following line:
   //
-  //app.use('/api/about', require('body-parser').json());
-  app.use('/api/about', aboutRouter);
+  //app.use('/api/pages', require('body-parser').json());
+  app.use('/api/pages', pagesRouter);
 };

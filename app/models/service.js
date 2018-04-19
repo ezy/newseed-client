@@ -5,5 +5,5 @@ export default DS.Model.extend({
   time: DS.attr('string'),
   speaker: DS.attr('string'),
 
-  church: DS.belongsTo('church'),
+  churches: DS.belongsTo('churches'),
 });

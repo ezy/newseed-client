@@ -8,5 +8,5 @@ export default DS.Model.extend({
   body: DS.attr('string'),
   tags: DS.attr(),
 
-  church: DS.belongsTo('church')
+  churches: DS.belongsTo('churches')
 });
