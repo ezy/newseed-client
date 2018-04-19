@@ -2,11 +2,11 @@
 Colour variables
 */
 
-$olive-dark: #182b00;
-$olive: #46661e;
-$olive-light: #759251;
-$olive-lighter: #aac785;
-$olive-lightest: #eef9e1;
+$template: #46661e;
+$template-dark: saturate(darken($template,10%), 13%);
+$template-light: desaturate(lighten($template,18%), 20%);
+$template-lighter: desaturate(lighten($template,30%), 20%);
+$template-lightest: desaturate(lighten($template,55%), 20%);
 
 $gray-darker: #333;
 $gray-dark: #555;
@@ -14,6 +14,18 @@ $gray: #999;
 $gray-light: #ccc;
 $gray-lighter: #eee;
 
-.bg-olive {
-  background-color: $olive;
+.bg-template {
+  background-color: $template;
+}
+.bg-template-dark {
+  background-color: $template-dark;
+}
+.bg-template-light {
+  background-color: $template-light;
+}
+.bg-template-lighter {
+  background-color: $template-lighter;
+}
+.bg-template-lightest {
+  background-color: $template-lightest;
 }

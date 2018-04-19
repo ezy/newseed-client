@@ -59,10 +59,10 @@ p {
 }
 
 a {
-  color: $olive-light;
+  color: $template-light;
   font-weight: 300;
   &:hover {
-    color: $olive;
+    color: $template;
     text-decoration: none;
   }
 }

@@ -24,8 +24,8 @@
     margin-left: 0;
     text-indent: 5px;
     font-size: 11px;
-    background-color: $olive-lighter;
-    color: $olive-dark;
+    background-color: $template-lighter;
+    color: $template-dark;
     counter-increment: customlistcounter;
     &:before {
       content: counter(customlistcounter) " ";
@@ -36,7 +36,7 @@
     }
   }
   .active {
-    background-color: $olive-light;
+    background-color: $template-light;
     font-weight: bold;
   }
 }
