@@ -1,5 +1,5 @@
 {{#if session.isAuthenticated}}
   <h1>Authed!!!</h1>
-  <a {{action 'invalidateSession'}}>Logout</a>
+  <button type="button" class="btn btn-primary" {{action 'invalidateSession'}}>Logout</button>
 {{/if}}
 {{outlet}}

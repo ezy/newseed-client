@@ -20,21 +20,21 @@
             </div>
           {{/each}}
           {{#if people}}
-          <div class="card">
-            <div class="card-header" id="headingPeople" data-toggle="collapse" data-target="#collapsePeople" aria-expanded="true" aria-controls="collapsePeople">
-              <h5 class="mb-0">
-                People
-              </h5>
-            </div>
-            <div id="collapsePeople" class="collapse" aria-labelledby="headingPeople" data-parent="#accordion">
-              <div class="card-body">
-                {{#each people as |person|}}
-                  <h3>{{person.name}}</h3>
-                  <p>{{person.copy}}</p>
-                {{/each}}
+            <div class="card">
+              <div class="card-header" id="headingPeople" data-toggle="collapse" data-target="#collapsePeople" aria-expanded="true" aria-controls="collapsePeople">
+                <h5 class="mb-0">
+                  People
+                </h5>
+              </div>
+              <div id="collapsePeople" class="collapse" aria-labelledby="headingPeople" data-parent="#accordion">
+                <div class="card-body">
+                  {{#each people as |person|}}
+                    <h3>{{person.name}}</h3>
+                    <p>{{person.copy}}</p>
+                  {{/each}}
+                </div>
               </div>
             </div>
-          </div>
           {{/if}}
         </div>
       </div>

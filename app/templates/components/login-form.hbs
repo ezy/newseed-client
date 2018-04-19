@@ -1,4 +1,4 @@
-<form class="form" role="form" id="formLogin" {{action 'authenticate' 'password' on='submit'}}>
+<form class="form" role="form" id="formLogin" {{action 'sendValidation' email password on='submit'}}>
   <div class="form-group">
     <label for="email">Email address</label>
     {{input type="text" class="form-control form-control-lg rounded-0" value=email name="email" id="email" required=""}}
@@ -10,5 +10,5 @@
     <div class="invalid-feedback">Enter your password</div>
   </div>
   <br>
-  <button type="submit" class="btn btn-info" id="btnLogin">Login</button>
+  <button type="submit" class="btn btn-primary" id="btnLogin">Login</button>
 </form>

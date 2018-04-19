@@ -1,23 +1,16 @@
 import Route from '@ember/routing/route';
-import ApplicationRouteMixin from 'ember-simple-auth/mixins/application-route-mixin';
-import { inject as service } from '@ember/service';
+import EmberfireLogin from 'mustard/mixins/emberfire-login';
 
-export default Route.extend(ApplicationRouteMixin, {
+export default Route.extend(EmberfireLogin, {
 
-  session: service(),
+  // Session service imported from EmberfireLogin
 
-  beforeModel() {
-    // if (!this.get('session').session.isAuthenticated) {
-    //   this.transitionTo('login');
-    // }
-    // else {
-    //   this.transitionTo('index');
-    // }
-  },
-
-  actions: {
-    invalidateSession() {
-      this.get('session').invalidate();
-    }
+  beforeModel: function() {
+    return this.get('session')
+      .fetch()
+      .then(() => {
+        this.transitionTo('index')
+      })
+      .catch(() => {});
   }
 });

@@ -49,8 +49,6 @@
     "ember-leaflet": "^3.0.13",
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
-    "ember-simple-auth": "^1.5.1",
-    "ember-simple-auth-firebase": "^0.0.3",
     "ember-source": "~2.18.0",
     "ember-truth-helpers": "^2.0.0",
     "emberfire": "^2.0.10",

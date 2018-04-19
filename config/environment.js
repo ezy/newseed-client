@@ -32,11 +32,7 @@ module.exports = function(environment) {
       messagingSenderId: "7867707961"
     },
     torii: {
-      sessionServiceName: 'session',
-      providers: {
-        'firebase-simple-auth': {
-        }
-      }
+      sessionServiceName: 'session'
     },
   };
 
