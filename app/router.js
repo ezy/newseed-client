@@ -15,7 +15,12 @@ Router.map(function() {
     this.route('ministry', { path: ':id' });
   });
   this.route('login');
-  this.authenticatedRoute('admin', function() {});
+  // Authenticated routes
+  this.authenticatedRoute('admin', function() {
+    this.authenticatedRoute('settings');
+    this.authenticatedRoute('edit');
+    this.authenticatedRoute('content');
+  });
 });
 
 export default Router;
