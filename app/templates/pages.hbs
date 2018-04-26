@@ -5,20 +5,22 @@
     <div class="row">
       <div class="col">
         <div id="accordion" class="mt-3">
-          {{#each model as |page index|}}
-            <div class="card">
-              <div class="card-header" id="heading{{index}}" data-toggle="collapse" data-target="#collapse{{index}}" aria-expanded="{{if (eq index 0) 'true'}}{{if (not-eq index 0) 'false'}}" aria-controls="collapse{{index}}">
-                <h5 class="mb-0">
-                  {{page.title}}
-                </h5>
-              </div>
-              <div id="collapse{{index}}" class="collapse {{if (eq index 0) 'show'}}" aria-labelledby="heading{{index}}" data-parent="#accordion">
-                <div class="card-body">
-                  {{{page.body}}}
+          {{#if model}}
+            {{#each model as |page index|}}
+              <div class="card">
+                <div class="card-header" id="heading{{index}}" data-toggle="collapse" data-target="#collapse{{index}}" aria-expanded="{{if (eq index 0) 'true'}}{{if (not-eq index 0) 'false'}}" aria-controls="collapse{{index}}">
+                  <h5 class="mb-0">
+                    {{page.title}}
+                  </h5>
+                </div>
+                <div id="collapse{{index}}" class="collapse {{if (eq index 0) 'show'}}" aria-labelledby="heading{{index}}" data-parent="#accordion">
+                  <div class="card-body">
+                    {{{page.body}}}
+                  </div>
                 </div>
               </div>
-            </div>
-          {{/each}}
+            {{/each}}
+          {{/if}}
           {{#if people}}
             <div class="card">
               <div class="card-header" id="headingPeople" data-toggle="collapse" data-target="#collapsePeople" aria-expanded="true" aria-controls="collapsePeople">
@@ -26,7 +28,7 @@
                   People
                 </h5>
               </div>
-              <div id="collapsePeople" class="collapse" aria-labelledby="headingPeople" data-parent="#accordion">
+              <div id="collapsePeople" class="collapse {{if (not model) 'show'}}" aria-labelledby="headingPeople" data-parent="#accordion">
                 <div class="card-body">
                   {{#each people as |person|}}
                     <h3>{{person.name}}</h3>
