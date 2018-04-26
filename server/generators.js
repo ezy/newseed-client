@@ -10,7 +10,7 @@ module.exports = {
       tempObj['id'] = i+1;
       tempObj['title'] = faker.lorem.words();
       tempObj['date'] = faker.date.recent();
-      tempObj['summary'] = faker.lorem.sentence();
+      tempObj['text'] = faker.lorem.sentence();
       tempObj['speaker'] = faker.name.findName();
       tempObj['category'] = faker.lorem.word();
       audio.push(tempObj);
