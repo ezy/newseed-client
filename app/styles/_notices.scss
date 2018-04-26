@@ -13,7 +13,7 @@ Notice styles
     font-weight: $font-bold;
     margin: .5em 0 0;
   }
-  .body {
+  .text-body {
     font-size: 14px;
   }
   .datestamp {
@@ -49,7 +49,7 @@ Notice styles
         top: -2em;
       }
     }
-    .body {
+    .text-body {
       padding: 1em 0 0;
       margin-bottom: 0;
       @include media-breakpoint-up(md) {

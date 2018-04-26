@@ -7,11 +7,11 @@
             <i class="material-icons">video_library</i> {{audio.title}}</a>
           </h3>
         </header>
-        <p class="body">{{audio.text}}</p>
+        <p class="text-body">{{{audio.text}}}</p>
         <div class="collapse" id="audioCollapse-{{index}}">
           <video controls preload="auto" name="{{audio.title}}" poster="/assets/img/audio.png">
             <source src="/assets/test-audio/20180211.mp3" type="audio/mp3">
-              <p class="body">Your browser doesn't support video/audio playback.</p>
+              <p class="text-body">Your browser doesn't support video/audio playback.</p>
               <p><a href="/assets/test-audio/20180211.mp3" download>Download {{audio.title}}</a></p>
           </video>
           <br>

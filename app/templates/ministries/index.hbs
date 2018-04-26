@@ -15,7 +15,7 @@
             <img class="card-img-top" src={{ministry.image}} alt={{ministry.title}} >
             <div class="card-body">
               <h5 class="card-title">{{ministry.title}}</h5>
-              <p class="card-text">{{truncate-text ministry.body limit=200}}</p>
+              <p class="card-text">{{truncate-text ministry.text limit=200}}</p>
               {{#link-to "ministries.ministry" ministry.id class="btn btn-primary"}}
                 {{ministry.title}}
               {{/link-to}}

@@ -5,7 +5,7 @@ export default DS.Model.extend({
   category: DS.attr('string'),
   image: DS.attr('string'),
   date: DS.attr('string'),
-  body: DS.attr('string'),
+  text: DS.attr('string'),
   tags: DS.attr(),
 
   churches: DS.belongsTo('churches')
