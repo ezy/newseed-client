@@ -15,7 +15,7 @@ Router.map(function() {
     this.route('ministry', { path: ':id' });
   });
   this.route('login');
-  this.route('editor');
+  this.authenticatedRoute('admin', function() {});
 });
 
 export default Router;

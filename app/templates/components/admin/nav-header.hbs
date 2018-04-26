@@ -1,7 +1,10 @@
 <!-- Fixed navbar -->
-<nav id="navbar-admin" class="navbar navbar-expand-lg navbar-dark fixed-bottom">
+<nav id="navbar-admin" class="navbar navbar-expand-lg navbar-dark">
   {{#link-to 'index' class='navbar-brand'}}
-    <i class="material-icons">home</i> Admin
+    <i class="material-icons">home</i> Home
+  {{/link-to}}
+  {{#link-to 'admin' class='navbar-brand'}}
+    <i class="material-icons">settings</i> Admin
   {{/link-to}}
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#adminNavbarCollapse" aria-controls="adminNavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>

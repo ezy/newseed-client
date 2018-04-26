@@ -16,5 +16,11 @@ export default Route.extend(EmberfireLogin, {
         }
       })
       .catch(() => {});
+  },
+
+  actions: {
+    accessDenied: function() {
+      this.transitionTo('login');
+    }
   }
 });
