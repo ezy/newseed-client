@@ -31,8 +31,9 @@
               <div id="collapsePeople" class="collapse {{if (not model) 'show'}}" aria-labelledby="headingPeople" data-parent="#accordion">
                 <div class="card-body">
                   {{#each people as |person|}}
-                    <h3>{{person.name}}</h3>
-                    <p>{{person.copy}}</p>
+                    <h1>{{person.name}}</h1>
+                    <p>{{{person.text}}}</p>
+                    <hr>
                   {{/each}}
                 </div>
               </div>
