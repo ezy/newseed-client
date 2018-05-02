@@ -1,6 +1,17 @@
-<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-  <h1 class="h2">Content</h1>
-  <div class="btn-toolbar mb-2 mb-md-0">
-    <button class="btn btn-sm btn-outline-secondary">Export</button>
-  </div>
+<div class="col-md-2 bg-light sidebar">
+  <ul class="nav flex-column mt-4 mb-2 text-muted">
+    <li class="nav-item">
+      {{#link-to 'admin.edit' class="nav-link" }}
+        <i class="material-icons">create</i> Create new content
+      {{/link-to}}
+    </li>
+  </ul>
 </div>
+<main role="main" class="col-md-8 ml-sm-auto">
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Content</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+      <button class="btn btn-sm btn-outline-secondary">Export</button>
+    </div>
+  </div>
+</main>

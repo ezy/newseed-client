@@ -2,7 +2,7 @@ import { helper } from '@ember/component/helper';
 
 function truncateText(params, hash) {
   const [ value ] = params;
-  const { limit } = hash;
+  const { limit, stripHtml } = hash;
   let text = '';
 
   if (value != null && value.length > 0) {
@@ -11,6 +11,10 @@ function truncateText(params, hash) {
     if (value.length > limit) {
       text += '...';
     }
+  }
+
+  if (stripHtml) {
+    text = text.replace(/(<([^>]+)>)/ig,"");
   }
 
   return text;
