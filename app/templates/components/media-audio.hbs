@@ -3,11 +3,12 @@
     <li>
       <article>
         <header>
-          <h3><a data-toggle="collapse" href="#audioCollapse-{{index}}" aria-expanded="false" aria-controls="#audioCollapse-{{index}}">
+          <h3>
+            <a data-toggle="collapse" href="#audioCollapse-{{index}}" aria-expanded="false" aria-controls="#audioCollapse-{{index}}">
             <i class="material-icons">video_library</i> {{audio.title}}</a>
           </h3>
         </header>
-        <p class="text-body">{{{audio.text}}}</p>
+        <p class="text-body">{{truncate-text audio.text limit="230" stripHtml=true}}</p>
         <div class="collapse" id="audioCollapse-{{index}}">
           <video controls preload="auto" name="{{audio.title}}" poster="/assets/img/audio.png">
             <source src="/assets/test-audio/20180211.mp3" type="audio/mp3">

@@ -8,10 +8,13 @@ Notice styles
   li {
     list-style: none;
   }
-  .title {
+  h3 {
     font-size: 16px;
     font-weight: $font-bold;
-    margin: .5em 0 0;
+    margin: .5em 0;
+    a {
+      font-weight: $font-bold;
+    }
   }
   .text-body {
     font-size: 14px;

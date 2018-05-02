@@ -4,7 +4,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <h3>Notices</h3>
+        <h1>Notices</h1>
       </div>
     </div>
     <hr>
@@ -15,18 +15,24 @@
             <div class="row">
               <div class="col">
                 <header>
-                  {{#link-to 'notices.show' notice.id}}
-                    {{notice.title}}
-                  {{/link-to}}
+                  <p class="title">
+                    {{#link-to 'notices.show' notice.id}}
+                      {{notice.title}}
+                    {{/link-to}}
+                  </p>
                 </header>
               </div>
             </div>
             <div class="row  no-gutters summary">
               <div class="col-md-3 notice-img">
-                <img src="{{notice.image}}" alt="{{notice.title}}">
+                {{#link-to 'notices.show' notice.id}}
+                  <img src="{{notice.image}}" alt="{{notice.title}}">
+                {{/link-to}}
               </div>
               <div class="col-md-9">
-                <p class="text-body">{{truncate-text notice.text limit="500" stripHtml=true}}</p>
+                <p class="text-body">
+                  {{truncate-text notice.text limit="600" stripHtml=true}}
+                </p>
               </div>
             </div>
             <div class="row">
@@ -50,4 +56,4 @@
   </div>
 </div>
 
-{{nav-footer }}
+{{nav-footer church=church}}

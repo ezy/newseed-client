@@ -10,6 +10,8 @@ export default DS.Model.extend({
   zip: DS.attr('string'),
   phone: DS.attr('string'),
   email: DS.attr('string'),
+  twitter: DS.attr('string'),
+  facebook: DS.attr('string'),
 
   users: DS.hasMany('user'),
   churches: DS.belongsTo('churches')
