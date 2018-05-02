@@ -1,31 +1,33 @@
-<div class="container-fluid mt-3">
-  <div class="row">
-    <div class="col-md-6">
-      <address>
-        <strong>{{church.name}}</strong><br>
-        <p>
-          {{church.address1}}<br>
-          {{church.address2}}<br>
-          {{church.city}}<br>
-          {{church.state}}<br>
-          p: {{church.phone}}
-        </p>
-      </address>
-    </div>
-    <div class="col-md-6" style="height: 300px;">
-      {{#leaflet-map lat=-41.230087 lng=174.894357 zoom=13 scrollWheelZoom=false}}
+{{#if church}}
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-md-6">
+        <address>
+          <strong>{{church.name}}</strong><br>
+          <p>
+            {{church.address1}}<br>
+            {{church.address2}}<br>
+            {{church.city}}<br>
+            {{church.state}}<br>
+            p: {{church.phone}}
+          </p>
+        </address>
+      </div>
+      <div class="col-md-6" style="height: 300px;">
+        {{#leaflet-map lat=-41.230087 lng=174.894357 zoom=13 scrollWheelZoom=false}}
 
-        {{tile-layer url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
-        {{!-- {{tile-layer url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"}} --}}
-        {{!-- {{tile-layer url="http://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"}} --}}
+          {{tile-layer url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
+          {{!-- {{tile-layer url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"}} --}}
+          {{!-- {{tile-layer url="http://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"}} --}}
 
-        {{#marker-layer location=location}}
-          {{#popup-layer}}
-            <h5>{{church.name}}</h5>
-          {{/popup-layer}}
-        {{/marker-layer}}
+          {{#marker-layer location=location}}
+            {{#popup-layer}}
+              <h5>{{church.name}}</h5>
+            {{/popup-layer}}
+          {{/marker-layer}}
 
-      {{/leaflet-map}}
+        {{/leaflet-map}}
+      </div>
     </div>
   </div>
-</div>
+{{/if}}
