@@ -3,6 +3,6 @@ import SetChurchController from 'mustard/mixins/church-set-controller';
 
 export default Route.extend(SetChurchController, {
   model(params) {
-    return this.store.findRecord('ministry', params.id);
+    return this.store.findRecord('notice', params.id);
   }
 });

@@ -10,6 +10,8 @@ export default Controller.extend({
     let tag = this.get('tag'),
         notices = this.get('model');
 
+        console.log(notices);
+
     if (tag) {
       notices = notices.filter(notice => {
         return notice.get('tags').includes(tag);

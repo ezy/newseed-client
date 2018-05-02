@@ -8,8 +8,10 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('media');
-  this.route('notices');
-  this.route('pages', { path: '/about' });
+  this.route('notices', function() {
+    this.route('show', { path: ':id' });
+  });
+  this.route('pages', { path: 'about' });
   this.route('contact');
   this.route('ministries', function() {
     this.route('ministry', { path: ':id' });
