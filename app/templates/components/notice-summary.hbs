@@ -6,12 +6,12 @@
         <span class="category {{notice.category}}">{{notice.category}}</span>
         <p class=title>{{notice.title}}</p>
       </header>
-      <p class="text-body">{{{notice.text}}}</p>
+      <p class="text-body">{{truncate-text notice.text limit="200" stripHtml=true}}</p>
       <span class="datestamp">{{date-format notice.date 'd MMM YY'}}</span>
       <p class="float-right">
         <i class="material-icons">label_outline</i>
         {{#each notice.tags as |tag|}}
-          {{#link-to 'index' class="tag-link"}}
+          {{#link-to 'notices' (query-params tag=tag) class="tag-link"}}
             {{tag}}
           {{/link-to}}
         {{/each}}

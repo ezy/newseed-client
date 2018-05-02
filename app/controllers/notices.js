@@ -1,7 +1,21 @@
 import Controller from '@ember/controller';
-import { sort } from '@ember/object/computed';
+import { computed } from '@ember/object';
 
 export default Controller.extend({
-  noticeSortingDesc: Object.freeze(['date:desc']),
-  sortedNotices: sort('model', 'noticeSortingDesc')
+
+  queryParams: ['tag'],
+  tag: null,
+
+  sortedNotices: computed('tag', 'model', function() {
+    let tag = this.get('tag'),
+        notices = this.get('model');
+
+    if (tag) {
+      notices = notices.filter(notice => {
+        return notice.get('tags').includes(tag);
+      });
+    }
+
+    return notices.sortBy("date").reverse();
+  }),
 });
