@@ -1,4 +1,4 @@
-<div class="col-md-2 bg-light sidebar">
+{{!-- <div class="col-md-2 bg-light sidebar">
   <ul class="nav flex-column mt-4 mb-2 text-muted">
     <li class="nav-item">
       {{#link-to 'admin.edit' class="nav-link" }}
@@ -6,12 +6,18 @@
       {{/link-to}}
     </li>
   </ul>
-</div>
-<main role="main" class="col-md-8 ml-sm-auto">
+</div> --}}
+<main role="main" class="col-md-10 ml-sm-auto">
   <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2">Content</h1>
+    <h1 class="h2 mr-auto">All content</h1>
+    <div class="mr-2">
+      Add new:
+    </div>
     <div class="btn-toolbar mb-2 mb-md-0">
-      <button class="btn btn-sm btn-outline-secondary">Export</button>
+      <button type="button" class="btn btn-primary mr-1">Message</button>
+      <button type="button" class="btn btn-primary mr-1">Notice</button>
+      <button type="button" class="btn btn-primary mr-1">Ministry</button>
+      <button type="button" class="btn btn-primary mr-1">About</button>
     </div>
   </div>
 </main>
