@@ -4,35 +4,35 @@
 module.exports = function(app) {
   const express = require('express');
   const generator = require('../generators');
-  let audiosRouter = express.Router();
+  let mediasRouter = express.Router();
 
-  audiosRouter.get('/', function(req, res) {
+  mediasRouter.get('/', function(req, res) {
     res.send({
-      'audios': generator.genAudio()
+      'medias': generator.genMedia()
     });
   });
 
-  audiosRouter.post('/', function(req, res) {
+  mediasRouter.post('/', function(req, res) {
     res.status(201).end();
   });
 
-  audiosRouter.get('/:id', function(req, res) {
+  mediasRouter.get('/:id', function(req, res) {
     res.send({
-      'audios': {
+      'medias': {
         id: req.params.id
       }
     });
   });
 
-  audiosRouter.put('/:id', function(req, res) {
+  mediasRouter.put('/:id', function(req, res) {
     res.send({
-      'audios': {
+      'medias': {
         id: req.params.id
       }
     });
   });
 
-  audiosRouter.delete('/:id', function(req, res) {
+  mediasRouter.delete('/:id', function(req, res) {
     res.status(204).end();
   });
 
@@ -45,6 +45,6 @@ module.exports = function(app) {
   // After installing, you need to `use` the body-parser for
   // this mock uncommenting the following line:
   //
-  //app.use('/api/audios', require('body-parser').json());
-  app.use('/api/audios', audiosRouter);
+  //app.use('/api/medias', require('body-parser').json());
+  app.use('/api/medias', mediasRouter);
 };

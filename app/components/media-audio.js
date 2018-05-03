@@ -9,7 +9,7 @@ export default Component.extend({
     $('[data-toggle="tooltip"]').tooltip();
   },
 
-  audioSortingDesc: Object.freeze(['date:desc']),
-  sortedAudio: sort('audios', 'audioSortingDesc')
+  mediaSortingDesc: Object.freeze(['date:desc']),
+  sortedMedia: sort('medias', 'mediaSortingDesc')
 
 });

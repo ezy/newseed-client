@@ -6,6 +6,7 @@ export default DS.Model.extend({
   text: DS.attr('string'),
   speaker: DS.attr('string'),
   category: DS.attr('string'),
+  link: DS.attr('string'),
 
   churches: DS.belongsTo('churches')
 });

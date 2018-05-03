@@ -3,8 +3,8 @@ const numRecords = 6;
 
 module.exports = {
 
-  genAudio() {
-    let audio = [];
+  genMedia() {
+    let media = [];
     for (let i = 0; i < numRecords; i++) {
       let tempObj = {};
       tempObj['id'] = i+1;
@@ -13,9 +13,9 @@ module.exports = {
       tempObj['text'] = faker.lorem.sentence();
       tempObj['speaker'] = faker.name.findName();
       tempObj['category'] = faker.lorem.word();
-      audio.push(tempObj);
+      media.push(tempObj);
     }
-    return audio;
+    return media;
   },
 
   genNotice() {

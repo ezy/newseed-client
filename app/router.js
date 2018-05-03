@@ -7,7 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('media');
+  this.route('audios', { path: 'messages'});
   this.route('notices', function() {
     this.route('show', { path: ':id' });
   });
