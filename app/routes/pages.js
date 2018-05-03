@@ -3,11 +3,11 @@ import SetChurchController from 'mustard/mixins/church-set-controller';
 
 export default Route.extend(SetChurchController, {
   model() {
-    return this.store.findAll('page');
+    return this.get('store').findAll('page');
   },
   setupController(controller, model) {
     this._super(controller, model);
-    this.store.findAll('people').then(function(people) {
+    this.get('store').findAll('people').then(function(people) {
       controller.set('people', people);
     });
   }
