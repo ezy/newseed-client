@@ -20,7 +20,7 @@ Router.map(function() {
   // Authenticated routes
   this.authenticatedRoute('admin', function() {
     this.authenticatedRoute('settings');
-    this.authenticatedRoute('edit');
+    this.authenticatedRoute('edit', {path: 'edit/:model/:id'});
     this.authenticatedRoute('content');
   });
 });

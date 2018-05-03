@@ -22,9 +22,11 @@
   </div>
   <div class="list-group">
     {{#each contents as |content|}}
-      {{#link-to 'index' class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"}}
-        {{content.editCat}} - {{content.title}}
-        <span class="badge badge-primary badge-pill">1</span>
+      {{#link-to 'admin.edit' content.modelName content.id class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"}}
+        {{content.editCat}} {{#if content.category}}({{content.category}}) {{/if}}- {{date-format content.date 'd MMM YY'}} - {{content.title}}
+        <div class="edit-cat mr-1">
+          Edit
+        </div>
       {{/link-to}}
     {{/each}}
   </div>
