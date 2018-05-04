@@ -9,7 +9,7 @@
 </div> --}}
 <main role="main" class="col-md-10 ml-sm-auto">
   <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2 mr-auto">All content</h1>
+    <h1 class="h2 mr-auto">{{itemHeader}}</h1>
     <div class="mr-2">
       Add new:
     </div>
@@ -19,6 +19,14 @@
       <button type="button" class="btn btn-primary mr-1">Ministry</button>
       <button type="button" class="btn btn-primary mr-1">About</button>
     </div>
+  </div>
+  <div class="input-group mb-3">
+    <select class="custom-select" onchange={{action 'filterModels' value="target.value"}}>
+      <option selected>Filter</option>
+      {{#each modelItems as |item|}}
+        <option value="{{item.modelName}}">{{item.label}}</option>
+      {{/each}}
+    </select>
   </div>
   <div class="list-group">
     {{#each contents as |content|}}

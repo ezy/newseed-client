@@ -1,16 +1,26 @@
 import Controller from '@ember/controller';
 import { computed } from '@ember/object';
 import { A } from '@ember/array';
-import $ from 'jquery';
 import moment from 'moment';
 
 export default Controller.extend({
   init() {
     this._super(...arguments);
-    $('[data-toggle="tooltip"]').tooltip();
+    this.showingItem = {modelName:'all',label:'All content'};
   },
 
-  contents: computed('model', function() {
+  modelItems: A([
+    {modelName:'all',label:'All content'},
+    {modelName:'audio',label:'Audio'},
+    {modelName:'page',label:'Pages'},
+    {modelName:'notice',label:'Notices'},
+    {modelName:'ministry',label:'Ministries'}
+  ]),
+  itemHeader: computed('showingItem', function() {
+    return this.get('showingItem').label;
+  }),
+
+  contents: computed('model', 'showingItem', function() {
     let contentArray = A(),
         model = this.get('model');
     let munge = (...models) => {
@@ -24,8 +34,25 @@ export default Controller.extend({
       })
     }
     munge(model.audios, model.notices, model.ministries, model.pages)
-    return contentArray.sort((a, b) => {
+    return contentArray.filter(content => {
+      let showing = this.get('showingItem');
+      if (showing.modelName === 'all') {
+        return true;
+      } else if (showing.modelName === content.modelName) {
+        return true;
+      }
+    })
+    .sort((a, b) => {
       return moment(a.get('date')).isBefore(moment(b.get('date'))) ? 1 : -1;
     });
   }),
+
+  actions: {
+    filterModels(value) {
+      let item = this.get('modelItems').filter(content => {
+        return content.modelName === value;
+      });
+      this.set('showingItem', item[0]);
+    }
+  }
 });
