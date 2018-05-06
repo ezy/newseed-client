@@ -52,7 +52,7 @@ export default Controller.extend({
       })
       // sort the objects by date descending
       .sort((a, b) => {
-        return moment(a.get('date')).isBefore(moment(b.get('date'))) ? 1 : -1;
+        return moment(a.get('updated')).isBefore(moment(b.get('updated'))) ? 1 : -1;
       });
   }),
 
