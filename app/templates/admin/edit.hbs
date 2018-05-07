@@ -1,6 +1,15 @@
 <main id="edit" role="main" class="col-md-10 ml-sm-auto">
   <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h3 mr-auto"><span class="badge badge-primary mr-1">Editing</span> {{medium-content-editable value=model.title onFinishedTyping=(action "saveContent")}}</h1>
+    <heading class="mr-auto">
+      <span class="badge badge-primary mr-1">Editing</span>
+      {{#if (not editTitle)}}
+        <h1 class="h3">{{model.title}} <i class="material-icons" {{action 'titleEdit'}}>create</i></h1>
+      {{else}}
+        <div class="input-group mt-2 mr-auto">
+          {{input type="text" class="form-control" value=(mut model.title) aria-label="Post title"}}
+        </div>
+      {{/if}}
+    </heading>
     <div class="saving">
       <button type="button" class="btn btn-outline-success" name="button" {{action 'saveContent'}}>
         Save content

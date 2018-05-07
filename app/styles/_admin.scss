@@ -20,6 +20,20 @@
         }
       }
     }
+    heading {
+      h1 {
+        i {
+          color: $gray;
+          cursor: pointer;
+        }
+      }
+      .input-group {
+        input {
+          font-size: 21px;
+          color: $gray-dark;
+        }
+      }
+    }
   }
 }
 

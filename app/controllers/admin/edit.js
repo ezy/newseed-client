@@ -1,4 +1,5 @@
 import Controller from '@ember/controller';
+import moment from 'moment';
 
 export default Controller.extend({
   init() {
@@ -6,13 +7,20 @@ export default Controller.extend({
     this.set('isSaving', false);
   },
   actions: {
+    titleEdit() {
+      this.set('editTitle', true);
+    },
     saveContent() {
       let model = this.get('model');
       this.set('isSaving', true);
+      this.set('model.updated', moment().toISOString());
+      if (this.get('editTitle')) {
+        this.set('model.title', this.get('model.title'));
+        this.set('editTitle', false);
+      }
       model.save()
         .then(() => {
           this.set('isSaving', false);
-          console.log('saved',model);
         })
         .catch(() => {
           this.set('isSaving', false);
