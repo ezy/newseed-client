@@ -15,7 +15,7 @@ export default Controller.extend({
       this.send('saveContent');
     },
     saveDate(date) {
-      this.set('model.date', moment(date[0]).toISOString());
+      this.set('model.date', moment(date[0]).add(23, 'h').toJSON());
       this.send('saveContent');
     },
     saveContent() {

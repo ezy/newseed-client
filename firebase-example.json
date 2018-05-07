@@ -19,6 +19,7 @@
   "pages": [{
     "id": 0,
     "title": "About",
+    "status": "published",
     "updated": "2018-03-01T15:08:46.874Z",
     "text": "<p>The journey for The Olive Tree Church began when three experienced leaders sat down and over coffee wondered aloud what they would do if they could do it all over again. What would they do the same; what would they do differently; what would theydo if they could start with the proverbial 'blank sheet of paper.' Their thoughts found a commonality of expression and soon other like minded people urged them to do something about it. And so the Olive Tree was born. It is not an attempt todo church the right way (as if there is only one way to love God and love others) just to do it a different way; to intentionally place the emphasis on the basics (original design).</p><p>Given that the Bible has little to say on the 'how' of doing church but a lot on the 'why' we are committed to living together as a church community based primarily on the first principles of scripture. This means that we place more value on people thanon performance or Church 'bling'. We want to keep church simple so that it fulfils its valuable contribution to a well lived Christian life but not at the expense of burning people out. We want to keep it real, which also means allowing peopleto be less than perfect and make mistakes. We want to practice servant leadership, firstly in the church but also in the world where we are consistently rising to the challenge of serving those Jesus describes as 'the least of these.' We don'twant people to come and build the church's vision but rather we want the church to equip and build people to live out their God given visions and dreams. We want to see the Kingdom of God developed in every aspect of where Christians live, notjust for a few hours on a Sunday morning or one night a week.</p><p>This is the journey we are committed to. This is the story we want to write. So what about you? What would you do if your life was a blank piece of paper and you could write what you wanted..?</p>",
     "churches": [
@@ -27,6 +28,7 @@
   }, {
     "id": 1,
     "title": "Statement of Faith",
+    "status": "published",
     "updated": "2018-02-01T15:08:46.874Z",
     "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
     "churches": [
@@ -36,6 +38,7 @@
   "audios": [{
       "id": 0,
       "title": "The Vanishing Truth",
+      "status": "published",
       "date": "2018-04-05T15:08:46.874Z",
       "updated": "2018-04-05T15:08:46.874Z",
       "link": "http://url.com",
@@ -50,6 +53,7 @@
     {
       "id": 1,
       "title": "10 commandments for a better life",
+      "status": "published",
       "date": "2018-03-28T06:40:49.862Z",
       "updated": "2018-03-28T06:40:49.862Z",
       "link": "http://url.com",
@@ -64,6 +68,7 @@
     {
       "id": 2,
       "title": "The great pair of ducks",
+      "status": "published",
       "date": "2018-03-15T02:32:26.622Z",
       "updated": "2018-04-05T15:08:46.874Z",
       "link": "http://url.com",
@@ -78,6 +83,7 @@
     {
       "id": 3,
       "title": "The Joy of the Lord",
+      "status": "published",
       "date": "2018-03-14T09:22:05.365Z",
       "updated": "2018-04-05T15:08:46.874Z",
       "link": "http://url.com",
@@ -91,6 +97,7 @@
     {
       "id": 4,
       "title": "God's Ratbags",
+      "status": "published",
       "date": "2018-03-12T10:50:44.179Z",
       "updated": "2018-04-05T15:08:46.874Z",
       "link": "http://url.com",
@@ -105,6 +112,7 @@
     {
       "id": 5,
       "title": "Taking God with Us",
+      "status": "published",
       "date": "2018-03-05T05:02:21.178Z",
       "updated": "2018-04-05T15:08:46.874Z",
       "link": "http://url.com",
@@ -120,6 +128,7 @@
   "notices": [{
       "id": 0,
       "title": "Tinned food for the foodbank",
+      "status": "published",
       "image": "https://placeimg.com/800/600/people",
       "category": "need",
       "date": "2018-04-05T00:05:24.237Z",
@@ -137,6 +146,7 @@
     {
       "id": 1,
       "title": "Welcome to The Olive Tree",
+      "status": "published",
       "image": "http://www.olivetree.org.nz/userfiles/templates/olivetree10/images/header.jpg",
       "category": "news",
       "date": "2018-04-05T20:11:23.290Z",
@@ -155,6 +165,7 @@
     {
       "id": 2,
       "title": "Big day out",
+      "status": "published",
       "image": "https://placeimg.com/800/600/animals",
       "category": "event",
       "date": "2018-04-05T01:16:15.541Z",
@@ -173,6 +184,7 @@
     {
       "id": 3,
       "title": "Someone to help clean the toilets",
+      "status": "published",
       "image": "https://placeimg.com/800/600/sepia",
       "category": "need",
       "date": "2018-04-05T05:08:55.750Z",
@@ -190,6 +202,7 @@
     {
       "id": 4,
       "title": "ENLI graduation",
+      "status": "published",
       "image": "https://placeimg.com/800/600/people",
       "category": "news",
       "date": "2018-04-05T13:17:43.509Z",
@@ -207,6 +220,7 @@
     {
       "id": 5,
       "title": "Airsoft on Sunday",
+      "status": "published",
       "image": "https://placeimg.com/800/600/people",
       "category": "news",
       "date": "2018-04-05T03:28:23.779Z",
@@ -273,6 +287,7 @@
   "ministries": [{
       "id": 0,
       "title": "Boundaries",
+      "status": "published",
       "image": "https://placeimg.com/800/600/people",
       "updated": "2018-04-01T15:08:46.874Z",
       "text": "Boundaries are personal property lines that define who you are and who you are not, and influence all areas of your life. They enable you to say 'Yes' when you mean 'Yes' and 'No' when you mean 'No.' PHYSICAL Boundaries help you determine who may touch you and under what circumstances. MENTAL Boundaries give you the freedom to have your own thoughts and opinions. EMOTIONAL Boundaries help you deal with your own emotions and disengage from the harmful, manipulative emotions of others. We run the Boundaries Course at The Olive Tree from time to time.&nbsp; Check with Adria on dria.lg246@gmail.com for the next course.",
@@ -283,6 +298,7 @@
     {
       "id": 1,
       "title": "Celebrate recovery",
+      "status": "published",
       "image": "https://placeimg.com/800/600/people",
       "updated": "2018-04-01T15:08:46.874Z",
       "text": "CR is a Christ centred recovery programme, written by John Baker in conjunction with Rick Warren of Saddleback Church in the States. This course is based on the 12 steps and 8 Principles (Beatitudes) and reaches out to those dealing with hurts, habits and hang-ups.  It runs 52 weeks a year, including a sponsor and accountability person to journey with you in your Recovery.  CR is currently on hold and in the meantime the following courses have been running:WOMENS SUPORT GROUPRunning weekly,offering support and encouragement.LIFES HEALING CHOICES16 week mini course of recovery,based on the Choices we can make.Regardless of what you are struggling with - whether it `s emotional, financial, relational. spiritual, or sexual- the principles that lead to happiness and healing are always the same, and the choice is always yours.",
@@ -293,6 +309,7 @@
     {
       "id": 2,
       "title": "Olive Tree Children's Church",
+      "status": "published",
       "image": "https://placeimg.com/800/600/people",
       "updated": "2018-04-01T15:08:46.874Z",
       "text": "Everyone, at some stage of their Christian walk, would have read the words of Jesus, found in the book of Matthew in chapter 19, verse 14: Jesus said, 'Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.' There is such awe inspiring depth to these words that sometimes we forget that they are also equally profound taken at face value – kid’s matter.Within a child is a treasure waiting to flourish, waiting to dream, and waiting to grow. As a part of the Olive Tree Kid’s Church, it is not only our job to guide our future generation to encounter Jesus’ accepting love; it is also our honour to do so.  To be a part of a child’s encounters with who God, and Jesus is, is truly a blessing and an honour.  We can learn so much from kids, their brutal honesty and never ending joy and love, are attributes which mirror Jesus not only to us, but to their peers, their teachers, and their families.It is well known that big corporate companies target their advertising carefully to the times they know children will be watching television.  They understood that if they get the child’s attention, they would get the attention of the entire family.  Never underestimate the value and importance of children. Jesus didn’t and here at the Olive Tree Kids Church, we most certainly don’t either.",
@@ -303,6 +320,7 @@
     {
       "id": 3,
       "title": "Olive Tree Prayer Team",
+      "status": "published",
       "image": "https://placeimg.com/800/600/people",
       "updated": "2018-04-01T15:08:46.874Z",
       "text": "A team of like-minded, committed people who have a heart to meet the prayer needs of the Olive Tree Church family. The prayer team invites and encourages others to share their prayer needs, and as a group offers prayers of praise, petition and thanksgiving to God.  A safe place for people to share their concerns, joys and heartaches, knowing that many are praying  and uplifting them on their behalf.  Prayer needs are promptly sent out to the team by email and we have regular prayer meeting where we join together with coffee, with God and pray. Personal prayer requests can be submitted here",
@@ -313,6 +331,7 @@
     {
       "id": 4,
       "title": "Olive Tree Worship",
+      "status": "published",
       "image": "https://placeimg.com/800/600/people",
       "updated": "2018-04-01T15:08:46.874Z",
       "text": "A God as good, gracious and loving as the God we serve deserves to be worshipped with all our heart, soul, mind and strength. Of course the question of how exactly this should be done is highly subjective and probably as old as church itself.  The ethos of the Olive Tree of keeping things simple and bringing things back to first principle extends to how we choose to worship God.The bible says that we should worship Him in spirit and in truth.  How exactly do we do that? Like most churches we recognise the power and the influence of music in our culture and this is a key medium through which we express our adoration to God (while also recognising that true worship encompasses so many more areas of our life).   That said we do not have a particular sound or way in which we would like to worship God.  We start again with the proverbial blank sheet of paper and begin to explore what it means to worship and how we can express ourselves creatively to God.  There are so many ways this can be done whether that is through traditional worship songs sung by the congregation, by video clips or items; by a large group of musicians or just one or two.The point is not what it looks like, but the heart that is offered up to God and the spirit in which it is done: to worship God in spirit and in truth.",
