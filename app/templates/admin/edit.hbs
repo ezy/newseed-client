@@ -4,11 +4,7 @@
   {{/each}}
   <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
     <heading class="mr-auto">
-      {{#if bool}}
-        <span class="badge badge-primary mr-1">Click content to edit</span>
-        {{else}}
-        <span class="badge badge-primary mr-1">Click content to edit</span>
-      {{/if}}
+      <span class="badge badge-primary mr-1">Click on content to edit</span>
       {{#if (not editTitle)}}
         <h1 class="h3" {{action 'titleEdit'}}>{{model.title}} <i class="material-icons">create</i></h1>
       {{else}}
@@ -42,7 +38,7 @@
       {{/if}}
       {{date-format model.date 'D MMM YY'}}
     </div>
-    {{medium-content-editable value=model.text}}
+    {{medium-content-editable value=model.text onFinishedTyping=(action "saveContent")}}
     {{#if model.image}}
       {{model.image}}
     {{/if}}

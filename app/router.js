@@ -22,6 +22,7 @@ Router.map(function() {
     this.authenticatedRoute('settings');
     this.authenticatedRoute('edit', {path: 'edit/:model/:id'});
     this.authenticatedRoute('content');
+    this.authenticatedRoute('people');
   });
 });
 

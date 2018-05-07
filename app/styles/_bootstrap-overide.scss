@@ -10,3 +10,9 @@
     border-right-color: $template-light;
   }
 }
+
+select {
+  &.custom-select {
+    background: none;
+  }
+}
