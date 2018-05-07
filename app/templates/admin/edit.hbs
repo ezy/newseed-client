@@ -36,13 +36,26 @@
           </div>
         </div>
       {{/if}}
-      <div>
-        Publish date: {{ember-flatpickr
-          date=model.date
-          dateFormat='d M y'
-          onChange=(action 'saveDate')
-        }}
-      </div>
+      {{#if model.status}}
+        <div class="form-group row">
+          <label for="status-select" class="col-sm-5 col-form-label">Status:</label>
+          <div class="col-sm-7">
+            <select id="status-select" class="custom-select" onchange= {{action 'saveStatus' value="target.value"}}>
+              <option value="draft" selected="{{if (eq model.status 'draft') true}}">Draft</option>
+              <option value="published" selected="{{if (eq model.status 'published') true}}">Published</option>
+            </select>
+          </div>
+        </div>
+      {{/if}}
+      {{#if model.date}}
+        <div>
+          Publish date: {{ember-flatpickr
+            date=model.date
+            dateFormat='d M y'
+            onChange=(action 'saveDate')
+          }}
+        </div>
+      {{/if}}
     </div>
     <div class="mt-2">
       {{medium-content-editable value=model.text onFinishedTyping=(action "saveContent")}}

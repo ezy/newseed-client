@@ -18,6 +18,10 @@ export default Controller.extend({
       this.set('model.date', moment(date[0]).add(23, 'h').toJSON());
       this.send('saveContent');
     },
+    saveStatus(value) {
+      this.set('model.status', value);
+      this.send('saveContent');
+    },
     saveContent() {
       let model = this.get('model');
       this.set('isSaving', true);
