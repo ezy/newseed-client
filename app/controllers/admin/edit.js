@@ -25,10 +25,11 @@ export default Controller.extend({
       model.save()
         .then(() => {
           this.set('isSaving', false);
+          this.get('flashMessages').success('Content successfully saved')
         })
         .catch(() => {
           this.set('isSaving', false);
-          console.log('something went wrong');
+          this.get('flashMessages').danger('Something went wrong - content not saved')
         });
     }
   }

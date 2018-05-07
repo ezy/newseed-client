@@ -1,4 +1,7 @@
 <main id="edit" role="main" class="col-md-10 ml-sm-auto">
+  {{#each flashMessages.queue as |flash|}}
+    {{flash-message flash=flash class="mt-3 mb-0"}}
+  {{/each}}
   <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
     <heading class="mr-auto">
       {{#if bool}}
@@ -24,7 +27,7 @@
     </div>
   </div>
   <div class="content">
-    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-3 border-bottom">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 border-bottom">
       {{#if model.category}}
         <div class="form-group row">
           <label for="category-select" class="col-sm-5 col-form-label">Category:</label>
@@ -38,7 +41,6 @@
         </div>
       {{/if}}
       {{date-format model.date 'D MMM YY'}}
-      {{model.updated}}
     </div>
     {{medium-content-editable value=model.text}}
     {{#if model.image}}
