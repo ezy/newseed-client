@@ -10,6 +10,10 @@ export default Controller.extend({
     titleEdit() {
       this.set('editTitle', true);
     },
+    saveCat(value) {
+      this.set('model.category', value);
+      this.send('saveContent');
+    },
     saveContent() {
       let model = this.get('model');
       this.set('isSaving', true);
