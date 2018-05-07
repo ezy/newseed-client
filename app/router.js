@@ -24,6 +24,7 @@ Router.map(function() {
     this.authenticatedRoute('content');
     this.authenticatedRoute('people');
   });
+  this.route('forgot-password');
 });
 
 export default Router;

@@ -49,7 +49,8 @@
       {{/if}}
       {{#if model.date}}
         <div>
-          Publish date: {{ember-flatpickr
+          Publish date: 
+          {{ember-flatpickr
             date=model.date
             dateFormat='d M y'
             onChange=(action 'saveDate')

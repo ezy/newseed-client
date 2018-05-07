@@ -10,6 +10,11 @@
               </div>
               <div class="card-body">
                 {{login-form  validateSession=(action 'validateSession')}}
+                <div class="pt-3 mt-4 border-top">
+                  {{#link-to 'forgot-password'}}
+                    Forgot password
+                  {{/link-to}}
+                </div>
               </div>
             </div>
           </div>
