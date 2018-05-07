@@ -28,7 +28,7 @@
         <div class="form-group row">
           <label for="category-select" class="col-sm-5 col-form-label">Category:</label>
           <div class="col-sm-7">
-            <select id="category-select" class="custom-select" onchange={{action 'saveCat' value="target.value"}}>
+            <select id="category-select" class="custom-select" onchange= {{action 'saveCat' value="target.value"}}>
               <option value="need" selected="{{if (eq model.category 'need') true}}">Need</option>
               <option value="news" selected="{{if (eq model.category 'news') true}}">News</option>
               <option value="event" selected="{{if (eq model.category 'event') true}}">Event</option>
@@ -36,14 +36,28 @@
           </div>
         </div>
       {{/if}}
-      {{date-format model.date 'D MMM YY'}}
+      <div>
+        Publish date: {{ember-flatpickr
+          date=model.date
+          dateFormat='d M y'
+          onChange=(action 'saveDate')
+        }}
+      </div>
     </div>
-    {{medium-content-editable value=model.text onFinishedTyping=(action "saveContent")}}
+    <div class="mt-2">
+      {{medium-content-editable value=model.text onFinishedTyping=(action "saveContent")}}
+    </div>
     {{#if model.image}}
-      {{model.image}}
+      <div class="mt-2">
+        <img src="{{model.image}}">
+      </div>
     {{/if}}
-    {{#if model.tags}}
-      {{model.tags}}
+    {{#if model.tags.length}}
+      <div class="mt-2">
+        {{#each model.tags as |tag|}}
+          {{tag}}
+        {{/each}}
+      </div>
     {{/if}}
   </div>
 </main>

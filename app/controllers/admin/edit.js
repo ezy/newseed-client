@@ -14,6 +14,10 @@ export default Controller.extend({
       this.set('model.category', value);
       this.send('saveContent');
     },
+    saveDate(date) {
+      this.set('model.date', moment(date[0]).toISOString());
+      this.send('saveContent');
+    },
     saveContent() {
       let model = this.get('model');
       this.set('isSaving', true);

@@ -7,6 +7,9 @@ module.exports = function(defaults) {
     mediumEditorOptions: {
       theme: 'bootstrap',
       // excludeBaseStyles: true
+    },
+    flatpickr: {
+      theme: 'airbnb'
     }
   });
 
