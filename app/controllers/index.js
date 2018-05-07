@@ -3,11 +3,17 @@ import { get } from '@ember/object';
 import { filter } from '@ember/object/computed';
 
 export default Controller.extend({
-  slides: filter('notices', (notice) => {
+  filteredNotice: filter('notices', (notice) => {
+    return notice.get('status') === 'published';
+  }),
+  filteredAudio: filter('audios', (audio) => {
+    return audio.get('status') === 'published';
+  }),
+  slides: filter('filteredNotice', (notice) => {
     let tags = get(notice, 'tags');
     return tags.includes('slide');
   }),
-  newsFeed: filter('notices', (notice) => {
+  newsFeed: filter('filteredNotice', (notice) => {
     let tags = get(notice, 'tags');
     return !tags.includes('slide');
   })

@@ -1,14 +1,19 @@
 import Controller from '@ember/controller';
 import { computed } from '@ember/object';
+import { filter } from '@ember/object/computed';
 
 export default Controller.extend({
 
   queryParams: ['tag'],
   tag: null,
 
-  sortedNotices: computed('tag', 'model', function() {
+  filteredNotice: filter('model', (notice) => {
+    return notice.get('status') === 'published';
+  }),
+
+  sortedNotices: computed('tag', 'filteredNotice', function() {
     let tag = this.get('tag'),
-        notices = this.get('model');
+        notices = this.get('filteredNotice');
 
     if (tag) {
       notices = notices.filter(notice => {

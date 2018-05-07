@@ -6,7 +6,7 @@
       <div class="col">
         <div id="accordion" class="mt-3">
           {{#if model}}
-            {{#each model as |page index|}}
+            {{#each filteredPages as |page index|}}
               <div class="card">
                 <div class="card-header" id="heading{{index}}" data-toggle="collapse" data-target="#collapse{{index}}" aria-expanded="{{if (eq index 0) 'true'}}{{if (not-eq index 0) 'false'}}" aria-controls="collapse{{index}}">
                   <h5 class="mb-0">

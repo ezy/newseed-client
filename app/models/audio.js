@@ -8,6 +8,7 @@ export default DS.Model.extend({
   category: DS.attr('string'),
   link: DS.attr('string'),
   updated: DS.attr('string'),
+  status: DS.attr('string'),
 
   churches: DS.belongsTo('churches')
 });
