@@ -1,8 +1,26 @@
-<main role="main" class="col-md-10 ml-sm-auto">
+<main id="edit" role="main" class="col-md-10 ml-sm-auto">
   <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2 mr-auto">Editing - {{model.title}}</h1>
+    <h1 class="h3 mr-auto"><span class="badge badge-primary mr-1">Editing</span> {{medium-content-editable value=model.title onFinishedTyping=(action "saveContent")}}</h1>
+    <div class="saving">
+      <button type="button" class="btn btn-outline-success" name="button" {{action 'saveContent'}}>
+        Save content
+      </button>
+      {{#if isSaving}}
+        <span><i class="material-icons">autorenew</i> Saving content</span>
+      {{/if}}
+    </div>
   </div>
   <div class="content">
-    {{model}}
+    {{medium-content-editable value=model.category}}
+    {{date-format model.date 'D MMM YY'}}
+    {{model.updated}}
+    <hr>
+    {{medium-content-editable value=model.text}}
+    {{#if model.image}}
+      {{model.image}}
+    {{/if}}
+    {{#if model.tags}}
+      {{model.tags}}
+    {{/if}}
   </div>
 </main>
