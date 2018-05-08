@@ -5,6 +5,7 @@ export default DS.Model.extend({
   category: DS.attr('string'),
   image: DS.attr('string'),
   date: DS.attr('string'),
+  expires: DS.attr('string'),
   text: DS.attr('string'),
   tags: DS.attr(),
   updated: DS.attr('string'),

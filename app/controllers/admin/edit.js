@@ -24,6 +24,10 @@ export default Controller.extend({
       this.set('model.date', moment(date[0]).add(23, 'h').toJSON());
       this.send('saveContent');
     },
+    saveExpires(date) {
+      this.set('model.expires', moment(date[0]).add(23, 'h').toJSON());
+      this.send('saveContent');
+    },
     saveStatus(value) {
       this.set('model.status', value);
       this.send('saveContent');
@@ -46,7 +50,7 @@ export default Controller.extend({
           this.get('flashMessages').danger('Something went wrong - content not saved')
         });
     },
-    didSelectAudio(files) {
+    didSelectAudio(files, resetInput) {
       // let reader = new FileReader();
       // reader.onloadend = run.bind(this, function() {
       //   var dataURL = reader.result;
@@ -61,15 +65,18 @@ export default Controller.extend({
       let uploadTask = storageRef.child(path).put(this.get('file'));
       uploadTask.on('state_changed', snapshot => {
         let progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-        this.set('uploadProgress', `width: ${progress}%`)
-      }, () => {
+        this.set('uploadProgress', progress);
+      },
+      () => {
         this.get('flashMessages').danger('Something went wrong - audio not uploaded')
-      }, () => {
+      },
+      () => {
         this.set('uploadProgress', null);
         this.set('model.category', 'sermon');
         uploadTask.snapshot.ref.getDownloadURL().then(downloadURL => {
           this.set('model.link', downloadURL);
           this.send('saveContent');
+          resetInput();
         });
       });
     }
