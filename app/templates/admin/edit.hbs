@@ -94,11 +94,19 @@
         </div>
       </div>
     {{/if}}
-    {{#if model.tags.length}}
+    {{#if (if (eq model._internalModel.modelName 'notice') true)}}
       <div class="mt-2">
-        {{#each model.tags as |tag|}}
+        <h4>Notice tags</h4>
+        <p><i class="material-icons">help_outline</i> Add the tag <code>slide</code> for this notice to appear in the carousel on the home page.</p>
+        {{#tag-input
+          tags=model.tags
+          addTag=(action 'addTag')
+          removeTagAtIndex=(action 'removeTagAtIndex')
+          placeholder='Add tags to your notice'
+          as |tag|
+        }}
           {{tag}}
-        {{/each}}
+        {{/tag-input}}
       </div>
     {{/if}}
   </div>

@@ -1,6 +1,7 @@
 import Controller from '@ember/controller';
 import moment from 'moment';
 import { inject as service } from '@ember/service';
+import { A } from '@ember/array';
 
 export default Controller.extend({
   firebaseApp: service(),
@@ -79,6 +80,17 @@ export default Controller.extend({
           resetInput();
         });
       });
+    },
+    addTag(tag) {
+      if (!this.get('model.tags')) {
+        this.set('model.tags', A());
+      }
+      this.get('model.tags').pushObject(tag);
+      this.send('saveContent');
+    },
+    removeTagAtIndex(index) {
+      this.get('model.tags').removeAt(index);
+      this.send('saveContent');
     }
   }
 });

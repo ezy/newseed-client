@@ -52,6 +52,7 @@
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.18.0",
+    "ember-tag-input": "^1.2.1",
     "ember-truth-helpers": "^2.0.0",
     "emberfire": "^2.0.10",
     "emberx-file-input": "^1.2.1",
