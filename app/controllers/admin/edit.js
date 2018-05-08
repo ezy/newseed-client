@@ -1,10 +1,16 @@
 import Controller from '@ember/controller';
 import moment from 'moment';
+import { inject as service } from '@ember/service';
 
 export default Controller.extend({
+  firebaseApp: service(),
+
   init() {
     this._super(...arguments);
     this.set('isSaving', false);
+    this.set('storageRef', '');
+    this.set('file', '');
+    this.set('uploadProgress', null)
   },
   actions: {
     titleEdit() {
@@ -39,6 +45,33 @@ export default Controller.extend({
           this.set('isSaving', false);
           this.get('flashMessages').danger('Something went wrong - content not saved')
         });
+    },
+    didSelectAudio(files) {
+      // let reader = new FileReader();
+      // reader.onloadend = run.bind(this, function() {
+      //   var dataURL = reader.result;
+      //   var output = document.getElementById('output');
+      //   output.src = dataURL;
+      //   this.set('file', files[0]);
+      // });
+      // reader.readAsDataURL(files[0]);
+      this.set('file', files[0]);
+      let storageRef = this.get('firebaseApp').storage().ref();
+      let path = `audio/${this.get('file.name')}`;
+      let uploadTask = storageRef.child(path).put(this.get('file'));
+      uploadTask.on('state_changed', snapshot => {
+        let progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+        this.set('uploadProgress', `width: ${progress}%`)
+      }, () => {
+        this.get('flashMessages').danger('Something went wrong - audio not uploaded')
+      }, () => {
+        this.set('uploadProgress', null);
+        this.set('model.category', 'sermon');
+        uploadTask.snapshot.ref.getDownloadURL().then(downloadURL => {
+          this.set('model.link', downloadURL);
+          this.send('saveContent');
+        });
+      });
     }
   }
 });
