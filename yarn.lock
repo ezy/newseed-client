@@ -2406,6 +2406,24 @@ ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.10.0, 
     ember-cli-version-checker "^2.1.0"
     semver "^5.4.1"
 
+ember-cli-babel@^6.12.0:
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.12.0.tgz#3adcdbe1278da1fcd0b9038f1360cb4ac5d4414c"
+  dependencies:
+    amd-name-resolver "0.0.7"
+    babel-plugin-debug-macros "^0.1.11"
+    babel-plugin-ember-modules-api-polyfill "^2.3.0"
+    babel-plugin-transform-es2015-modules-amd "^6.24.0"
+    babel-polyfill "^6.16.0"
+    babel-preset-env "^1.5.1"
+    broccoli-babel-transpiler "^6.1.2"
+    broccoli-debug "^0.6.2"
+    broccoli-funnel "^1.0.0"
+    broccoli-source "^1.1.0"
+    clone "^2.0.0"
+    ember-cli-version-checker "^2.1.0"
+    semver "^5.4.1"
+
 ember-cli-bootstrap-4@^0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/ember-cli-bootstrap-4/-/ember-cli-bootstrap-4-0.5.5.tgz#0de27065aebfef67559f2a6cf487bf840086617c"
@@ -2872,6 +2890,17 @@ ember-load-initializers@^1.0.0:
   resolved "https://registry.yarnpkg.com/ember-load-initializers/-/ember-load-initializers-1.0.0.tgz#4919eaf06f6dfeca7e134633d8c05a6c9921e6e7"
   dependencies:
     ember-cli-babel "^6.0.0-beta.7"
+
+ember-plupload@^1.13.21:
+  version "1.13.21"
+  resolved "https://registry.yarnpkg.com/ember-plupload/-/ember-plupload-1.13.21.tgz#a2b8cfd14d935142c85259ac743cadb93397070c"
+  dependencies:
+    broccoli-funnel "^1.2.0"
+    broccoli-merge-trees "^2.0.0"
+    ember-cli-babel "^6.12.0"
+    exists-sync "^0.0.4"
+    fastboot-transform "^0.1.0"
+    rsvp "^4.6.1"
 
 ember-qunit@^3.3.2:
   version "3.3.2"
@@ -3500,18 +3529,18 @@ fast-sourcemap-concat@^1.0.1:
     source-map-url "^0.3.0"
     sourcemap-validator "^1.0.5"
 
-fastboot-transform@^0.1.1, fastboot-transform@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/fastboot-transform/-/fastboot-transform-0.1.2.tgz#f910d666ab93e75604492ea655270d1804bc8de7"
-  dependencies:
-    broccoli-stew "^1.5.0"
-
-fastboot-transform@^0.1.3:
+fastboot-transform@^0.1.0, fastboot-transform@^0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/fastboot-transform/-/fastboot-transform-0.1.3.tgz#7dea0b117594afd8772baa6c9b0919644e7f7dcd"
   dependencies:
     broccoli-stew "^1.5.0"
     convert-source-map "^1.5.1"
+
+fastboot-transform@^0.1.1, fastboot-transform@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/fastboot-transform/-/fastboot-transform-0.1.2.tgz#f910d666ab93e75604492ea655270d1804bc8de7"
+  dependencies:
+    broccoli-stew "^1.5.0"
 
 faye-websocket@0.9.3:
   version "0.9.3"

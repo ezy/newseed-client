@@ -50,6 +50,7 @@
     "ember-flatpickr": "^2.4.0",
     "ember-leaflet": "^3.0.13",
     "ember-load-initializers": "^1.0.0",
+    "ember-plupload": "^1.13.21",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.18.0",
     "ember-truth-helpers": "^2.0.0",

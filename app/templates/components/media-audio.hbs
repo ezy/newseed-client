@@ -11,9 +11,9 @@
         <p class="text-body">{{truncate-text media.text limit="230" stripHtml=true}}</p>
         <div class="collapse" id="mediaCollapse-{{index}}">
           <video controls preload="auto" name="{{media.title}}" poster="/assets/img/audio.png">
-            <source src="/assets/test-media/20180211.mp3" type="audio/mp3">
+            <source src="{{media.link}}" type="audio/mp3">
             <p class="body">Your browser doesn't support video/media playback.</p>
-            <p><a href="/assets/test-media/20180211.mp3" download>Download {{media.title}}</a></p>
+            <p><a href="{{media.link}}" download>Download {{media.title}}</a></p>
           </video>
           <br>
         </div>
