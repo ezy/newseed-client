@@ -17,14 +17,15 @@ Router.map(function() {
     this.route('ministry', { path: ':id' });
   });
   this.route('login');
+  this.route('forgot-password');
   // Authenticated routes
   this.authenticatedRoute('admin', function() {
     this.authenticatedRoute('settings');
     this.authenticatedRoute('edit', {path: 'edit/:model/:id'});
     this.authenticatedRoute('content');
     this.authenticatedRoute('people');
+    this.authenticatedRoute('schedule');
   });
-  this.route('forgot-password');
 });
 
 export default Router;

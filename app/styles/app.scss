@@ -91,3 +91,7 @@
   background-color: #f5f5f5;
   font-weight: $font-light;
 }
+
+.medium-editor-placeholder:after {
+  color: $template;
+}

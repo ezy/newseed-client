@@ -66,7 +66,7 @@ export default Controller.extend({
       let uploadTask = storageRef.child(path).put(this.get('file'));
       uploadTask.on('state_changed', snapshot => {
         let progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-        this.set('uploadProgress', progress);
+        this.set('uploadProgress', `width: ${progress}%`);
       },
       () => {
         this.get('flashMessages').danger('Something went wrong - audio not uploaded')

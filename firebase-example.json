@@ -12,6 +12,8 @@
     "email": "church@church.com",
     "facebook": "http://url.com",
     "twitter": "http://url.com",
+    "serviceDay": "Sunday",
+    "serviceTimes": ["10:00","17:00"],
     "users": [
       0
     ]
@@ -285,15 +287,17 @@
       "date": "2018-05-06T10:00:00.000Z",
       "updated": "2018-04-05T15:08:46.874Z",
       "speaker": "Bruce Bell",
+      "topic": "Lorem Ipsum",
       "churches": [
         0
       ]
     },
     {
       "id": 1,
-      "date": "2018-05-05T10:00:00.000Z",
+      "date": "2018-05-13T10:00:00.000Z",
       "updated": "2018-04-05T15:08:46.874Z",
-      "speaker": "Bruce Bell",
+      "speaker": "Percy Jackson",
+      "topic": "Lorem Ipsum",
       "churches": [
         0
       ]
