@@ -1,27 +1,21 @@
-<main role="main" class="col-md-10 ml-sm-auto">
+<main id="schedule" role="main" class="col-md-10 ml-sm-auto">
   <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2 mr-auto">Speaker schedule</h1>
+    <h1 class="h2 mr-auto">Service schedule</h1>
+  </div>
+  <div class="row">
+    <div class="col">
+      {{#each flashMessages.queue as |flash|}}
+        {{flash-message flash=flash class="mt-3 mb-0"}}
+      {{/each}}
+    </div>
   </div>
   <div class="row">
     <div class="col">
       <div id="accordion" class="mt-1">
-        {{log upcoming}}
         {{#if upcoming}}
-          {{#each upcoming as |service index|}}
-            <div class="card">
-              <div class="card-header" id="heading{{index}}" data-toggle="collapse" data-target="#collapse{{index}}" aria-expanded="{{if (eq index 0) 'true'}}{{if (not-eq index 0) 'false'}}" aria-controls="collapse{{index}}">
-                <h5 class="mb-0">
-                  {{service.date}}
-                </h5>
-              </div>
-              <div id="collapse{{index}}" class="collapse {{if (eq index 0) 'show'}}" aria-labelledby="heading{{index}}" data-parent="#accordion">
-                <div class="card-body">
-                  {{service.speaker}}
-                  {{service.topic}}
-                </div>
-              </div>
-            </div>
-          {{/each}}
+        {{#each upcoming as |service index|}}
+          {{schedule-input model=model service=service index=index}}
+        {{/each}}
         {{/if}}
       </div>
     </div>

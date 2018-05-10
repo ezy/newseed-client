@@ -1,0 +1,35 @@
+<div class="card mt-2">
+  <div class="card-header" id="heading{{index}}" data-toggle="collapse" data-target="#collapse{{index}}" aria-expanded="{{if (eq index 0) 'true'}}{{if (not-eq index 0) 'false'}}" aria-controls="collapse{{index}}">
+    <h5 class="mb-0">
+      {{date-format service.date 'h:mm a - ddd Do MMM YY'}}
+    </h5>
+  </div>
+  <div id="collapse{{index}}" class="collapse" aria-labelledby="heading{{index}}" data-parent="#accordion">
+    <div class="card-body">
+      <form class="form" role="form" {{action 'saveService' service.speaker service.topic service.date  on='submit'}}>
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label>Speaker</label>
+            {{input type="text" class="form-control" value=service.speaker aria-label="Service speaker"}}
+          </div>
+          <div class="form-group col-md-4">
+            <label>Topic</label>
+            {{input type="text" class="form-control" value=service.topic aria-label="Service topic" placeholder="Optional"}}
+          </div>
+          <div class="form-group col-md-4">
+            <label>Time</label><br>
+            {{ember-flatpickr
+              date=service.date
+              dateFormat='h:i K - d M y'
+              enableTime=true
+              onChange=(action 'saveDate')
+              class="form-control"
+            }}
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-outline-danger ml-2" {{action 'deleteService'}}>Delete</button>
+      </form>
+    </div>
+  </div>
+</div>
