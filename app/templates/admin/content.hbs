@@ -14,10 +14,10 @@
       Add new:
     </div>
     <div class="btn-toolbar mb-2 mb-md-0">
-      <button type="button" class="btn btn-primary mr-1">Message</button>
-      <button type="button" class="btn btn-primary mr-1">Notice</button>
-      <button type="button" class="btn btn-primary mr-1">Ministry</button>
-      <button type="button" class="btn btn-primary mr-1">About</button>
+      <button type="button" class="btn btn-primary mr-1" {{action 'createContent' 'audio'}}>Message</button>
+      <button type="button" class="btn btn-primary mr-1" {{action 'createContent' 'notice'}}>Notice</button>
+      <button type="button" class="btn btn-primary mr-1" {{action 'createContent' 'ministry'}}>Ministry</button>
+      <button type="button" class="btn btn-primary mr-1" {{action 'createContent' 'page'}}>About</button>
     </div>
   </div>
   <div class="input-group mb-3">
@@ -33,7 +33,7 @@
       {{#link-to 'admin.edit' content.modelName content.id class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"}}
         {{content.editCat}} {{#if content.category}}({{content.category}}) {{/if}}- {{#if content.date}}{{date-format content.date 'D MMM YY'}} -{{/if}} {{content.title}}
         <div class="edit-cat mr-1">
-          <span class="badge">{{content.status}}</span> | 
+          <span class="badge">{{content.status}}</span> |
           Edit
         </div>
       {{/link-to}}

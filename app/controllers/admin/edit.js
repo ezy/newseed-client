@@ -12,7 +12,8 @@ export default Controller.extend({
     this.set('isSaving', false);
     this.set('storageRef', '');
     this.set('file', '');
-    this.set('uploadProgress', null)
+    this.set('uploadProgress', null),
+    console.log(this.get('model'));
   },
   actions: {
     titleEdit() {

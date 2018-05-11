@@ -4,6 +4,7 @@ import { A } from '@ember/array';
 import moment from 'moment';
 
 export default Controller.extend({
+
   init() {
     this._super(...arguments);
     this.showingItem = {modelName:'all',label:'All content'};
@@ -62,6 +63,12 @@ export default Controller.extend({
         return content.modelName === value;
       });
       this.set('showingItem', item[0]);
+    },
+    createContent(modelName) {
+      let record = this.store.createRecord(modelName, {title: `New ${modelName.capitalize()} Content`});
+      record.save().then(rec => {
+        this.transitionToRoute('admin.edit', modelName, rec.get('id'));
+      });
     }
   }
 });
