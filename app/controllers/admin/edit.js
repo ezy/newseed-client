@@ -5,6 +5,7 @@ import { A } from '@ember/array';
 
 export default Controller.extend({
   firebaseApp: service(),
+  router: service(),
 
   init() {
     this._super(...arguments);
@@ -49,6 +50,16 @@ export default Controller.extend({
         .catch(() => {
           this.set('isSaving', false);
           this.get('flashMessages').danger('Something went wrong - content not saved')
+        });
+    },
+    deleteContent() {
+      let model = this.get('model');
+      model.destroyRecord()
+        .then(() => {
+          this.get('router').transitionTo('admin.content');
+        })
+        .catch(() => {
+          this.get('flashMessages').danger('Something went wrong - content not deleted');
         });
     },
     didSelectAudio(files, resetInput) {
