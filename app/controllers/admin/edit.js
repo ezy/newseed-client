@@ -12,8 +12,7 @@ export default Controller.extend({
     this.set('isSaving', false);
     this.set('storageRef', '');
     this.set('file', '');
-    this.set('uploadProgress', null),
-    console.log(this.get('model'));
+    this.set('uploadProgress', null);
   },
   actions: {
     titleEdit() {
@@ -99,6 +98,7 @@ export default Controller.extend({
       }
       this.get('model.tags').pushObject(tag);
       this.send('saveContent');
+      console.log(this.get('model.tags'));
     },
     removeTagAtIndex(index) {
       this.get('model.tags').removeAt(index);

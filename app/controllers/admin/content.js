@@ -2,6 +2,7 @@ import Controller from '@ember/controller';
 import { computed } from '@ember/object';
 import { A } from '@ember/array';
 import moment from 'moment';
+import { pluralize } from 'ember-inflector';
 
 export default Controller.extend({
 
@@ -67,7 +68,11 @@ export default Controller.extend({
     createContent(modelName) {
       let record = this.store.createRecord(modelName, {title: `New ${modelName.capitalize()} Content`});
       record.save().then(rec => {
-        this.transitionToRoute('admin.edit', modelName, rec.get('id'));
+        this.store.query(modelName, { id: rec.get('id') })
+          .then(res => {
+            this.set(`model.${pluralize(modelName)}`, res);
+            this.transitionToRoute('admin.edit', modelName, rec.get('id'));
+          });
       });
     }
   }

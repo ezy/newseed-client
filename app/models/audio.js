@@ -1,14 +1,15 @@
 import DS from 'ember-data';
+import moment from 'moment';
 
 export default DS.Model.extend({
   title: DS.attr('string'),
-  date: DS.attr('string'),
-  text: DS.attr('string'),
-  speaker: DS.attr('string'),
-  category: DS.attr('string'),
-  link: DS.attr('string'),
+  date: DS.attr('string', { defaultValue: () => moment().toISOString()}),
+  text: DS.attr('string', { defaultValue: () => ''}),
+  speaker: DS.attr('string', { defaultValue: () => ''}),
+  category: DS.attr('string', { defaultValue: () => 'sermon'}),
+  link: DS.attr('string', { defaultValue: () => ''}),
   updated: DS.attr('string'),
-  status: DS.attr('string'),
+  status: DS.attr('string', { defaultValue: () => 'draft'}),
 
   churches: DS.belongsTo('churches')
 });
