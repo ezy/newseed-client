@@ -1,5 +1,4 @@
 import Controller from '@ember/controller';
-import moment from 'moment';
 import { inject as service } from '@ember/service';
 import { A } from '@ember/array';
 
@@ -23,11 +22,11 @@ export default Controller.extend({
       this.send('saveContent');
     },
     saveDate(date) {
-      this.set('model.date', moment(date[0]).add(23, 'h').toJSON());
+      this.set('model.date', new Date(date));
       this.send('saveContent');
     },
     saveExpires(date) {
-      this.set('model.expires', moment(date[0]).add(23, 'h').toJSON());
+      this.set('model.expires', new Date(date));
       this.send('saveContent');
     },
     saveStatus(value) {
@@ -37,7 +36,7 @@ export default Controller.extend({
     saveContent() {
       let model = this.get('model');
       this.set('isSaving', true);
-      this.set('model.updated', moment().toJSON());
+      this.set('model.updated',  new Date());
       if (this.get('editTitle')) {
         this.set('model.title', this.get('model.title'));
         this.set('editTitle', false);

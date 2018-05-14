@@ -5,7 +5,8 @@ import moment from 'moment';
 
 export default Controller.extend({
   filteredNotice: filter('model.notices', function(notice) {
-    return notice.get('status') === 'published';
+    return notice.get('status') === 'published' &&
+      moment(notice.get('expires')).isAfter(moment());
   }),
   filteredAudio: filter('model.audios', function(audio) {
     return audio.get('status') === 'published';
@@ -14,9 +15,29 @@ export default Controller.extend({
     let tags = get(notice, 'tags');
     return tags.includes('slide');
   }),
-  newsFeed: filter('filteredNotice', function(notice) {
+  notices: filter('filteredNotice', function(notice) {
     let tags = get(notice, 'tags');
     return !tags.includes('slide');
+  }),
+  allNoticesFeed: computed('notices', function() {
+    return this.get('notices').slice(0, 6);
+  }),
+  noticesNeedsFeed: computed('notices', function() {
+    let filterNotice = this.get('notices').filter(notice => {
+      let cat = get(notice, 'category');
+      return  cat === 'news' || cat === 'need';
+    });
+    return filterNotice.slice(0, 5);
+  }),
+  eventsOnlyFeed: computed('notices', function() {
+    let filterEvents = this.get('notices').filter(notice => {
+      return  get(notice, 'category') === 'event';
+    });
+    return filterEvents.slice(0, 5);
+  }),
+  audioFeed: computed('filteredAudio', function() {
+    let filterNotSlides = this.get('filteredAudio');
+    return filterNotSlides.slice(0, 6);
   }),
   nextService: computed('model.services', function() {
     let services = this.get('model.services'),

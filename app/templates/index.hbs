@@ -7,24 +7,45 @@
   {{this-sunday service=nextService}}
 
   <div class="container-fluid">
-    <div class="row">
-      {{#if newsFeed}}
+    {{#if (and (not model.audios) (not eventsOnlyFeed))}}
+      <div class="row">
+        <div class="col">
+          <h4 class="home">Notices</h4>
+          <hr>
+          {{notice-summary notices=allNoticesFeed}}
+        </div>
+      </div>
+    {{/if}}
+    {{#if (and (not model.audios) eventsOnlyFeed)}}
+      <div class="row">{{log noticesNeedsFeed}}
+        <div class="col-md-6">
+          <h4 class="home">Notices/Needs</h4>
+          <hr>
+          {{notice-summary notices=noticesNeedsFeed}}
+        </div>
+        <div class="col-md-6">
+          <h4 class="home">Events</h4>
+          <hr>
+          {{notice-summary notices=eventsOnlyFeed}}
+        </div>
+      </div>
+    {{/if}}
+    {{#if model.audios}}
+      <div class="row">
         <div class="col-md-6">
           <h4 class="home">Notices</h4>
           <hr>
-          {{notice-summary notices=newsFeed}}
+          {{notice-summary notices=allNoticesFeed}}
         </div>
-      {{/if}}
-      {{#if model.audios}}
         <div class="col-md-6">
           <h4 class="home">Messages</h4>
           <hr>
           {{media-audio medias=filteredAudio}}
         </div>
-      {{/if}}
-    </div>
+      </div>
+    {{/if}}
   </div>
-  
+
   {{address-map church=model.church}}
 
 </div>

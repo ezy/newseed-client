@@ -7,7 +7,7 @@ export default DS.Model.extend({
   date: DS.attr('date', { defaultValue: () => new Date()}),
   expires: DS.attr('date', { defaultValue: () => new Date()}),
   text: DS.attr('string', { defaultValue: () => ''}),
-  tags: DS.attr('', { defaultValue: () => []}),
+  tags: DS.attr('', { defaultValue: () => ''}),
   updated: DS.attr('date', { defaultValue: () => new Date()}),
   status: DS.attr('string', { defaultValue: () => 'draft'}),
 
