@@ -161,7 +161,7 @@
       "id": 1,
       "title": "Welcome to The Olive Tree",
       "status": "published",
-      "image": "http://www.olivetree.org.nz/userfiles/templates/olivetree10/images/header.jpg",
+      "image": "/assets/img/stock/blur-branches-close-up-1047312.jpg",
       "category": "news",
       "date": "2018-05-02T03:42:47.554Z",
       "expires": "2018-10-14T03:42:47.554Z",
@@ -267,7 +267,8 @@
       "tags": [
         "hic",
         "earum",
-        "eius"
+        "eius",
+        "slide"
       ],
       "churches": [
         0

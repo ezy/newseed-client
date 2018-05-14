@@ -1,7 +1,7 @@
 {{#if hasLocation}}
-  <div class="container-fluid pt-3 border-top">
-    <div class="row">
-      <div class="col-md-6">
+  <div id="address-map" class="border-top">
+    <div class="row no-gutters">
+      <div class="col">
         <address>
           <strong>{{church.name}}</strong><br>
           <p>
@@ -12,8 +12,6 @@
             p: {{church.phone}}
           </p>
         </address>
-      </div>
-      <div class="col-md-6" style="height: 300px;">
         {{#leaflet-map lat=church.latitude lng=church.longitude zoom=13 scrollWheelZoom=false}}
 
           {{tile-layer url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}

@@ -1,12 +1,20 @@
 .footer {
-  background-color: white;
-  line-height: 20px;
+  background-color: $template;
+  width: 100%;
+  font-weight: $font-light;
+  padding: .7em 0;
   .powered {
     font-size: 12px;
     font-weight: $font-thin;
+    color: whitesmoke;
+    padding-top: 8px;
+    a {
+      color: $template-lightest;
+    }
   }
   .social {
-    padding-top: 5px;
+    vertical-align: bottom;
+    padding-top: 7px;
     a {
       margin-right: 10px;
     }
@@ -69,8 +77,4 @@
 .footer:not(.footer-big) nav > ul a {
   padding: 10px 0px;
   margin: 15px 10px 15px 0px;
-}
-
-.footer-default {
-  background-color: whitesmoke;
 }
