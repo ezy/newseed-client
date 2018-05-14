@@ -324,7 +324,7 @@
   ],
   "services": [{
       "id": 0,
-      "date": "2018-05-06T10:00:00.000Z",
+      "date": "2018-05-20T03:42:47.554Z",
       "updated": "2018-05-14T03:42:47.554Z",
       "speaker": "Speaker Spoken",
       "topic": "Lorem Ipsum",
@@ -334,8 +334,8 @@
     },
     {
       "id": 1,
-      "date": "2018-05-13T10:00:00.000Z",
-      "updated": "2018-05-14T03:42:47.554Z",
+      "date": "2018-05-20T03:42:47.554Z",
+      "updated": "2018-05-20T03:42:47.554Z",
       "speaker": "Adam Adamson",
       "topic": "Lorem Ipsum",
       "churches": [
@@ -345,7 +345,7 @@
     {
       "id": 2,
       "date": "2018-05-20T10:00:00.000Z",
-      "updated": "2018-05-14T03:42:47.554Z",
+      "updated": "2018-05-13T03:42:47.554Z",
       "speaker": "Bruce Bell",
       "topic": "Lorem Ipsum",
       "churches": [
@@ -355,7 +355,7 @@
     {
       "id": 3,
       "date": "2018-05-13T10:00:00.000Z",
-      "updated": "2018-05-14T03:42:47.554Z",
+      "updated": "2018-05-20T03:42:47.554Z",
       "speaker": "Adam Adamson",
       "topic": "Lorem Ipsum",
       "churches": [
@@ -364,8 +364,8 @@
     },
     {
       "id": 4,
-      "date": "2018-05-20T10:00:00.000Z",
-      "updated": "2018-05-14T03:42:47.554Z",
+      "date": "2018-05-13T10:00:00.000Z",
+      "updated": "2018-05-27T03:42:47.554Z",
       "speaker": "Bruce Bell",
       "topic": "Lorem Ipsum",
       "churches": [
@@ -374,8 +374,8 @@
     },
     {
       "id": 5,
-      "date": "2018-05-13T10:00:00.000Z",
-      "updated": "2018-05-14T03:42:47.554Z",
+      "date": "2018-05-20T03:42:47.554Z",
+      "updated": "2018-05-27T03:42:47.554Z",
       "speaker": "Adam Adamson",
       "topic": "Lorem Ipsum",
       "churches": [

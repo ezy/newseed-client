@@ -8,7 +8,6 @@ export default Mixin.create({
     });
     this.get('store').findAll('page').then(function(pagesResult) {
       let res = pagesResult.filter(page => {
-        console.log(page.get('status'));
         return page.get('status') === 'published';
       });
       controller.set('pages', res);

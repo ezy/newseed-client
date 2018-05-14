@@ -1,6 +1,5 @@
 import Component from '@ember/component';
 import { inject as service } from '@ember/service';
-import moment from 'moment';
 
 export default Component.extend({
   store: service(),
@@ -22,7 +21,7 @@ export default Component.extend({
         });
     },
     saveDate(date) {
-      this.set('service.date', moment(date[0]).toJSON());
+      this.set('service.date', new Date(date[0]));
     },
     deleteService() {
       let service = this.get('service');
