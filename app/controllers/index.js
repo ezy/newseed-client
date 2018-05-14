@@ -2,6 +2,12 @@ import Controller from '@ember/controller';
 import { get, computed } from '@ember/object';
 import { filter } from '@ember/object/computed';
 import moment from 'moment';
+import EmberObject from '@ember/object';
+
+function hourToNum(t) {
+  t = t.split(':');
+  return parseFloat(parseInt(t[0]));
+}
 
 export default Controller.extend({
   filteredNotice: filter('model.notices', function(notice) {
@@ -39,21 +45,32 @@ export default Controller.extend({
     let filterNotSlides = this.get('filteredAudio');
     return filterNotSlides.slice(0, 6);
   }),
-  nextService: computed('model.services', function() {
-    let services = this.get('model.services'),
-        now = moment(),
-        display = null,
+  nextService: computed('model', function() {
+    let now = moment(),
+        display = new EmberObject(),
         // set the checkDate to next Sunday just before midnight
         checkDate = moment().day(7).endOf('day');
-    services.forEach(service => {
-      let date = get(service, 'date');
-      // Service date needs to be after time now, and same or before the checkDate
-      if (moment(date).isAfter(now, 'hour') && moment(date).isSameOrBefore(checkDate, 'minute')) {
-        // because date is before checkDate we update checkDate for the next compare
-        checkDate = moment(date);
-        display = service;
-      }
+    let services = this.get('model.services').filter(service => {
+      return moment(service.get('date')).isAfter(now);
     });
+    if (services.get('length')) {
+      services.forEach(service => {
+        let date = get(service, 'date');
+        // Service date needs to be after time now, and same or before the checkDate
+        if (moment(date).isAfter(now, 'hour') && moment(date).isSameOrBefore(checkDate, 'minute')) {
+          // because date is before checkDate we update checkDate for the next compare
+          checkDate = moment(date);
+          display = service;
+        }
+      });
+    } else {
+      // Set date for coming Sunday
+      let date = moment().day(7).startOf('day');
+      let times = this.get('model.church.serviceTimes').split(",");
+      // Convert first time to decimal and add to Sunday
+      date.hour(hourToNum(times[0]));
+      display.set('date', date.toJSON());
+    }
     return display;
   }),
 });

@@ -5,11 +5,13 @@
         <div class="card-body">
           <div class="row">
             <div class="col-6">
-              {{date-format service.date 'dddd'}}<span class="hide">, {{date-format service.date 'D MMM'}} |</span> {{date-format service.date 'hh:mmA'}}
+              {{date-format service.date 'dddd'}}<span class="hide">, {{date-format service.date 'D MMM'}} |</span> {{date-format service.date 'h:mmA'}}
             </div>
             <div class="col-6">
               <span class="float-right">
-                <span class="hide">Speaker - </span>{{service.speaker}}
+                {{#if service.speaker}}
+                  <span class="hide">Speaker - </span>{{service.speaker}}
+                {{/if}}
               </span>
             </div>
           </div>
