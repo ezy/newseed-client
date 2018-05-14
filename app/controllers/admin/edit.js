@@ -37,7 +37,7 @@ export default Controller.extend({
     saveContent() {
       let model = this.get('model');
       this.set('isSaving', true);
-      this.set('model.updated', moment().toISOString());
+      this.set('model.updated', moment().toJSON());
       if (this.get('editTitle')) {
         this.set('model.title', this.get('model.title'));
         this.set('editTitle', false);
@@ -98,7 +98,6 @@ export default Controller.extend({
       }
       this.get('model.tags').pushObject(tag);
       this.send('saveContent');
-      console.log(this.get('model.tags'));
     },
     removeTagAtIndex(index) {
       this.get('model.tags').removeAt(index);

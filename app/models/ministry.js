@@ -4,7 +4,7 @@ export default DS.Model.extend({
   title: DS.attr('string'),
   image: DS.attr('string'),
   text: DS.attr('string', { defaultValue: () => ''}),
-  updated: DS.attr('string'),
+  updated: DS.attr('date', { defaultValue: () => new Date()}),
   status: DS.attr('string', { defaultValue: () => 'draft'}),
 
   churches: DS.belongsTo('churches')

@@ -22,7 +22,7 @@ export default Component.extend({
         });
     },
     saveDate(date) {
-      this.set('service.date', moment(date[0]).toISOString());
+      this.set('service.date', moment(date[0]).toJSON());
     },
     deleteService() {
       let service = this.get('service');
