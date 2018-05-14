@@ -19,7 +19,10 @@
         </div>
         <span class="datestamp">{{date-format notice.date 'D MMM YY'}}</span>
         <p class="float-right speaker">
-          <i class="material-icons">face</i> {{#link-to 'index'}}{{media.speaker}}{{/link-to}}
+          <i class="material-icons">face</i>
+          {{#link-to 'audios' (query-params speaker=media.speaker) class="tag-link"}}
+            {{media.speaker}}
+          {{/link-to}}
         </p>
       </article>
     </li>
