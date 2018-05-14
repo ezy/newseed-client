@@ -6,6 +6,7 @@ export default Route.extend({
     return RSVP.hash({
       audios: this.get('store').findAll('audio'),
       notices: this.get('store').findAll('notice'),
+      pages: this.get('store').findAll('page'),
       church: this.get('store').findRecord('church', 0),
       services: this.get('store').findAll('service')
     });

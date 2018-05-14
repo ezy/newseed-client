@@ -11,7 +11,7 @@ Router.map(function() {
   this.route('notices', function() {
     this.route('show', { path: ':id' });
   });
-  this.route('pages', { path: 'about' });
+  this.route('page', { path: ':id' });
   this.route('contact');
   this.route('ministries', function() {
     this.route('ministry', { path: ':id' });

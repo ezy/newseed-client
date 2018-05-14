@@ -10,11 +10,6 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          {{#link-to 'pages' class='nav-link'}}
-            About
-          {{/link-to}}
-        </li>
-        <li class="nav-item">
           {{#link-to 'notices' class='nav-link'}}
             Notices
           {{/link-to}}
@@ -29,11 +24,27 @@
             Messages
           {{/link-to}}
         </li>
-        <li class="nav-item">
-          {{#link-to 'contact' class='nav-link'}}
-            Contact
-          {{/link-to}}
-        </li>
+        {{#if pages}}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+            <div class="dropdown-menu dropdown-menu-right">
+              {{#each pages as |page|}}
+                {{#link-to 'page' page.id class='dropdown-item'}}
+                  {{page.title}}
+                {{/link-to}}
+              {{/each}}
+              {{#link-to 'contact' class='dropdown-item'}}
+                Contact
+              {{/link-to}}
+            </div>
+          </li>
+          {{else}}
+          <li class="nav-item">
+            {{#link-to 'contact' class='nav-link'}}
+              Contact
+            {{/link-to}}
+          </li>
+        {{/if}}
       </ul>
     </div>
   </nav>

@@ -6,5 +6,8 @@ export default Mixin.create({
     this.get('store').findRecord('church', 0).then(function(church) {
       controller.set('church', church);
     });
+    this.get('store').findAll('page').then(function(page) {
+      controller.set('pages', page);
+    });
   }
 });
