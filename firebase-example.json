@@ -15,7 +15,7 @@
     "facebook": "http://url.com",
     "twitter": "http://url.com",
     "serviceDay": "Sunday",
-    "serviceTimes": ["10:00","17:00"],
+    "serviceTimes": ["10:00", "17:00"],
     "users": [
       0
     ]
@@ -437,6 +437,103 @@
       "churches": [
         0
       ]
+    }
+  ],
+  "images": [{
+      "id": 0,
+      "image": "/assets/img/stock/adult-airport-alone-362948.jpg"
+    },
+    {
+      "id": 1,
+      "image": "/assets/img/stock/beggar-begging-homeless-2128.jpg"
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/stock/adult-blur-business-918778.jpg"
+    },
+    {
+      "id": 3,
+      "image": "/assets/img/stock/bible-blur-book-895449.jpg"
+    },
+    {
+      "id": 4,
+      "image": "/assets/img/stock/ancient-arch-architecture-356658.jpg"
+    },
+    {
+      "id": 5,
+      "image": "/assets/img/stock/bible-book-candle-256560.jpg"
+    },
+    {
+      "id": 6,
+      "image": "/assets/img/stock/architecture-art-cathedral-390052.jpg"
+    },
+    {
+      "id": 7,
+      "image": "/assets/img/stock/bloom-blossom-clean-580871.jpg"
+    },
+    {
+      "id": 8,
+      "image": "/assets/img/stock/art-cathedral-christ-208216.jpg"
+    },
+    {
+      "id": 9,
+      "image": "/assets/img/stock/blur-bokeh-close-up-164879.jpg"
+    },
+    {
+      "id": 10,
+      "image": "/assets/img/stock/audience-band-christians-213207.jpg"
+    },
+    {
+      "id": 11,
+      "image": "/assets/img/stock/blur-branches-close-up-1047312.jpg"
+    },
+    {
+      "id": 12,
+      "image": "/assets/img/stock/audience-blur-bokeh-976866.jpg"
+    },
+    {
+      "id": 13,
+      "image": "/assets/img/stock/blur-community-crowd-5156.jpg"
+    },
+    {
+      "id": 14,
+      "image": "/assets/img/stock/background-beautiful-blossom-268533.jpg"
+    },
+    {
+      "id": 15,
+      "image": "/assets/img/stock/book-chair-chat-711009.jpg"
+    },
+    {
+      "id": 16,
+      "image": "/assets/img/stock/backlit-cemetery-christianity-415571.jpg"
+    },
+    {
+      "id": 17,
+      "image": "/assets/img/stock/buildings-church-city-335887.jpg"
+    },
+    {
+      "id": 18,
+      "image": "/assets/img/stock/backlit-clouds-dusk-853168.jpg"
+    },
+    {
+      "id": 19,
+      "image": "/assets/img/stock/christianity-cross-god-54333.jpg"
+    },
+    {
+      "id": 20,
+      "image": "/assets/img/stock/band-bokeh-close-up-144428.jpg"
+    },
+    {
+      "id": 21,
+      "image": "/assets/img/stock/church-clouds-countryside-460611.jpg"
+    },
+    {
+      "id": 22,
+      "image": "/assets/img/stock/beach-beautiful-grass-358418.jpg"
+    },
+    {
+      "id": 23,
+      "image": "/assets/img/stock/beach-dawn-dusk-189349.jpg"
     }
   ]
 }
