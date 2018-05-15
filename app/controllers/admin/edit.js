@@ -61,6 +61,11 @@ export default Controller.extend({
           this.get('flashMessages').danger('Something went wrong - content not deleted');
         });
     },
+    selectImage(dropdown, image) {
+      dropdown.actions.close();
+      this.set('model.image', image);
+      this.send('saveContent');
+    },
     didSelectAudio(files, resetInput) {
       // let reader = new FileReader();
       // reader.onloadend = run.bind(this, function() {

@@ -106,18 +106,35 @@
           {{x-file-input class="btn btn-primary mb-0 pb-0" xmultiple=false name="files" action=(action "didSelectAudio") accept="audio/* video/*" alt="Upload audio"}}
         </div>
       </div>
-    {{/if}}
-    <div class="mt-3 mb-3">
-      {{#basic-dropdown as |dd|}}
-        {{#dd.trigger class="trigger-bootstrap-feel"}}Click me <span class="caret"></span>{{/dd.trigger}}
-
-        {{#dd.content class="content-bootstrap-feel"}}
-          <p>I look like bootstrap, right?</p>
-          <p>You can style me however you want</p>
-        {{/dd.content}}
-      {{/basic-dropdown}}
       <hr>
-    </div>
+    {{/if}}
+    {{#if (not-eq model._internalModel.modelName 'page')}}
+      <div class="mt-3 mb-3 image-upload">
+        {{#if model.image}}
+          <div class="row">
+            <div class="col img-display mb-2">
+              <img src="{{model.image}}" alt="Display image">
+            </div>
+          </div>
+        {{/if}}
+        {{#basic-dropdown as |dd|}}
+          {{#dd.trigger class="btn btn-secondary"}}Select image <span class="caret"></span>{{/dd.trigger}}
+
+          {{#dd.content class="dropdown-content-gallery"}}
+            <div class="row text-center text-lg-left">
+              {{#each images as |image|}}
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="{{image.image}}" alt="image" {{action 'selectImage' dd image.image}}>
+                  </a>
+                </div>
+              {{/each}}
+            </div>
+          {{/dd.content}}
+        {{/basic-dropdown}}
+        <hr>
+      </div>
+    {{/if}}
     {{#if (if (eq model._internalModel.modelName 'notice') true)}}
       <div class="mt-2 mb-4">
         <h4>Notice tags</h4>
