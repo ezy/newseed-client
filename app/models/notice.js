@@ -6,6 +6,7 @@ export default DS.Model.extend({
   image: DS.attr('string'),
   date: DS.attr('date', { defaultValue: () => new Date()}),
   expires: DS.attr('date', { defaultValue: () => new Date()}),
+  frequency: DS.attr('string', { defaultValue: () => null}),
   text: DS.attr('string', { defaultValue: () => ''}),
   tags: DS.attr('', { defaultValue: () => ''}),
   updated: DS.attr('date', { defaultValue: () => new Date()}),

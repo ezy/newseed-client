@@ -17,6 +17,10 @@ export default Controller.extend({
     titleEdit() {
       this.set('editTitle', true);
     },
+    saveFreq(value) {
+      this.set('model.frequency', value);
+      this.send('saveContent');
+    },
     saveCat(value) {
       this.set('model.category', value);
       this.send('saveContent');

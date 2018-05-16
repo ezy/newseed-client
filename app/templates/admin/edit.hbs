@@ -50,7 +50,9 @@
           </div>
         </div>
       {{/if}}
-      {{#if model.date}}
+    </div>
+    {{#if model.date}}
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 border-bottom mt-2">
         <div class="form-group row">
           <label for="date-publish" class="col-sm-5 col-form-label">Publish date:</label>
             <div class="col-sm-7">
@@ -63,22 +65,33 @@
               }}
           </div>
         </div>
-      {{/if}}
-      {{#if model.expires}}
-        <div class="form-group row">
-          <label for="date-expires" class="col-sm-5 col-form-label">Expires:</label>
+        {{#if model.expires}}
+          <div class="form-group row">
+            <label for="category-select" class="col-sm-5 col-form-label">Repeats:</label>
             <div class="col-sm-7">
-              {{ember-flatpickr
-                date=model.expires
-                dateFormat='d M y'
-                onChange=(action 'saveExpires')
-                class="form-control"
-                id="date-expires"
-              }}
+              <select id="category-select" class="custom-select" onchange= {{action 'saveFreq' value="target.value"}}>
+                <option value="null" selected="{{if (eq model.frequency null) true}}">None</option>
+                <option value="daily" selected="{{if (eq model.frequency 'daily') true}}">Daily</option>
+                <option value="weekly" selected="{{if (eq model.frequency 'weekly') true}}">Weekly</option>
+                <option value="monthly" selected="{{if (eq model.frequency 'monthly') true}}">Monthly</option>
+              </select>
+            </div>
           </div>
-        </div>
-      {{/if}}
-    </div>
+          <div class="form-group row">
+            <label for="date-expires" class="col-sm-5 col-form-label">Expires:</label>
+              <div class="col-sm-7">
+                {{ember-flatpickr
+                  date=model.expires
+                  dateFormat='d M y'
+                  onChange=(action 'saveExpires')
+                  class="form-control"
+                  id="date-expires"
+                }}
+            </div>
+          </div>
+        {{/if}}
+      </div>
+    {{/if}}
     <div class="mt-4 pb-2 border-bottom">
       {{medium-content-editable value=model.text onFinishedTyping=(action "saveContent")}}
     </div>
