@@ -11,6 +11,11 @@
             {{church.state}}<br>
             p: {{church.phone}}
           </p>
+          {{#if church.serviceTimes}}
+            <p class="mb-0">
+              Services: {{church.serviceDay}} - {{church.serviceTimes}}
+            </p>
+          {{/if}}
         </address>
         {{#leaflet-map lat=church.latitude lng=church.longitude zoom=13 scrollWheelZoom=false}}
 

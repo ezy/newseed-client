@@ -14,7 +14,14 @@
           <div class="card">
             <img class="card-img-top" src={{ministry.image}} alt={{ministry.title}} >
             <div class="card-body">
-              <h5 class="card-title">{{ministry.title}}</h5>
+              <h5 class="card-title">
+                {{ministry.title}}
+                {{#if session.isAuthenticated}}
+                  {{#link-to 'admin.edit' 'ministry' ministry.id}}
+                    <i class="material-icons">create</i>
+                  {{/link-to}}
+                {{/if}}
+              </h5>
               <p class="card-text">{{truncate-text ministry.text limit=200 stripHtml=true}}</p>
               {{#link-to "ministries.ministry" ministry.id class="btn btn-primary"}}
                 {{ministry.title}}

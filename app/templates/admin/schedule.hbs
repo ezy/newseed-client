@@ -1,6 +1,9 @@
 <main id="schedule" role="main" class="col-md-10 ml-sm-auto">
   <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
     <h1 class="h2 mr-auto">Service schedule</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+      <button type="button" class="btn btn-primary mr-1" {{action 'addService'}}>Add new service</button>
+    </div>
   </div>
   <div class="row">
     <div class="col">
@@ -13,9 +16,11 @@
     <div class="col">
       <div id="accordion" class="mt-1">
         {{#if upcoming}}
-        {{#each upcoming as |service index|}}
-          {{schedule-input model=model service=service index=index}}
-        {{/each}}
+          {{#each upcoming as |service index|}}
+            {{schedule-input model=model service=service index=index}}
+          {{/each}}
+          {{else}}
+          <p>Add any upcoming services details above using the "Add new service" button.</p>
         {{/if}}
       </div>
     </div>

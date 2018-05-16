@@ -19,6 +19,11 @@
                     {{#link-to 'notices.show' notice.id}}
                       {{notice.title}}
                     {{/link-to}}
+                    {{#if session.isAuthenticated}}
+                      {{#link-to 'admin.edit' 'notice' notice.id}}
+                        <i class="material-icons">create</i>
+                      {{/link-to}}
+                    {{/if}}
                   </h2>
                 </header>
               </div>

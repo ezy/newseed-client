@@ -11,6 +11,9 @@
               <span class="float-right">
                 {{#if service.speaker}}
                   <span class="hide">Speaker - </span>{{service.speaker}}
+                  {{#if service.topic}}
+                    : {{service.topic}}
+                  {{/if}}
                 {{/if}}
               </span>
             </div>
