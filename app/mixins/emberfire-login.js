@@ -13,7 +13,7 @@ export default Mixin.create({
       }).then(() => {
         get(this, 'goToIndex')();
       }).catch(() => {
-        console.warn('Failed login');
+        this.get('flashMessages').danger('Something went wrong - not logged in');
       });
     },
     invalidateSession() {
