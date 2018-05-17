@@ -4,11 +4,6 @@ import { filter } from '@ember/object/computed';
 import moment from 'moment';
 import EmberObject from '@ember/object';
 
-function hourToNum(t) {
-  t = t.split(':');
-  return parseFloat(parseInt(t[0]));
-}
-
 export default Controller.extend({
   filteredNotice: filter('model.notices', function(notice) {
     let now = moment(),
@@ -53,7 +48,7 @@ export default Controller.extend({
     let filterNotSlides = this.get('filteredAudio');
     return filterNotSlides.slice(0, 6);
   }),
-  nextService: computed('model', function() {
+  nextService: computed('model', 'church', function() {
     let now = moment(),
         display = new EmberObject(),
         // set the checkDate to next Sunday just before midnight
@@ -74,10 +69,15 @@ export default Controller.extend({
     } else {
       // Set date for coming Sunday
       let date = moment().day(7).startOf('day');
-      let times = this.get('model.church.serviceTimes').split(",");
-      // Convert first time to decimal and add to Sunday
-      date.hour(hourToNum(times[0]));
-      display.set('date', date.toJSON());
+      let times = this.get('church.serviceTimes');
+      if (times) {
+        let timesArray = times.split(",");
+        let hourMinuteArray = timesArray[0].split(':');
+        // Convert first time to decimal and add to Sunday
+        date.set('hour', parseFloat(hourMinuteArray[0]));
+        date.set('minute', parseFloat(hourMinuteArray[1]));
+        display.set('date', date.toJSON());
+      }
     }
     return display;
   }),

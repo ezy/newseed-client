@@ -33,8 +33,18 @@ export default Controller.extend({
         });
     },
     addService() {
-      let store = this.get('store');
-      let service = store.createRecord('service', { date: new Date(thisSunday.add(10, 'hours').toJSON()) });
+      let store = this.get('store'),
+          times = this.get('church.serviceTimes'),
+          hour = 10,
+          minute = 30;
+      if (times) {
+        let timesArray = times.split(",");
+        let hourMinuteArray = timesArray[0].split(':');
+        // Set hour and minute value based on service time defaults
+        hour = parseFloat(hourMinuteArray[0]);
+        minute = parseFloat(hourMinuteArray[1]);
+      }
+      let service = store.createRecord('service', { date: new Date(thisSunday.add(hour, 'hours').add(minute, 'minutes').toJSON()) });
       service.save().then(() => {
         this.send('refreshRoute');
       });
