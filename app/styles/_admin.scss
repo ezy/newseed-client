@@ -4,20 +4,14 @@
   }
   #edit {
     .saving {
-      position: relative;
-      span {
-        color: $gray;
-        position: absolute;
-        bottom: -2em;
-        right: 0;
-        font-size: 14px;
-        i {
-          font-size: 20px;
-          animation-name: spin;
-          animation-duration: 1000ms;
-          animation-iteration-count: infinite;
-          animation-timing-function: linear;
-        }
+      color: $gray;
+      display: inline-block;
+      i {
+        font-size: 20px;
+        animation-name: spin;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
       }
     }
     heading {

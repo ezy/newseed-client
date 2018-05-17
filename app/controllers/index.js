@@ -11,8 +11,16 @@ function hourToNum(t) {
 
 export default Controller.extend({
   filteredNotice: filter('model.notices', function(notice) {
+    let now = moment(),
+        // date = moment(notice.get('date')),
+        expires = moment(notice.get('expires'));
+    // // Set date based on published date and frequency relative to today
+    // if (notice.get('frequency') && date.isBefore(now, 'day')) {
+    //   notice.set('date', now.add(date).add(1, notice.get('frequency')).toJSON());
+    // }
     return notice.get('status') === 'published' &&
-      moment(notice.get('expires')).isAfter(moment());
+      // date.isSameOrBefore(now, 'hour') &&
+      expires.isAfter(now);
   }),
   filteredAudio: filter('model.audios', function(audio) {
     return audio.get('status') === 'published';

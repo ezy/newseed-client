@@ -1,9 +1,11 @@
 import Component from '@ember/component';
-import { sort } from '@ember/object/computed';
+import { computed } from '@ember/object';
+import moment from 'moment';
 
 export default Component.extend({
-
-  noticeSortingDesc: Object.freeze(['date:desc']),
-  sortedNotices: sort('notices', 'noticeSortingDesc')
-
+  sortedNotices: computed('notices', function() {
+    return this.get('notices').sort((a, b) => {
+      return moment(a.date).diff(moment(b.date));
+    }).reverse();
+  }),
 });

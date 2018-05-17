@@ -4,25 +4,26 @@
   {{/each}}
   <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
     <heading class="mr-auto">
-      <span class="badge badge-primary mr-1">Click on content to edit</span>
+      {{#if isSaving}}
+        <div class="saving">
+          <i class="material-icons">autorenew</i> Saving content
+        </div>
+        {{else}}
+        <span class="badge badge-primary mr-1">Click on content to edit</span>
+      {{/if}}
       {{#if (not editTitle)}}
         <h1 class="h3" {{action 'titleEdit'}}>{{model.title}} <i class="material-icons">create</i></h1>
       {{else}}
         <div class="input-group mt-2 mr-auto">
           {{input type="text" class="form-control" value=(mut model.title) aria-label="Post title"}}
+          <div class="input-group-append">
+            <button class="btn btn-outline-success" type="button" {{action 'saveContent' model.speaker}}>Save</button>
+          </div>
         </div>
       {{/if}}
     </heading>
     <div class="btn-toolbar mb-2 mb-md-0">
       <button type="button" class="btn btn-danger mr-3" {{action 'deleteContent'}}>Delete</button>
-      <div class="saving">
-        <button type="button" class="btn btn-success" name="button" {{action 'saveContent'}}>
-          Save content
-        </button>
-        {{#if isSaving}}
-          <span><i class="material-icons">autorenew</i> Saving content</span>
-        {{/if}}
-      </div>
     </div>
   </div>
   <div class="content">
@@ -50,6 +51,17 @@
           </div>
         </div>
       {{/if}}
+      {{#if (eq model._internalModel.modelName 'audio')}}
+      <div class="form-group row">
+        <div class="col input-group">
+          <label for="speaker" class="col-form-label mr-2">Speaker name:</label>
+          {{input id="speaker" type="text" class="form-control" value=model.speaker aria-label="Speaker name"}}
+          <div class="input-group-append">
+            <button class="btn btn-outline-success" type="button" {{action 'saveSpeaker' model.speaker}}>Save</button>
+          </div>
+        </div>
+      </div>
+      {{/if}}
     </div>
     {{#if model.date}}
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 border-bottom mt-2">
@@ -66,17 +78,17 @@
           </div>
         </div>
         {{#if model.expires}}
-          <div class="form-group row">
+          {{!-- <div class="form-group row">
             <label for="category-select" class="col-sm-5 col-form-label">Repeats:</label>
             <div class="col-sm-7">
               <select id="category-select" class="custom-select" onchange= {{action 'saveFreq' value="target.value"}}>
                 <option value="null" selected="{{if (eq model.frequency null) true}}">None</option>
-                <option value="daily" selected="{{if (eq model.frequency 'daily') true}}">Daily</option>
-                <option value="weekly" selected="{{if (eq model.frequency 'weekly') true}}">Weekly</option>
-                <option value="monthly" selected="{{if (eq model.frequency 'monthly') true}}">Monthly</option>
+                <option value="day" selected="{{if (eq model.frequency 'day') true}}">Daily</option>
+                <option value="week" selected="{{if (eq model.frequency 'week') true}}">Weekly</option>
+                <option value="month" selected="{{if (eq model.frequency 'month') true}}">Monthly</option>
               </select>
             </div>
-          </div>
+          </div> --}}
           <div class="form-group row">
             <label for="date-expires" class="col-sm-5 col-form-label">Expires:</label>
               <div class="col-sm-7">

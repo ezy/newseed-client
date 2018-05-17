@@ -10,7 +10,7 @@
         <div class="carousel-caption">
           <span class="category {{slide.category}}">{{slide.category}}</span>
           <h4>{{slide.title}}</h4>
-          <p>{{truncate-text slide.text limit="240" stripHtml=true}}</p>
+          <p>{{truncate-text slide.text limit="300" stripHtml=true}}</p>
           <p>
             {{#link-to 'notices.show' slide.id}}
               Read {{slide.title}}

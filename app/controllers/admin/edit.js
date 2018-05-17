@@ -37,6 +37,10 @@ export default Controller.extend({
       this.set('model.status', value);
       this.send('saveContent');
     },
+    saveSpeaker(value) {
+      this.set('model.speaker', value);
+      this.send('saveContent');
+    },
     saveContent() {
       let model = this.get('model');
       this.set('isSaving', true);

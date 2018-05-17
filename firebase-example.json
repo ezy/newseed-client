@@ -48,96 +48,96 @@
       0
     ]
   }],
-  "audios": [{
-      "id": 0,
-      "title": "The Vanishing Truth",
-      "status": "published",
-      "date": "2018-05-14T03:42:47.554Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "link": "",
-      "summary": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "speaker": "Bruce Bell",
-      "category": "sermon",
-      "churches": [
-        0
-      ],
-      "user": null
+  "audios" : {
+    "-LCfEITloUN3LqJ8lsIa" : {
+      "category" : "sermon",
+      "date" : "2018-02-10T11:00:00.000Z",
+      "image" : "/assets/img/stock/art-cathedral-christ-208216.jpg",
+      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180211.mp3?alt=media&token=bfb73957-50db-44a2-8927-95f089d349cf",
+      "speaker" : "Bruce Bell",
+      "status" : "published",
+      "text" : "",
+      "title" : "The Vanishing Truth",
+      "updated" : "2018-05-16T23:32:40.691Z"
     },
-    {
-      "id": 1,
-      "title": "10 commandments for a better life",
-      "status": "published",
-      "date": "2018-03-28T06:40:49.862Z",
-      "updated": "2018-03-28T06:40:49.862Z",
-      "link": "",
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "speaker": "Wendy Smyth",
-      "category": "sermon",
-      "churches": [
-        0
-      ],
-      "user": null
+    "-LCfHg5T8qdtBb0hE-l-" : {
+      "category" : "sermon",
+      "date" : "2018-02-03T11:00:00.000Z",
+      "image" : "/assets/img/audio.jpg",
+      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180204.mp3?alt=media&token=9a0f69d2-755d-4eab-95ba-66736eb7fc2c",
+      "speaker" : "Annetta",
+      "status" : "published",
+      "text" : "",
+      "title" : "The Joy of the Lord",
+      "updated" : "2018-05-16T23:32:57.666Z"
     },
-    {
-      "id": 2,
-      "title": "The great pair of ducks",
-      "status": "published",
-      "date": "2018-03-15T02:32:26.622Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "link": "",
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "speaker": "Bernard McLellan",
-      "category": "sermon",
-      "churches": [
-        0
-      ],
-      "user": null
+    "-LCfIHLWRjrj8g5FJiCa" : {
+      "category" : "sermon",
+      "date" : "2018-01-13T11:00:00.000Z",
+      "image" : "/assets/img/audio.jpg",
+      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180114.mp3?alt=media&token=426cd927-abd7-4e9e-a15c-b75e2687fdd9",
+      "speaker" : "Bruce Bell",
+      "status" : "published",
+      "text" : "",
+      "title" : "God's Ratbags",
+      "updated" : "2018-05-16T23:34:25.821Z"
     },
-    {
-      "id": 3,
-      "title": "The Joy of the Lord",
-      "status": "published",
-      "date": "2018-03-14T09:22:05.365Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "link": "",
-      "speaker": "Bruce Bell",
-      "category": "sermon",
-      "churches": [
-        0
-      ],
-      "user": null
+    "-LCfIf9IZyKG6Y20xKH5" : {
+      "category" : "sermon",
+      "date" : "2017-12-16T11:00:00.000Z",
+      "image" : "/assets/img/audio.jpg",
+      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171217.mp3?alt=media&token=f3a2defa-3974-4ed4-89fe-69d2d88fcfda",
+      "speaker" : "Bruce Bell",
+      "status" : "published",
+      "text" : "",
+      "title" : "Glory",
+      "updated" : "2018-05-16T23:36:30.566Z"
     },
-    {
-      "id": 4,
-      "title": "God's Ratbags",
-      "status": "published",
-      "date": "2018-03-12T10:50:44.179Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "link": "",
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "speaker": "Bruce Bell",
-      "category": "sermon",
-      "churches": [
-        0
-      ],
-      "user": null
+    "-LCfJ3c78Ftj5YKrxJvo" : {
+      "category" : "sermon",
+      "date" : "2017-12-09T11:00:00.000Z",
+      "image" : "/assets/img/audio.jpg",
+      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171210.mp3?alt=media&token=5504190f-2a45-45c1-89aa-77bb0d5126ec",
+      "speaker" : "Bruce Bell",
+      "status" : "draft",
+      "text" : "",
+      "title" : "Joy",
+      "updated" : "2018-05-16T23:37:59.532Z"
     },
-    {
-      "id": 5,
-      "title": "Taking God with Us",
-      "status": "published",
-      "date": "2018-03-05T05:02:21.178Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "link": "",
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "speaker": "Bruce Bell",
-      "category": "sermon",
-      "churches": [
-        0
-      ],
-      "user": null
+    "-LCfJGzQSzR1P2-jwmUe" : {
+      "category" : "sermon",
+      "date" : "2017-12-02T11:00:00.000Z",
+      "image" : "/assets/img/audio.jpg",
+      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171203.mp3?alt=media&token=86ba0018-022e-4baa-a8a1-92f681eda3a3",
+      "speaker" : "Bernard McLellan",
+      "status" : "published",
+      "text" : "",
+      "title" : "The Great Pair of Ducks",
+      "updated" : "2018-05-16T23:39:51.095Z"
+    },
+    "-LCfJcYSuKLHcbmPI5uy" : {
+      "category" : "sermon",
+      "date" : "2017-11-25T11:00:00.000Z",
+      "image" : "/assets/img/audio.jpg",
+      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171126.mp3?alt=media&token=68867782-a10b-4843-ae99-fd6edb5e5a26",
+      "speaker" : "Bruce Bell",
+      "status" : "published",
+      "text" : "",
+      "title" : "Taking God With Us: Part 2",
+      "updated" : "2018-05-16T23:47:05.333Z"
+    },
+    "-LCfJrrjngCwervzE7Ua" : {
+      "category" : "sermon",
+      "date" : "2017-11-11T11:00:00.000Z",
+      "image" : "/assets/img/audio.jpg",
+      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171112.mp3?alt=media&token=0dcf40cd-cbb4-40a4-9b3a-688379a2c2a3",
+      "speaker" : "Bruce Bell",
+      "status" : "published",
+      "text" : "",
+      "title" : "Taking God With Us: Part 1",
+      "updated" : "2018-05-16T23:41:37.591Z"
     }
-  ],
+  },
   "notices": [{
       "id": 0,
       "title": "Tinned food for the foodbank",
