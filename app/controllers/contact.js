@@ -1,6 +1,8 @@
 import Controller from '@ember/controller';
-import config from 'mustard/config/environment';
+import { computed } from '@ember/object';
 
 export default Controller.extend({
-  contactEmail: config.contactEmail,
+  contactEmail: computed('church.email', function() {
+    return this.get('church.email');
+  }),
 });
