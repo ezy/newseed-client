@@ -35,6 +35,23 @@ module.exports = function(environment) {
     torii: {
       sessionServiceName: 'session'
     },
+    metricsAdapters: [
+      {
+        name: 'GoogleAnalytics',
+        environments: ['development', 'production'],
+        config: {
+          id: 'UA-27428401-1',
+          // Use `analytics_debug.js` in development
+          debug: environment === 'development',
+          // Use verbose tracing of GA events
+          trace: environment === 'development',
+          // Ensure development env hits aren't sent to GA
+          sendHitTask: environment !== 'development',
+          // Specify Google Analytics plugins
+          require: ['ecommerce']
+        }
+      }
+    ]
   };
 
   ENV['ember-simple-auth'] = {
