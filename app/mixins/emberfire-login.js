@@ -1,6 +1,5 @@
 import Mixin from '@ember/object/mixin';
 import { inject as service } from '@ember/service';
-import { get } from '@ember/object';
 
 export default Mixin.create({
   session: service(),
@@ -11,13 +10,16 @@ export default Mixin.create({
         email: email,
         password: password
       }).then(() => {
-        get(this, 'goToIndex')();
+        this.transitionToRoute('admin.content');
       }).catch(() => {
         this.get('flashMessages').danger('Something went wrong - not logged in');
       });
     },
     invalidateSession() {
-      this.get('session').close();
+      this.get('session').close()
+      .then(() => {
+        this.transitionToRoute('index');
+      });
     }
   }
 });

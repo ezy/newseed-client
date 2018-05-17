@@ -2,6 +2,9 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
+        {{#each flashMessages.queue as |flash|}}
+          {{flash-message flash=flash class="mt-3 mb-0"}}
+        {{/each}}
         <div class="row">
           <div class="col-md-4 mx-auto mt-5">
             <div class="card rounded-0">
