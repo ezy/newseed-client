@@ -5,7 +5,7 @@ import moment from 'moment';
 export default Component.extend({
   sortedNotices: computed('notices', function() {
     return this.get('notices').sort((a, b) => {
-      return moment(a.date).diff(moment(b.date));
-    }).reverse();
+      return moment(a.get('date')).diff(b.get('date'));
+    });
   }),
 });
