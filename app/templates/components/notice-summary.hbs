@@ -12,6 +12,7 @@
       </header>
       <p class="text-body">{{truncate-text notice.text limit="154" stripHtml=true}}</p>
       <span class="datestamp">{{date-format notice.date 'D MMM YY'}}</span>
+      {{#if notice.tags}}
       <p class="float-right">
         <i class="material-icons">label_outline</i>
         {{#each notice.tags as |tag|}}
@@ -20,6 +21,7 @@
           {{/link-to}}
         {{/each}}
       </p>
+      {{/if}}
       <hr>
     </article>
   </li>

@@ -1,396 +1,186 @@
 {
-  "churches": [{
-    "id": 0,
-    "name": "The OLIVE TREE",
-    "address": "486 Jackson Street",
-    "address2": "Petone",
-    "city": "Lower Hutt",
-    "state": "",
-    "country": "New Zealand",
-    "zip": "5012",
-    "phone": "(04) 891 0557",
-    "longitude": "174.8940164",
-    "latitude": "-41.2302084",
-    "email": "ezrakeddell@gmail.com",
-    "facebook": "",
-    "twitter": "",
-    "serviceDay": "Sunday",
-    "serviceTimes": ["10:30"],
-    "users": [
-      0
-    ]
-  }],
-  "pages": [{
-    "id": 0,
-    "title": "About",
-    "status": "published",
-    "updated": "2018-03-01T15:08:46.874Z",
-    "text": "<p>The journey for The Olive Tree Church began when three experienced leaders sat down and over coffee wondered aloud what they would do if they could do it all over again. What would they do the same; what would they do differently; what would theydo if they could start with the proverbial 'blank sheet of paper.' Their thoughts found a commonality of expression and soon other like minded people urged them to do something about it. And so the Olive Tree was born. It is not an attempt todo church the right way (as if there is only one way to love God and love others) just to do it a different way; to intentionally place the emphasis on the basics (original design).</p><p>Given that the Bible has little to say on the 'how' of doing church but a lot on the 'why' we are committed to living together as a church community based primarily on the first principles of scripture. This means that we place more value on people thanon performance or Church 'bling'. We want to keep church simple so that it fulfils its valuable contribution to a well lived Christian life but not at the expense of burning people out. We want to keep it real, which also means allowing peopleto be less than perfect and make mistakes. We want to practice servant leadership, firstly in the church but also in the world where we are consistently rising to the challenge of serving those Jesus describes as 'the least of these.' We don'twant people to come and build the church's vision but rather we want the church to equip and build people to live out their God given visions and dreams. We want to see the Kingdom of God developed in every aspect of where Christians live, notjust for a few hours on a Sunday morning or one night a week.</p><p>This is the journey we are committed to. This is the story we want to write. So what about you? What would you do if your life was a blank piece of paper and you could write what you wanted..?</p>",
-    "churches": [
-      0
-    ]
-  }, {
-    "id": 1,
-    "title": "Statement of Faith",
-    "status": "published",
-    "updated": "2018-02-01T15:08:46.874Z",
-    "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-    "churches": [
-      0
-    ]
-  }, {
-    "id": 2,
-    "title": "Draft page",
-    "status": "draft",
-    "updated": "2018-02-01T15:08:46.874Z",
-    "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-    "churches": [
-      0
-    ]
-  }],
-  "audios" : {
-    "-LCfEITloUN3LqJ8lsIa" : {
-      "category" : "sermon",
-      "date" : "2018-02-10T11:00:00.000Z",
-      "image" : "/assets/img/stock/art-cathedral-christ-208216.jpg",
-      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180211.mp3?alt=media&token=bfb73957-50db-44a2-8927-95f089d349cf",
-      "speaker" : "Bruce Bell",
-      "status" : "published",
-      "text" : "",
-      "title" : "The Vanishing Truth",
-      "updated" : "2018-05-16T23:32:40.691Z"
+  "audios": {
+    "0": {
+      "category": "sermon",
+      "date": "2018-02-10T11:00:00.000Z",
+      "image": "/assets/img/stock/art-cathedral-christ-208216.jpg",
+      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180211.mp3?alt=media&token=bfb73957-50db-44a2-8927-95f089d349cf",
+      "speaker": "Bruce Bell",
+      "status": "published",
+      "text": "",
+      "title": "The Vanishing Truth",
+      "updated": "2018-05-16T23:32:40.691Z"
     },
-    "-LCfHg5T8qdtBb0hE-l-" : {
-      "category" : "sermon",
-      "date" : "2018-02-03T11:00:00.000Z",
-      "image" : "/assets/img/audio.jpg",
-      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180204.mp3?alt=media&token=9a0f69d2-755d-4eab-95ba-66736eb7fc2c",
-      "speaker" : "Annetta",
-      "status" : "published",
-      "text" : "",
-      "title" : "The Joy of the Lord",
-      "updated" : "2018-05-16T23:32:57.666Z"
+    "1": {
+      "category": "sermon",
+      "date": "2018-02-03T11:00:00.000Z",
+      "image": "/assets/img/audio.jpg",
+      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180204.mp3?alt=media&token=9a0f69d2-755d-4eab-95ba-66736eb7fc2c",
+      "speaker": "Annetta",
+      "status": "published",
+      "text": "",
+      "title": "The Joy of the Lord",
+      "updated": "2018-05-16T23:32:57.666Z"
     },
-    "-LCfIHLWRjrj8g5FJiCa" : {
-      "category" : "sermon",
-      "date" : "2018-01-13T11:00:00.000Z",
-      "image" : "/assets/img/audio.jpg",
-      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180114.mp3?alt=media&token=426cd927-abd7-4e9e-a15c-b75e2687fdd9",
-      "speaker" : "Bruce Bell",
-      "status" : "published",
-      "text" : "",
-      "title" : "God's Ratbags",
-      "updated" : "2018-05-16T23:34:25.821Z"
+    "2": {
+      "category": "sermon",
+      "date": "2018-01-13T11:00:00.000Z",
+      "image": "/assets/img/audio.jpg",
+      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180114.mp3?alt=media&token=426cd927-abd7-4e9e-a15c-b75e2687fdd9",
+      "speaker": "Bruce Bell",
+      "status": "published",
+      "text": "",
+      "title": "God's Ratbags",
+      "updated": "2018-05-16T23:34:25.821Z"
     },
-    "-LCfIf9IZyKG6Y20xKH5" : {
-      "category" : "sermon",
-      "date" : "2017-12-16T11:00:00.000Z",
-      "image" : "/assets/img/audio.jpg",
-      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171217.mp3?alt=media&token=f3a2defa-3974-4ed4-89fe-69d2d88fcfda",
-      "speaker" : "Bruce Bell",
-      "status" : "published",
-      "text" : "",
-      "title" : "Glory",
-      "updated" : "2018-05-16T23:36:30.566Z"
+    "3": {
+      "category": "sermon",
+      "date": "2017-12-16T11:00:00.000Z",
+      "image": "/assets/img/audio.jpg",
+      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171217.mp3?alt=media&token=f3a2defa-3974-4ed4-89fe-69d2d88fcfda",
+      "speaker": "Bruce Bell",
+      "status": "published",
+      "text": "",
+      "title": "Glory",
+      "updated": "2018-05-16T23:36:30.566Z"
     },
-    "-LCfJ3c78Ftj5YKrxJvo" : {
-      "category" : "sermon",
-      "date" : "2017-12-09T11:00:00.000Z",
-      "image" : "/assets/img/audio.jpg",
-      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171210.mp3?alt=media&token=5504190f-2a45-45c1-89aa-77bb0d5126ec",
-      "speaker" : "Bruce Bell",
-      "status" : "draft",
-      "text" : "",
-      "title" : "Joy",
-      "updated" : "2018-05-16T23:37:59.532Z"
+    "4": {
+      "category": "sermon",
+      "date": "2017-12-09T11:00:00.000Z",
+      "image": "/assets/img/audio.jpg",
+      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171210.mp3?alt=media&token=5504190f-2a45-45c1-89aa-77bb0d5126ec",
+      "speaker": "Bruce Bell",
+      "status": "draft",
+      "text": "",
+      "title": "Joy",
+      "updated": "2018-05-16T23:37:59.532Z"
     },
-    "-LCfJGzQSzR1P2-jwmUe" : {
-      "category" : "sermon",
-      "date" : "2017-12-02T11:00:00.000Z",
-      "image" : "/assets/img/audio.jpg",
-      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171203.mp3?alt=media&token=86ba0018-022e-4baa-a8a1-92f681eda3a3",
-      "speaker" : "Bernard McLellan",
-      "status" : "published",
-      "text" : "",
-      "title" : "The Great Pair of Ducks",
-      "updated" : "2018-05-16T23:39:51.095Z"
+    "5": {
+      "category": "sermon",
+      "date": "2017-12-02T11:00:00.000Z",
+      "image": "/assets/img/audio.jpg",
+      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171203.mp3?alt=media&token=86ba0018-022e-4baa-a8a1-92f681eda3a3",
+      "speaker": "Bernard McLellan",
+      "status": "published",
+      "text": "",
+      "title": "The Great Pair of Ducks",
+      "updated": "2018-05-16T23:39:51.095Z"
     },
-    "-LCfJcYSuKLHcbmPI5uy" : {
-      "category" : "sermon",
-      "date" : "2017-11-25T11:00:00.000Z",
-      "image" : "/assets/img/audio.jpg",
-      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171126.mp3?alt=media&token=68867782-a10b-4843-ae99-fd6edb5e5a26",
-      "speaker" : "Bruce Bell",
-      "status" : "published",
-      "text" : "",
-      "title" : "Taking God With Us: Part 2",
-      "updated" : "2018-05-16T23:47:05.333Z"
+    "6": {
+      "category": "sermon",
+      "date": "2017-11-25T11:00:00.000Z",
+      "image": "/assets/img/audio.jpg",
+      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171126.mp3?alt=media&token=68867782-a10b-4843-ae99-fd6edb5e5a26",
+      "speaker": "Bruce Bell",
+      "status": "published",
+      "text": "",
+      "title": "Taking God With Us: Part 2",
+      "updated": "2018-05-16T23:47:05.333Z"
     },
-    "-LCfJrrjngCwervzE7Ua" : {
-      "category" : "sermon",
-      "date" : "2017-11-11T11:00:00.000Z",
-      "image" : "/assets/img/audio.jpg",
-      "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171112.mp3?alt=media&token=0dcf40cd-cbb4-40a4-9b3a-688379a2c2a3",
-      "speaker" : "Bruce Bell",
-      "status" : "published",
-      "text" : "",
-      "title" : "Taking God With Us: Part 1",
-      "updated" : "2018-05-16T23:41:37.591Z"
+    "7": {
+      "category": "sermon",
+      "date": "2017-11-11T11:00:00.000Z",
+      "image": "/assets/img/audio.jpg",
+      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171112.mp3?alt=media&token=0dcf40cd-cbb4-40a4-9b3a-688379a2c2a3",
+      "speaker": "Bruce Bell",
+      "status": "published",
+      "text": "",
+      "title": "Taking God With Us: Part 1",
+      "updated": "2018-05-16T23:41:37.591Z"
     }
   },
-  "notices": [{
-      "id": 0,
-      "title": "Tinned food for the foodbank",
-      "status": "published",
-      "image": "https://placeimg.com/800/600/people",
-      "category": "need",
-      "date": "2018-05-01T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "frequency": null,
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "tags": [
-        "et",
-        "modi",
-        "ut"
-      ],
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 1,
-      "title": "Welcome to The Olive Tree",
-      "status": "published",
-      "image": "/assets/img/stock/blur-branches-close-up-1047312.jpg",
-      "category": "news",
-      "date": "2018-05-02T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "frequency": null,
-      "text": "<p>The journey for The Olive Tree Church began when three experienced leaders sat down and over coffee wondered aloud what they would do if they could do it all over again.  What would they do the same; what would they do differently; what would they do if they could start with the proverbial 'blank sheet of paper.'</p>",
-      "tags": [
-        "maxime",
-        "qui",
-        "doloremque",
-        "slide"
-      ],
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Big day out",
-      "status": "published",
-      "image": "https://placeimg.com/800/600/animals",
-      "category": "event",
-      "date": "2018-05-03T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "frequency": null,
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "tags": [
-        "vitae",
-        "deserunt",
-        "vel",
-        "slide"
-      ],
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Dogs at the park",
-      "status": "published",
-      "image": "https://placeimg.com/800/600/sepia",
-      "category": "event",
-      "date": "2018-05-04T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "frequency": null,
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "tags": [
-        "consequatur",
-        "consequatur",
-        "delectus"
-      ],
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 4,
-      "title": "ENLI graduation",
-      "status": "published",
-      "image": "https://placeimg.com/800/600/people",
-      "category": "news",
-      "date": "2018-05-05T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "frequency": null,
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "tags": [
-        "temporibus",
-        "ullam",
-        "enim"
-      ],
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Airsoft on Sunday",
-      "status": "published",
-      "image": "https://placeimg.com/800/600/people",
-      "category": "event",
-      "date": "2018-05-06T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "frequency": null,
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "tags": [
-        "hic",
-        "earum",
-        "eius"
-      ],
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Someone is awesome",
-      "status": "published",
-      "image": "https://placeimg.com/800/600/people",
-      "category": "news",
-      "date": "2018-05-07T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "frequency": null,
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "tags": [
-        "hic",
-        "earum",
-        "eius",
-        "slide"
-      ],
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Pizza night",
-      "status": "published",
-      "image": "https://placeimg.com/800/600/people",
-      "category": "event",
-      "date": "2018-05-08T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "frequency": null,
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "tags": [
-        "hic",
-        "earum",
-        "eius"
-      ],
-      "churches": [
-        0
-      ]
-    }
-  ],
-  "people": [{
-      "id": 0,
-      "name": "Andrea Rounthwaite",
-      "image": "https://placeimg.com/800/600/people",
-      "text": "<p>I'm delighted to be part of The Olive Tree. What I hope to bring to this team is my heart for the broken-hearted in this community. I am a counsellor, Life Coach, Behavioural Analyst and Pastor. I have worked in the area of Recovery for over 30 years, specialising in relationships and addiction. I'm presently directing the programme \"Celebrate Recovery\" and \"Boundaries.\" Jesus said He heals and hears the broken hearted, and I pray He will continue to empower me to bring His desire to this community.</p>",
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 1,
-      "name": "Bruce Bell",
-      "image": "https://placeimg.com/800/600/people",
-      "text": "<p>My background was as a lawyer before moving to work in the areas of law enforcement and defence.  I have always had a passion for the Word of God and this led to further study in theology and biblical studies.  As well as a degree in Law I also have a Post Graduate Diploma in Theology and a PhD in Theology.  I was the teaching pastor at another church before becoming part of the team at The Olive Tree.  I have an abiding interest in philosophy/worldviews, history, science and hermeneutics (interpreting scripture).  Apart from shepherding God’s people on a daily basis and watching them grow and develop, I love nothing more than being able to preach and teach His Word.</p>",
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Wendy Smythe",
-      "image": "https://placeimg.com/800/600/people",
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "churches": [
-        0
-      ]
-    }
-  ],
-  "services": [{
-      "id": 0,
-      "date": "2018-05-20T03:42:47.554Z",
-      "updated": "2018-05-14T03:42:47.554Z",
-      "speaker": "Speaker Spoken",
-      "topic": "Lorem Ipsum",
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 1,
-      "date": "2018-05-20T03:42:47.554Z",
-      "updated": "2018-05-20T03:42:47.554Z",
-      "speaker": "Adam Adamson",
-      "topic": "Lorem Ipsum",
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 2,
-      "date": "2018-05-20T10:00:00.000Z",
-      "updated": "2018-05-13T03:42:47.554Z",
-      "speaker": "Bruce Bell",
-      "topic": "Lorem Ipsum",
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 3,
-      "date": "2018-05-13T10:00:00.000Z",
-      "updated": "2018-05-20T03:42:47.554Z",
-      "speaker": "Adam Adamson",
-      "topic": "Lorem Ipsum",
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 4,
-      "date": "2018-05-13T10:00:00.000Z",
-      "updated": "2018-05-27T03:42:47.554Z",
-      "speaker": "Bruce Bell",
-      "topic": "Lorem Ipsum",
-      "churches": [
-        0
-      ]
-    },
-    {
-      "id": 5,
-      "date": "2018-05-20T03:42:47.554Z",
-      "updated": "2018-05-27T03:42:47.554Z",
-      "speaker": "Adam Adamson",
-      "topic": "Lorem Ipsum",
-      "churches": [
-        0
-      ]
-    }
-  ],
+  "churches": [{
+    "address": "476-486 Jackson Street",
+    "address2": "Petone",
+    "city": "Lower Hutt",
+    "country": "New Zealand",
+    "email": "church@church.com",
+    "facebook": "",
+    "id": 0,
+    "latitude": "-41.2302084",
+    "longitude": "174.8940164",
+    "name": "The OLIVE TREE",
+    "phone": "(04) 891 0557",
+    "serviceDay": "Sunday",
+    "serviceTimes": ["10:30"],
+    "state": "",
+    "twitter": "",
+    "users": [0],
+    "zip": "5012"
+  }],
+  "images": [{
+    "id": 0,
+    "image": "/assets/img/stock/adult-airport-alone-362948.jpg"
+  }, {
+    "id": 1,
+    "image": "/assets/img/stock/beggar-begging-homeless-2128.jpg"
+  }, {
+    "id": 2,
+    "image": "/assets/img/stock/adult-blur-business-918778.jpg"
+  }, {
+    "id": 3,
+    "image": "/assets/img/stock/bible-blur-book-895449.jpg"
+  }, {
+    "id": 4,
+    "image": "/assets/img/stock/ancient-arch-architecture-356658.jpg"
+  }, {
+    "id": 5,
+    "image": "/assets/img/stock/bible-book-candle-256560.jpg"
+  }, {
+    "id": 6,
+    "image": "/assets/img/stock/architecture-art-cathedral-390052.jpg"
+  }, {
+    "id": 7,
+    "image": "/assets/img/stock/bloom-blossom-clean-580871.jpg"
+  }, {
+    "id": 8,
+    "image": "/assets/img/stock/art-cathedral-christ-208216.jpg"
+  }, {
+    "id": 9,
+    "image": "/assets/img/stock/blur-bokeh-close-up-164879.jpg"
+  }, {
+    "id": 10,
+    "image": "/assets/img/stock/audience-band-christians-213207.jpg"
+  }, {
+    "id": 11,
+    "image": "/assets/img/stock/blur-branches-close-up-1047312.jpg"
+  }, {
+    "id": 12,
+    "image": "/assets/img/stock/audience-blur-bokeh-976866.jpg"
+  }, {
+    "id": 13,
+    "image": "/assets/img/stock/blur-community-crowd-5156.jpg"
+  }, {
+    "id": 14,
+    "image": "/assets/img/stock/background-beautiful-blossom-268533.jpg"
+  }, {
+    "id": 15,
+    "image": "/assets/img/stock/book-chair-chat-711009.jpg"
+  }, {
+    "id": 16,
+    "image": "/assets/img/stock/backlit-cemetery-christianity-415571.jpg"
+  }, {
+    "id": 17,
+    "image": "/assets/img/stock/buildings-church-city-335887.jpg"
+  }, {
+    "id": 18,
+    "image": "/assets/img/stock/backlit-clouds-dusk-853168.jpg"
+  }, {
+    "id": 19,
+    "image": "/assets/img/stock/christianity-cross-god-54333.jpg"
+  }, {
+    "id": 20,
+    "image": "/assets/img/stock/band-bokeh-close-up-144428.jpg"
+  }, {
+    "id": 21,
+    "image": "/assets/img/stock/church-clouds-countryside-460611.jpg"
+  }, {
+    "id": 22,
+    "image": "/assets/img/stock/beach-beautiful-grass-358418.jpg"
+  }, {
+    "id": 23,
+    "image": "/assets/img/stock/beach-dawn-dusk-189349.jpg"
+  }],
   "ministries": [{
     "churches": [0],
     "id": 0,
@@ -432,101 +222,194 @@
     "title": "Olive Tree Worship",
     "updated": "2018-05-16T04:23:10.813Z"
   }],
-  "images": [{
+  "notices": {
+    "0": {
+      "category": "need",
+      "churches": [0],
+      "created": "2018-05-01T03:42:47.554Z",
+      "date": "2018-05-01T03:42:47.554Z",
+      "expires": "2018-10-14T03:42:47.554Z",
       "id": 0,
-      "image": "/assets/img/stock/adult-airport-alone-362948.jpg"
+      "image": "https://placeimg.com/800/600/people",
+      "status": "published",
+      "tags": ["et", "modi", "ut"],
+      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+      "title": "Tinned food for the foodbank",
+      "updated": "2018-05-14T03:42:47.554Z"
     },
-    {
+    "1": {
+      "category": "news",
+      "churches": [0],
+      "created": "2018-05-02T03:42:47.554Z",
+      "date": "2018-05-02T03:42:47.554Z",
+      "expires": "2018-10-14T03:42:47.554Z",
       "id": 1,
-      "image": "/assets/img/stock/beggar-begging-homeless-2128.jpg"
+      "image": "/assets/img/stock/blur-branches-close-up-1047312.jpg",
+      "status": "published",
+      "tags": ["maxime", "qui", "doloremque", "slide"],
+      "text": "<p>The journey for The Olive Tree Church began when three experienced leaders sat down and over coffee wondered aloud what they would do if they could do it all over again.  What would they do the same; what would they do differently; what would they do if they could start with the proverbial 'blank sheet of paper.'</p>",
+      "title": "Welcome to The Olive Tree",
+      "updated": "2018-05-14T03:42:47.554Z"
     },
-    {
+    "2": {
+      "category": "event",
+      "churches": [0],
+      "created": "2018-05-03T03:42:47.554Z",
+      "date": "2018-05-03T03:42:47.554Z",
+      "expires": "2018-10-14T03:42:47.554Z",
       "id": 2,
-      "image": "/assets/img/stock/adult-blur-business-918778.jpg"
+      "image": "https://placeimg.com/800/600/animals",
+      "status": "published",
+      "tags": ["vitae", "deserunt", "vel", "slide"],
+      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+      "title": "Big day out",
+      "updated": "2018-05-14T03:42:47.554Z"
     },
-    {
+    "3": {
+      "category": "event",
+      "churches": [0],
+      "created": "2018-05-04T03:42:47.554Z",
+      "date": "2018-05-04T03:42:47.554Z",
+      "expires": "2018-10-14T03:42:47.554Z",
       "id": 3,
-      "image": "/assets/img/stock/bible-blur-book-895449.jpg"
+      "image": "https://placeimg.com/800/600/sepia",
+      "status": "published",
+      "tags": ["consequatur", "consequatur", "delectus"],
+      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+      "title": "Dogs at the park",
+      "updated": "2018-05-14T03:42:47.554Z"
     },
-    {
+    "4": {
+      "category": "news",
+      "churches": [0],
+      "created": "2018-05-05T03:42:47.554Z",
+      "date": "2018-05-05T03:42:47.554Z",
+      "expires": "2018-10-14T03:42:47.554Z",
       "id": 4,
-      "image": "/assets/img/stock/ancient-arch-architecture-356658.jpg"
+      "image": "https://placeimg.com/800/600/people",
+      "status": "published",
+      "tags": ["temporibus", "ullam", "enim"],
+      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+      "title": "ENLI graduation",
+      "updated": "2018-05-14T03:42:47.554Z"
     },
-    {
+    "5": {
+      "category": "event",
+      "churches": [0],
+      "created": "2018-05-06T03:42:47.554Z",
+      "date": "2018-05-06T03:42:47.554Z",
+      "expires": "2018-10-14T03:42:47.554Z",
       "id": 5,
-      "image": "/assets/img/stock/bible-book-candle-256560.jpg"
+      "image": "https://placeimg.com/800/600/people",
+      "status": "published",
+      "tags": ["hic", "earum", "eius"],
+      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+      "title": "Airsoft on Sunday",
+      "updated": "2018-05-14T03:42:47.554Z"
     },
-    {
+    "6": {
+      "category": "news",
+      "churches": [0],
+      "created": "2018-05-07T03:42:47.554Z",
+      "date": "2018-05-07T03:42:47.554Z",
+      "expires": "2018-10-14T03:42:47.554Z",
       "id": 6,
-      "image": "/assets/img/stock/architecture-art-cathedral-390052.jpg"
+      "image": "https://placeimg.com/800/600/people",
+      "status": "published",
+      "tags": ["hic", "earum", "eius", "slide"],
+      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+      "title": "Someone is awesome",
+      "updated": "2018-05-14T03:42:47.554Z"
     },
-    {
+    "7": {
+      "category": "event",
+      "churches": "0",
+      "created": "2018-05-08T03:42:47.554Z",
+      "date": "2018-05-08T03:42:47.554Z",
+      "expires": "2018-10-14T03:42:47.554Z",
+      "frequency": "day",
       "id": 7,
-      "image": "/assets/img/stock/bloom-blossom-clean-580871.jpg"
+      "image": "/assets/img/stock/book-chair-chat-711009.jpg",
+      "status": "published",
+      "tags": ["Pizza", "Yum"],
+      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href=\"#\">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula bh molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+      "title": "Pizza night",
+      "updated": "2018-05-17T06:03:04.010Z"
     },
-    {
-      "id": 8,
-      "image": "/assets/img/stock/art-cathedral-christ-208216.jpg"
-    },
-    {
-      "id": 9,
-      "image": "/assets/img/stock/blur-bokeh-close-up-164879.jpg"
-    },
-    {
-      "id": 10,
-      "image": "/assets/img/stock/audience-band-christians-213207.jpg"
-    },
-    {
-      "id": 11,
-      "image": "/assets/img/stock/blur-branches-close-up-1047312.jpg"
-    },
-    {
-      "id": 12,
-      "image": "/assets/img/stock/audience-blur-bokeh-976866.jpg"
-    },
-    {
-      "id": 13,
-      "image": "/assets/img/stock/blur-community-crowd-5156.jpg"
-    },
-    {
-      "id": 14,
-      "image": "/assets/img/stock/background-beautiful-blossom-268533.jpg"
-    },
-    {
-      "id": 15,
-      "image": "/assets/img/stock/book-chair-chat-711009.jpg"
-    },
-    {
-      "id": 16,
-      "image": "/assets/img/stock/backlit-cemetery-christianity-415571.jpg"
-    },
-    {
-      "id": 17,
-      "image": "/assets/img/stock/buildings-church-city-335887.jpg"
-    },
-    {
-      "id": 18,
-      "image": "/assets/img/stock/backlit-clouds-dusk-853168.jpg"
-    },
-    {
-      "id": 19,
-      "image": "/assets/img/stock/christianity-cross-god-54333.jpg"
-    },
-    {
-      "id": 20,
-      "image": "/assets/img/stock/band-bokeh-close-up-144428.jpg"
-    },
-    {
-      "id": 21,
-      "image": "/assets/img/stock/church-clouds-countryside-460611.jpg"
-    },
-    {
-      "id": 22,
-      "image": "/assets/img/stock/beach-beautiful-grass-358418.jpg"
-    },
-    {
-      "id": 23,
-      "image": "/assets/img/stock/beach-dawn-dusk-189349.jpg"
+    "8": {
+      "category": "event",
+      "created": "2018-05-20T12:00:00.000Z",
+      "date": "2018-05-20T12:00:00.000Z",
+      "expires": "2018-05-26T12:00:00.000Z",
+      "image": "/assets/img/stock/bloom-blossom-clean-580871.jpg",
+      "status": "published",
+      "tags": ["Women's Group"],
+      "text": "<p>Saturday 26th May - 6.30 @ Olive Tree - Free Meal Provided</p>",
+      "title": "Women's Group - Natter and Platter",
+      "updated": "2018-05-22T02:18:01.777Z"
     }
-  ]
+  },
+  "pages": [{
+    "churches": [0],
+    "id": 0,
+    "status": "published",
+    "text": "<p>The journey for The Olive Tree Church began when three experienced leaders sat down and over coffee wondered aloud what they would do if they could do it all over again. What would they do the same; what would they do differently; what would theydo if they could start with the proverbial 'blank sheet of paper.' Their thoughts found a commonality of expression and soon other like minded people urged them to do something about it. And so the Olive Tree was born. It is not an attempt todo church the right way (as if there is only one way to love God and love others) just to do it a different way; to intentionally place the emphasis on the basics (original design).</p><p>Given that the Bible has little to say on the 'how' of doing church but a lot on the 'why' we are committed to living together as a church community based primarily on the first principles of scripture. This means that we place more value on people thanon performance or Church 'bling'. We want to keep church simple so that it fulfils its valuable contribution to a well lived Christian life but not at the expense of burning people out. We want to keep it real, which also means allowing peopleto be less than perfect and make mistakes. We want to practice servant leadership, firstly in the church but also in the world where we are consistently rising to the challenge of serving those Jesus describes as 'the least of these.' We don'twant people to come and build the church's vision but rather we want the church to equip and build people to live out their God given visions and dreams. We want to see the Kingdom of God developed in every aspect of where Christians live, notjust for a few hours on a Sunday morning or one night a week.</p><p>This is the journey we are committed to. This is the story we want to write. So what about you? What would you do if your life was a blank piece of paper and you could write what you wanted..?</p>",
+    "title": "About",
+    "updated": "2018-03-01T15:08:46.874Z"
+  }, {
+    "churches": [0],
+    "id": 1,
+    "status": "published",
+    "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+    "title": "Statement of Faith",
+    "updated": "2018-02-01T15:08:46.874Z"
+  }, {
+    "churches": [0],
+    "id": 2,
+    "status": "draft",
+    "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+    "title": "Draft page",
+    "updated": "2018-02-01T15:08:46.874Z"
+  }],
+  "people": [{
+    "churches": [0],
+    "id": 0,
+    "image": "https://placeimg.com/800/600/people",
+    "name": "Andrea Rounthwaite",
+    "text": "<p>I'm delighted to be part of The Olive Tree. What I hope to bring to this team is my heart for the broken-hearted in this community. I am a counsellor, Life Coach, Behavioural Analyst and Pastor. I have worked in the area of Recovery for over 30 years, specialising in relationships and addiction. I'm presently directing the programme \"Celebrate Recovery\" and \"Boundaries.\" Jesus said He heals and hears the broken hearted, and I pray He will continue to empower me to bring His desire to this community.</p>"
+  }, {
+    "churches": [0],
+    "id": 1,
+    "image": "https://placeimg.com/800/600/people",
+    "name": "Bruce Bell",
+    "text": "<p>My background was as a lawyer before moving to work in the areas of law enforcement and defence.  I have always had a passion for the Word of God and this led to further study in theology and biblical studies.  As well as a degree in Law I also have a Post Graduate Diploma in Theology and a PhD in Theology.  I was the teaching pastor at another church before becoming part of the team at The Olive Tree.  I have an abiding interest in philosophy/worldviews, history, science and hermeneutics (interpreting scripture).  Apart from shepherding God’s people on a daily basis and watching them grow and develop, I love nothing more than being able to preach and teach His Word.</p>"
+  }, {
+    "churches": [0],
+    "id": 2,
+    "image": "https://placeimg.com/800/600/people",
+    "name": "Wendy Smythe",
+    "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>"
+  }],
+  "services": {
+    "0": {
+      "churches": [0],
+      "date": "2018-05-13T10:00:00.000Z",
+      "id": 3,
+      "speaker": "Adam Adamson",
+      "topic": "Lorem Ipsum",
+      "updated": "2018-05-20T03:42:47.554Z"
+    },
+    "1": {
+      "churches": [0],
+      "date": "2018-05-13T10:00:00.000Z",
+      "id": 4,
+      "speaker": "Bruce Bell",
+      "topic": "Lorem Ipsum",
+      "updated": "2018-05-27T03:42:47.554Z"
+    },
+    "2": {
+      "date": "2018-05-19T22:30:00.000Z",
+      "speaker": "Bruce Bell"
+    }
+  }
 }

@@ -24,12 +24,12 @@ module.exports = function(environment) {
 
     // This needs to be removed for EC2 when ready https://github.com/firebase/emberfire
     firebase: {
-      apiKey: "AIzaSyCF-dgU03LP5AlFzAS4T76MhmWd7AMFAIY",
-      authDomain: "olive-8020d.firebaseapp.com",
-      databaseURL: "https://olive-8020d.firebaseio.com",
-      projectId: "olive-8020d",
-      storageBucket: "olive-8020d.appspot.com",
-      messagingSenderId: "7867707961"
+      apiKey: "AIzaSyBvX9N2bUvy1Aflf_kjF4AngGGoekeyKqw",
+      authDomain: "olive-dev-c9207.firebaseapp.com",
+      databaseURL: "https://olive-dev-c9207.firebaseio.com",
+      projectId: "olive-dev-c9207",
+      storageBucket: "olive-dev-c9207.appspot.com",
+      messagingSenderId: "249986444927"
     },
     torii: {
       sessionServiceName: 'session'
