@@ -1,5 +1,5 @@
 import Controller from '@ember/controller';
-import EmberfireLogin from 'mustard/mixins/emberfire-login';
+import EmberfireLogin from 'newseed/mixins/emberfire-login';
 
 export default Controller.extend(EmberfireLogin, {
 });

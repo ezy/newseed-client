@@ -1,5 +1,5 @@
 {
-  "name": "mustard",
+  "name": "newseed",
   "dependencies": {
     "pace": "^1.0.2",
     "medium-editor": "5.14.4",
