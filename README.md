@@ -38,9 +38,12 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+### Deploying to heroku acceptance server (early stage)
 
-Specify what it takes to deploy your app.
+From https://github.com/heroku/ember-js-getting-started
+
+* $ git push heroku master
+* $ heroku open
 
 ## Further Reading / Useful Links
 
