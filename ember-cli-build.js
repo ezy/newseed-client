@@ -10,6 +10,9 @@ module.exports = function(defaults) {
     },
     flatpickr: {
       theme: 'airbnb'
+    },
+    fingerprint: {
+      exclude: ['assets/img']
     }
   });
 
