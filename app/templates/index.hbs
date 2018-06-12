@@ -3,9 +3,10 @@
 <div class="main">
 
   {{slide-carousel id="home-carousel" slides=slides}}
-  {{log slides}}
 
   {{this-sunday service=nextService}}
+
+  {{this-week }}
 
   <div class="container-fluid">
     {{#if (and (not model.audios) (not eventsOnlyFeed))}}
