@@ -6,7 +6,9 @@ import moment from 'moment';
 export default Component.extend({
   weekSchedule: computed('events', 'services', function() {
     let schedule = new EmberObject(),
-        events = this.get('events'),
+        events = this.get('events').filter(notice => {
+          return notice.get('category') === 'event';
+        }),
         today = moment().startOf('day'),
         // set the checkDate to next Sunday just before midnight
         sunday = moment().day(7).endOf('day'),
@@ -15,27 +17,25 @@ export default Component.extend({
         });
 
     services.forEach(service => service.set('title', 'Service'));
+    schedule.setProperties({
+      'Monday': A(),
+      'Tuesday': A(),
+      'Wednesday': A(),
+      'Thursday': A(),
+      'Friday': A(),
+      'Saturday': A(),
+      'Sunday': A()
+    });
 
-    function _setData(data, obj) {
+    function _setData(data, sched) {
       data.forEach(e => {
         const key = moment(e.get('date')).format('dddd');
-        // Check for the key and add it if !exist
-        if (!obj.get(key)) {
-          obj.set(key, A());
-        }
-        obj.get(key).pushObject(e)
+        sched.get(key).pushObject(e);
       });
     }
 
     _setData(events, schedule);
     _setData(services, schedule);
-
-    console.log(schedule);
-
-    // schedule.sort((a, b) => {
-    //   console.log(a,b);
-    //   return moment(a).diff(b);
-    // });
 
     return schedule;
   }),

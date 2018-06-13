@@ -1,415 +1,511 @@
 {
-  "audios": {
-    "0": {
-      "category": "sermon",
-      "date": "2018-02-10T11:00:00.000Z",
-      "image": "/assets/img/stock/art-cathedral-christ-208216.jpg",
-      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180211.mp3?alt=media&token=bfb73957-50db-44a2-8927-95f089d349cf",
-      "speaker": "Bruce Bell",
-      "status": "published",
-      "text": "",
-      "title": "The Vanishing Truth",
-      "updated": "2018-05-16T23:32:40.691Z"
+  "audios" : [ {
+    "category" : "sermon",
+    "date" : "2018-02-10T11:00:00.000Z",
+    "image" : "/assets/img/stock/art-cathedral-christ-208216.jpg",
+    "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180211.mp3?alt=media&token=bfb73957-50db-44a2-8927-95f089d349cf",
+    "speaker" : "Bruce Bell",
+    "status" : "published",
+    "text" : "",
+    "title" : "The Vanishing Truth",
+    "updated" : "2018-05-16T23:32:40.691Z"
+  }, {
+    "category" : "sermon",
+    "date" : "2018-02-03T11:00:00.000Z",
+    "image" : "/assets/img/audio.jpg",
+    "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180204.mp3?alt=media&token=9a0f69d2-755d-4eab-95ba-66736eb7fc2c",
+    "speaker" : "Annetta",
+    "status" : "published",
+    "text" : "",
+    "title" : "The Joy of the Lord",
+    "updated" : "2018-05-16T23:32:57.666Z"
+  }, {
+    "category" : "sermon",
+    "date" : "2018-01-13T11:00:00.000Z",
+    "image" : "/assets/img/audio.jpg",
+    "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180114.mp3?alt=media&token=426cd927-abd7-4e9e-a15c-b75e2687fdd9",
+    "speaker" : "Bruce Bell",
+    "status" : "published",
+    "text" : "",
+    "title" : "God's Ratbags",
+    "updated" : "2018-05-16T23:34:25.821Z"
+  }, {
+    "category" : "sermon",
+    "date" : "2017-12-16T11:00:00.000Z",
+    "image" : "/assets/img/audio.jpg",
+    "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171217.mp3?alt=media&token=f3a2defa-3974-4ed4-89fe-69d2d88fcfda",
+    "speaker" : "Bruce Bell",
+    "status" : "published",
+    "text" : "",
+    "title" : "Glory",
+    "updated" : "2018-05-16T23:36:30.566Z"
+  }, {
+    "category" : "sermon",
+    "date" : "2017-12-09T11:00:00.000Z",
+    "image" : "/assets/img/audio.jpg",
+    "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171210.mp3?alt=media&token=5504190f-2a45-45c1-89aa-77bb0d5126ec",
+    "speaker" : "Bruce Bell",
+    "status" : "draft",
+    "text" : "",
+    "title" : "Joy",
+    "updated" : "2018-05-16T23:37:59.532Z"
+  }, {
+    "category" : "sermon",
+    "date" : "2017-12-02T11:00:00.000Z",
+    "image" : "/assets/img/audio.jpg",
+    "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171203.mp3?alt=media&token=86ba0018-022e-4baa-a8a1-92f681eda3a3",
+    "speaker" : "Bernard McLellan",
+    "status" : "published",
+    "text" : "",
+    "title" : "The Great Pair of Ducks",
+    "updated" : "2018-05-16T23:39:51.095Z"
+  }, {
+    "category" : "sermon",
+    "date" : "2017-11-25T11:00:00.000Z",
+    "image" : "/assets/img/audio.jpg",
+    "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171126.mp3?alt=media&token=68867782-a10b-4843-ae99-fd6edb5e5a26",
+    "speaker" : "Bruce Bell",
+    "status" : "published",
+    "text" : "",
+    "title" : "Taking God With Us: Part 2",
+    "updated" : "2018-05-16T23:47:05.333Z"
+  }, {
+    "category" : "sermon",
+    "date" : "2017-11-11T11:00:00.000Z",
+    "image" : "/assets/img/audio.jpg",
+    "link" : "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171112.mp3?alt=media&token=0dcf40cd-cbb4-40a4-9b3a-688379a2c2a3",
+    "speaker" : "Bruce Bell",
+    "status" : "published",
+    "text" : "",
+    "title" : "Taking God With Us: Part 1",
+    "updated" : "2018-05-16T23:41:37.591Z"
+  } ],
+  "churches" : [ {
+    "address" : "476-486 Jackson Street",
+    "address2" : "Petone",
+    "city" : "Lower Hutt",
+    "country" : "New Zealand",
+    "email" : "church@church.com",
+    "facebook" : "",
+    "id" : 0,
+    "latitude" : "-41.2302084",
+    "longitude" : "174.8940164",
+    "name" : "The OLIVE TREE",
+    "phone" : "(04) 891 0557",
+    "serviceDay" : "Sunday",
+    "serviceTimes" : [ "10:30" ],
+    "state" : "",
+    "twitter" : "",
+    "users" : [ 0 ],
+    "zip" : "5012"
+  } ],
+  "images" : [ {
+    "id" : 0,
+    "image" : "/assets/img/stock/adult-airport-alone-362948.jpg"
+  }, {
+    "id" : 1,
+    "image" : "/assets/img/stock/beggar-begging-homeless-2128.jpg"
+  }, {
+    "id" : 2,
+    "image" : "/assets/img/stock/adult-blur-business-918778.jpg"
+  }, {
+    "id" : 3,
+    "image" : "/assets/img/stock/bible-blur-book-895449.jpg"
+  }, {
+    "id" : 4,
+    "image" : "/assets/img/stock/ancient-arch-architecture-356658.jpg"
+  }, {
+    "id" : 5,
+    "image" : "/assets/img/stock/bible-book-candle-256560.jpg"
+  }, {
+    "id" : 6,
+    "image" : "/assets/img/stock/architecture-art-cathedral-390052.jpg"
+  }, {
+    "id" : 7,
+    "image" : "/assets/img/stock/bloom-blossom-clean-580871.jpg"
+  }, {
+    "id" : 8,
+    "image" : "/assets/img/stock/art-cathedral-christ-208216.jpg"
+  }, {
+    "id" : 9,
+    "image" : "/assets/img/stock/blur-bokeh-close-up-164879.jpg"
+  }, {
+    "id" : 10,
+    "image" : "/assets/img/stock/audience-band-christians-213207.jpg"
+  }, {
+    "id" : 11,
+    "image" : "/assets/img/stock/blur-branches-close-up-1047312.jpg"
+  }, {
+    "id" : 12,
+    "image" : "/assets/img/stock/audience-blur-bokeh-976866.jpg"
+  }, {
+    "id" : 13,
+    "image" : "/assets/img/stock/blur-community-crowd-5156.jpg"
+  }, {
+    "id" : 14,
+    "image" : "/assets/img/stock/background-beautiful-blossom-268533.jpg"
+  }, {
+    "id" : 15,
+    "image" : "/assets/img/stock/book-chair-chat-711009.jpg"
+  }, {
+    "id" : 16,
+    "image" : "/assets/img/stock/backlit-cemetery-christianity-415571.jpg"
+  }, {
+    "id" : 17,
+    "image" : "/assets/img/stock/buildings-church-city-335887.jpg"
+  }, {
+    "id" : 18,
+    "image" : "/assets/img/stock/backlit-clouds-dusk-853168.jpg"
+  }, {
+    "id" : 19,
+    "image" : "/assets/img/stock/christianity-cross-god-54333.jpg"
+  }, {
+    "id" : 20,
+    "image" : "/assets/img/stock/band-bokeh-close-up-144428.jpg"
+  }, {
+    "id" : 21,
+    "image" : "/assets/img/stock/church-clouds-countryside-460611.jpg"
+  }, {
+    "id" : 22,
+    "image" : "/assets/img/stock/beach-beautiful-grass-358418.jpg"
+  }, {
+    "id" : 23,
+    "image" : "/assets/img/stock/beach-dawn-dusk-189349.jpg"
+  } ],
+  "ministries" : {
+    "0" : {
+      "churches" : [ 0 ],
+      "id" : 0,
+      "image" : "/assets/img/stock/bloom-blossom-clean-580871.jpg",
+      "status" : "published",
+      "text" : "<p>Boundaries are personal property lines that define who you are and who you are not, and influence all areas of your life. They enable you to say 'Yes' when you mean 'Yes' and 'No' when you mean 'No.' PHYSICAL Boundaries help you determine who may touch you and under what circumstances. MENTAL Boundaries give you the freedom to have your own thoughts and opinions. EMOTIONAL Boundaries help you deal with your own emotions and disengage from the harmful, manipulative emotions of others. We run the Boundaries Course at The Olive Tree from time to time.&nbsp; Check with Adria on dria.lg246@gmail.com for the next course.</p>",
+      "title" : "Boundaries",
+      "updated" : "2018-05-16T04:22:39.987Z"
     },
-    "1": {
-      "category": "sermon",
-      "date": "2018-02-03T11:00:00.000Z",
-      "image": "/assets/img/audio.jpg",
-      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180204.mp3?alt=media&token=9a0f69d2-755d-4eab-95ba-66736eb7fc2c",
-      "speaker": "Annetta",
-      "status": "published",
-      "text": "",
-      "title": "The Joy of the Lord",
-      "updated": "2018-05-16T23:32:57.666Z"
+    "1" : {
+      "churches" : [ 0 ],
+      "id" : 1,
+      "image" : "/assets/img/stock/backlit-clouds-dusk-853168.jpg",
+      "status" : "published",
+      "text" : "<p>CR is a Christ centred recovery programme, written by John Baker in conjunction with Rick Warren of Saddleback Church in the States. This course is based on the 12 steps and 8 Principles (Beatitudes) and reaches out to those dealing with hurts, habits and hang-ups.  It runs 52 weeks a year, including a sponsor and accountability person to journey with you in your Recovery. CR is currently on hold and in the meantime the following courses have been running: WOMENS SUPORT GROUP Running weekly, offering support and encouragement. LIFES HEALING CHOICES: 16 week mini course of recovery, based on the Choices we can make.Regardless of what you are struggling with - whether it `s emotional, financial, relational. spiritual, or sexual- the principles that lead to happiness and healing are always the same, and the choice is always yours.</p>",
+      "title" : "Celebrate recovery",
+      "updated" : "2018-05-16T04:45:58.535Z"
     },
-    "2": {
-      "category": "sermon",
-      "date": "2018-01-13T11:00:00.000Z",
-      "image": "/assets/img/audio.jpg",
-      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20180114.mp3?alt=media&token=426cd927-abd7-4e9e-a15c-b75e2687fdd9",
-      "speaker": "Bruce Bell",
-      "status": "published",
-      "text": "",
-      "title": "God's Ratbags",
-      "updated": "2018-05-16T23:34:25.821Z"
+    "2" : {
+      "churches" : [ 0 ],
+      "id" : 2,
+      "image" : "/assets/img/stock/beach-beautiful-grass-358418.jpg",
+      "status" : "published",
+      "text" : "<p>Everyone, at some stage of their Christian walk, would have read the words of Jesus, found in the book of Matthew in chapter 19, verse 14: Jesus said, 'Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.' There is such awe inspiring depth to these words that sometimes we forget that they are also equally profound taken at face value – kid’s matter.Within a child is a treasure waiting to flourish, waiting to dream, and waiting to grow. As a part of the Olive Tree Kid’s Church, it is not only our job to guide our future generation to encounter Jesus’ accepting love; it is also our honour to do so.  To be a part of a child’s encounters with who God, and Jesus is, is truly a blessing and an honour.  We can learn so much from kids, their brutal honesty and never ending joy and love, are attributes which mirror Jesus not only to us, but to their peers, their teachers, and their families.It is well known that big corporate companies target their advertising carefully to the times they know children will be watching television.  They understood that if they get the child’s attention, they would get the attention of the entire family.  Never underestimate the value and importance of children. Jesus didn’t and here at the Olive Tree Kids Church, we most certainly don’t either.</p>",
+      "title" : "Olive Tree Children's Church",
+      "updated" : "2018-05-16T04:20:48.795Z"
     },
-    "3": {
-      "category": "sermon",
-      "date": "2017-12-16T11:00:00.000Z",
-      "image": "/assets/img/audio.jpg",
-      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171217.mp3?alt=media&token=f3a2defa-3974-4ed4-89fe-69d2d88fcfda",
-      "speaker": "Bruce Bell",
-      "status": "published",
-      "text": "",
-      "title": "Glory",
-      "updated": "2018-05-16T23:36:30.566Z"
+    "3" : {
+      "churches" : [ 0 ],
+      "id" : 3,
+      "image" : "/assets/img/stock/adult-blur-business-918778.jpg",
+      "status" : "published",
+      "text" : "<p>A team of like-minded, committed people who have a heart to meet the prayer needs of the Olive Tree Church family. The prayer team invites and encourages others to share their prayer needs, and as a group offers prayers of praise, petition and thanksgiving to God.  A safe place for people to share their concerns, joys and heartaches, knowing that many are praying  and uplifting them on their behalf.  Prayer needs are promptly sent out to the team by email and we have regular prayer meeting where we join together with coffee, with God and pray. Personal prayer requests can be submitted here</p>",
+      "title" : "Olive Tree Prayer Team",
+      "updated" : "2018-05-16T04:21:09.237Z"
     },
-    "4": {
-      "category": "sermon",
-      "date": "2017-12-09T11:00:00.000Z",
-      "image": "/assets/img/audio.jpg",
-      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171210.mp3?alt=media&token=5504190f-2a45-45c1-89aa-77bb0d5126ec",
-      "speaker": "Bruce Bell",
-      "status": "draft",
-      "text": "",
-      "title": "Joy",
-      "updated": "2018-05-16T23:37:59.532Z"
+    "4" : {
+      "churches" : [ 0 ],
+      "id" : 4,
+      "image" : "/assets/img/stock/audience-band-christians-213207.jpg",
+      "status" : "published",
+      "text" : "<p><b>A God as good, gracious and loving as the God we serve deserves to be worshipped with all our heart, soul, mind and strength.&nbsp;</b></p><p>Of course the question of how exactly this should be done is highly subjective and probably as old as church itself.  The ethos of the Olive Tree of keeping things simple and bringing things back to first principle extends to how we choose to worship God. The bible says that we should worship Him in spirit and in truth. How exactly do we do that?</p><p>Like most churches we recognise the power and the influence of music in our culture and this is a key medium through which we express our adoration to God (while also recognising that true worship encompasses so many more areas of our life).   That said we do not have a particular sound or way in which we would like to worship God.  We start again with the proverbial blank sheet of paper and begin to explore what it means to worship and how we can express ourselves creatively to God.</p><p>There are so many ways this can be done whether that is through traditional worship songs sung by the congregation, by video clips or items; by a large group of musicians or just one or two.</p><p><b>The point is not what it looks like, but the heart that is offered up to God and the spirit in which it is done: to worship God in spirit and in truth.</b></p>",
+      "title" : "Olive Tree Worship",
+      "updated" : "2018-05-16T04:23:10.813Z"
     },
-    "5": {
-      "category": "sermon",
-      "date": "2017-12-02T11:00:00.000Z",
-      "image": "/assets/img/audio.jpg",
-      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171203.mp3?alt=media&token=86ba0018-022e-4baa-a8a1-92f681eda3a3",
-      "speaker": "Bernard McLellan",
-      "status": "published",
-      "text": "",
-      "title": "The Great Pair of Ducks",
-      "updated": "2018-05-16T23:39:51.095Z"
+    "-LDjQ0KDpJcrZqGkfPiR" : {
+      "image" : "/assets/img/stock/book-chair-chat-711009.jpg",
+      "status" : "published",
+      "text" : "<h2></h2><p>The Olive Tree has a number of small groups run by members of our congregation. Check them out below.</p><h3>The Thompson Home Group</h3><p>Meets fortnightly on a Thursday, at Frans and Shelley’s home in the suburb of Tirohanga, Lower Hutt. If you don’t belong to a small group, this would be a good time to check us out.&nbsp;</p><p><i>To know more, contact David or Frances Thompson.</i><br></p>",
+      "title" : "Home groups",
+      "updated" : "2018-06-05T00:59:56.468Z"
     },
-    "6": {
-      "category": "sermon",
-      "date": "2017-11-25T11:00:00.000Z",
-      "image": "/assets/img/audio.jpg",
-      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171126.mp3?alt=media&token=68867782-a10b-4843-ae99-fd6edb5e5a26",
-      "speaker": "Bruce Bell",
-      "status": "published",
-      "text": "",
-      "title": "Taking God With Us: Part 2",
-      "updated": "2018-05-16T23:47:05.333Z"
-    },
-    "7": {
-      "category": "sermon",
-      "date": "2017-11-11T11:00:00.000Z",
-      "image": "/assets/img/audio.jpg",
-      "link": "https://firebasestorage.googleapis.com/v0/b/olive-8020d.appspot.com/o/audio%2F20171112.mp3?alt=media&token=0dcf40cd-cbb4-40a4-9b3a-688379a2c2a3",
-      "speaker": "Bruce Bell",
-      "status": "published",
-      "text": "",
-      "title": "Taking God With Us: Part 1",
-      "updated": "2018-05-16T23:41:37.591Z"
+    "-LECSJuXy-y8GJ0VS0Vh" : {
+      "image" : "/assets/img/stock/blur-community-crowd-5156.jpg",
+      "status" : "published",
+      "text" : "<p>Hang Time happens on every second Thursday Night, at 7.30, at Lower Hutt McCafe. This is a chance to eat healthy food (cough!) and hang out with your family.&nbsp;<br></p>",
+      "title" : "Hangtime",
+      "updated" : "2018-06-05T01:02:06.841Z"
     }
   },
-  "churches": [{
-    "address": "476-486 Jackson Street",
-    "address2": "Petone",
-    "city": "Lower Hutt",
-    "country": "New Zealand",
-    "email": "church@church.com",
-    "facebook": "",
-    "id": 0,
-    "latitude": "-41.2302084",
-    "longitude": "174.8940164",
-    "name": "The OLIVE TREE",
-    "phone": "(04) 891 0557",
-    "serviceDay": "Sunday",
-    "serviceTimes": ["10:30"],
-    "state": "",
-    "twitter": "",
-    "users": [0],
-    "zip": "5012"
-  }],
-  "images": [{
-    "id": 0,
-    "image": "/assets/img/stock/adult-airport-alone-362948.jpg"
-  }, {
-    "id": 1,
-    "image": "/assets/img/stock/beggar-begging-homeless-2128.jpg"
-  }, {
-    "id": 2,
-    "image": "/assets/img/stock/adult-blur-business-918778.jpg"
-  }, {
-    "id": 3,
-    "image": "/assets/img/stock/bible-blur-book-895449.jpg"
-  }, {
-    "id": 4,
-    "image": "/assets/img/stock/ancient-arch-architecture-356658.jpg"
-  }, {
-    "id": 5,
-    "image": "/assets/img/stock/bible-book-candle-256560.jpg"
-  }, {
-    "id": 6,
-    "image": "/assets/img/stock/architecture-art-cathedral-390052.jpg"
-  }, {
-    "id": 7,
-    "image": "/assets/img/stock/bloom-blossom-clean-580871.jpg"
-  }, {
-    "id": 8,
-    "image": "/assets/img/stock/art-cathedral-christ-208216.jpg"
-  }, {
-    "id": 9,
-    "image": "/assets/img/stock/blur-bokeh-close-up-164879.jpg"
-  }, {
-    "id": 10,
-    "image": "/assets/img/stock/audience-band-christians-213207.jpg"
-  }, {
-    "id": 11,
-    "image": "/assets/img/stock/blur-branches-close-up-1047312.jpg"
-  }, {
-    "id": 12,
-    "image": "/assets/img/stock/audience-blur-bokeh-976866.jpg"
-  }, {
-    "id": 13,
-    "image": "/assets/img/stock/blur-community-crowd-5156.jpg"
-  }, {
-    "id": 14,
-    "image": "/assets/img/stock/background-beautiful-blossom-268533.jpg"
-  }, {
-    "id": 15,
-    "image": "/assets/img/stock/book-chair-chat-711009.jpg"
-  }, {
-    "id": 16,
-    "image": "/assets/img/stock/backlit-cemetery-christianity-415571.jpg"
-  }, {
-    "id": 17,
-    "image": "/assets/img/stock/buildings-church-city-335887.jpg"
-  }, {
-    "id": 18,
-    "image": "/assets/img/stock/backlit-clouds-dusk-853168.jpg"
-  }, {
-    "id": 19,
-    "image": "/assets/img/stock/christianity-cross-god-54333.jpg"
-  }, {
-    "id": 20,
-    "image": "/assets/img/stock/band-bokeh-close-up-144428.jpg"
-  }, {
-    "id": 21,
-    "image": "/assets/img/stock/church-clouds-countryside-460611.jpg"
-  }, {
-    "id": 22,
-    "image": "/assets/img/stock/beach-beautiful-grass-358418.jpg"
-  }, {
-    "id": 23,
-    "image": "/assets/img/stock/beach-dawn-dusk-189349.jpg"
-  }],
-  "ministries": [{
-    "churches": [0],
-    "id": 0,
-    "image": "/assets/img/stock/bloom-blossom-clean-580871.jpg",
-    "status": "published",
-    "text": "<p>Boundaries are personal property lines that define who you are and who you are not, and influence all areas of your life. They enable you to say 'Yes' when you mean 'Yes' and 'No' when you mean 'No.' PHYSICAL Boundaries help you determine who may touch you and under what circumstances. MENTAL Boundaries give you the freedom to have your own thoughts and opinions. EMOTIONAL Boundaries help you deal with your own emotions and disengage from the harmful, manipulative emotions of others. We run the Boundaries Course at The Olive Tree from time to time.&nbsp; Check with Adria on dria.lg246@gmail.com for the next course.</p>",
-    "title": "Boundaries",
-    "updated": "2018-05-16T04:22:39.987Z"
-  }, {
-    "churches": [0],
-    "id": 1,
-    "image": "/assets/img/stock/backlit-clouds-dusk-853168.jpg",
-    "status": "published",
-    "text": "<p>CR is a Christ centred recovery programme, written by John Baker in conjunction with Rick Warren of Saddleback Church in the States. This course is based on the 12 steps and 8 Principles (Beatitudes) and reaches out to those dealing with hurts, habits and hang-ups.  It runs 52 weeks a year, including a sponsor and accountability person to journey with you in your Recovery. CR is currently on hold and in the meantime the following courses have been running: WOMENS SUPORT GROUP Running weekly, offering support and encouragement. LIFES HEALING CHOICES: 16 week mini course of recovery, based on the Choices we can make.Regardless of what you are struggling with - whether it `s emotional, financial, relational. spiritual, or sexual- the principles that lead to happiness and healing are always the same, and the choice is always yours.</p>",
-    "title": "Celebrate recovery",
-    "updated": "2018-05-16T04:45:58.535Z"
-  }, {
-    "churches": [0],
-    "id": 2,
-    "image": "/assets/img/stock/beach-beautiful-grass-358418.jpg",
-    "status": "published",
-    "text": "<p>Everyone, at some stage of their Christian walk, would have read the words of Jesus, found in the book of Matthew in chapter 19, verse 14: Jesus said, 'Let the little children come to me, and do not hinder them, for the kingdom of heaven belongs to such as these.' There is such awe inspiring depth to these words that sometimes we forget that they are also equally profound taken at face value – kid’s matter.Within a child is a treasure waiting to flourish, waiting to dream, and waiting to grow. As a part of the Olive Tree Kid’s Church, it is not only our job to guide our future generation to encounter Jesus’ accepting love; it is also our honour to do so.  To be a part of a child’s encounters with who God, and Jesus is, is truly a blessing and an honour.  We can learn so much from kids, their brutal honesty and never ending joy and love, are attributes which mirror Jesus not only to us, but to their peers, their teachers, and their families.It is well known that big corporate companies target their advertising carefully to the times they know children will be watching television.  They understood that if they get the child’s attention, they would get the attention of the entire family.  Never underestimate the value and importance of children. Jesus didn’t and here at the Olive Tree Kids Church, we most certainly don’t either.</p>",
-    "title": "Olive Tree Children's Church",
-    "updated": "2018-05-16T04:20:48.795Z"
-  }, {
-    "churches": [0],
-    "id": 3,
-    "image": "/assets/img/stock/adult-blur-business-918778.jpg",
-    "status": "published",
-    "text": "<p>A team of like-minded, committed people who have a heart to meet the prayer needs of the Olive Tree Church family. The prayer team invites and encourages others to share their prayer needs, and as a group offers prayers of praise, petition and thanksgiving to God.  A safe place for people to share their concerns, joys and heartaches, knowing that many are praying  and uplifting them on their behalf.  Prayer needs are promptly sent out to the team by email and we have regular prayer meeting where we join together with coffee, with God and pray. Personal prayer requests can be submitted here</p>",
-    "title": "Olive Tree Prayer Team",
-    "updated": "2018-05-16T04:21:09.237Z"
-  }, {
-    "churches": [0],
-    "id": 4,
-    "image": "/assets/img/stock/audience-band-christians-213207.jpg",
-    "status": "published",
-    "text": "<p><b>A God as good, gracious and loving as the God we serve deserves to be worshipped with all our heart, soul, mind and strength.&nbsp;</b></p><p>Of course the question of how exactly this should be done is highly subjective and probably as old as church itself.  The ethos of the Olive Tree of keeping things simple and bringing things back to first principle extends to how we choose to worship God. The bible says that we should worship Him in spirit and in truth. How exactly do we do that?</p><p>Like most churches we recognise the power and the influence of music in our culture and this is a key medium through which we express our adoration to God (while also recognising that true worship encompasses so many more areas of our life).   That said we do not have a particular sound or way in which we would like to worship God.  We start again with the proverbial blank sheet of paper and begin to explore what it means to worship and how we can express ourselves creatively to God.</p><p>There are so many ways this can be done whether that is through traditional worship songs sung by the congregation, by video clips or items; by a large group of musicians or just one or two.</p><p><b>The point is not what it looks like, but the heart that is offered up to God and the spirit in which it is done: to worship God in spirit and in truth.</b></p>",
-    "title": "Olive Tree Worship",
-    "updated": "2018-05-16T04:23:10.813Z"
-  }],
-  "notices": {
-    "0": {
-      "category": "need",
-      "churches": [0],
-      "created": "2018-05-01T03:42:47.554Z",
-      "date": "2018-05-01T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "id": 0,
-      "image": "https://placeimg.com/800/600/people",
-      "status": "published",
-      "tags": ["et", "modi", "ut"],
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "title": "Tinned food for the foodbank",
-      "updated": "2018-05-14T03:42:47.554Z"
+  "notices" : {
+    "4" : {
+      "category" : "news",
+      "churches" : "0",
+      "created" : "2018-05-05T03:42:47.554Z",
+      "date" : "2018-05-05T03:42:47.554Z",
+      "expires" : "2018-10-09T11:00:00.000Z",
+      "id" : 4,
+      "image" : "/assets/img/stock/adult-blur-business-918778.jpg",
+      "status" : "published",
+      "tags" : [ "enli", "graduation", "slide" ],
+      "text" : "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href=\"#\">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+      "title" : "ENLI graduation",
+      "updated" : "2018-06-05T04:59:24.159Z"
     },
-    "1": {
-      "category": "news",
-      "churches": [0],
-      "created": "2018-05-02T03:42:47.554Z",
-      "date": "2018-05-02T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "id": 1,
-      "image": "/assets/img/stock/blur-branches-close-up-1047312.jpg",
-      "status": "published",
-      "tags": ["maxime", "qui", "doloremque", "slide"],
-      "text": "<p>The journey for The Olive Tree Church began when three experienced leaders sat down and over coffee wondered aloud what they would do if they could do it all over again.  What would they do the same; what would they do differently; what would they do if they could start with the proverbial 'blank sheet of paper.'</p>",
-      "title": "Welcome to The Olive Tree",
-      "updated": "2018-05-14T03:42:47.554Z"
+    "7" : {
+      "category" : "event",
+      "churches" : "0",
+      "created" : "2018-05-08T03:42:47.554Z",
+      "date" : "2018-05-08T03:42:47.554Z",
+      "expires" : "2018-05-30T12:00:00.000Z",
+      "frequency" : "day",
+      "id" : 7,
+      "image" : "/assets/img/stock/book-chair-chat-711009.jpg",
+      "status" : "published",
+      "tags" : [ "Pizza", "group" ],
+      "text" : "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href=\"#\">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula bh molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+      "title" : "Pizza night",
+      "updated" : "2018-06-11T04:41:17.512Z"
     },
-    "2": {
-      "category": "event",
-      "churches": [0],
-      "created": "2018-05-03T03:42:47.554Z",
-      "date": "2018-05-03T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "id": 2,
-      "image": "https://placeimg.com/800/600/animals",
-      "status": "published",
-      "tags": ["vitae", "deserunt", "vel", "slide"],
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "title": "Big day out",
-      "updated": "2018-05-14T03:42:47.554Z"
+    "8" : {
+      "category" : "event",
+      "created" : "2018-05-20T12:00:00.000Z",
+      "date" : "2018-05-25T12:00:00.000Z",
+      "expires" : "2018-05-26T12:00:00.000Z",
+      "image" : "/assets/img/stock/bloom-blossom-clean-580871.jpg",
+      "status" : "published",
+      "tags" : [ "women", "group" ],
+      "text" : "<p>Saturday 26th May - 6.30 @ Olive Tree - Free Meal Provided</p>",
+      "title" : "Women's Group - Natter and Platter",
+      "updated" : "2018-05-30T04:58:09.377Z"
     },
-    "3": {
-      "category": "event",
-      "churches": [0],
-      "created": "2018-05-04T03:42:47.554Z",
-      "date": "2018-05-04T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "id": 3,
-      "image": "https://placeimg.com/800/600/sepia",
-      "status": "published",
-      "tags": ["consequatur", "consequatur", "delectus"],
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "title": "Dogs at the park",
-      "updated": "2018-05-14T03:42:47.554Z"
+    "-LDjNK_Lprf3eMhdXKNs" : {
+      "category" : "event",
+      "date" : "2018-05-30T05:06:45.927Z",
+      "expires" : "2018-05-04T12:00:00.000Z",
+      "image" : "/assets/img/stock/backlit-clouds-dusk-853168.jpg",
+      "status" : "published",
+      "tags" : [ "retro", "youth" ],
+      "text" : "<p>RETRO Just for Jess!</p><p>She is heading overseas to lead at Camp America, so.... we are watching the movie 'The Greatest Showman'.</p><p>See you at the Olive Tree, 7:00 pm Friday.</p>",
+      "title" : "Retro",
+      "updated" : "2018-06-11T04:45:37.350Z"
     },
-    "4": {
-      "category": "news",
-      "churches": [0],
-      "created": "2018-05-05T03:42:47.554Z",
-      "date": "2018-05-05T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "id": 4,
-      "image": "https://placeimg.com/800/600/people",
-      "status": "published",
-      "tags": ["temporibus", "ullam", "enim"],
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "title": "ENLI graduation",
-      "updated": "2018-05-14T03:42:47.554Z"
+    "-LDjOI6h3ZcgYA5ec_fz" : {
+      "category" : "event",
+      "date" : "2018-06-02T12:00:00.000Z",
+      "expires" : "2018-06-03T12:00:00.000Z",
+      "image" : "/assets/img/stock/blur-branches-close-up-1047312.jpg",
+      "status" : "published",
+      "tags" : "",
+      "text" : "<p>SOCK SUNDAY - 3rd June - An opportunity for you to bless someone’s socks off (or on…)! Please bring a new pair of socks, any size, adult or child, to the service on Sunday 3rd June. Would you like to be part of keeping our community feet warm this winter? We would love your support.<br></p>",
+      "title" : "Sock Sunday",
+      "updated" : "2018-05-30T04:54:41.407Z"
     },
-    "5": {
-      "category": "event",
-      "churches": [0],
-      "created": "2018-05-06T03:42:47.554Z",
-      "date": "2018-05-06T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "id": 5,
-      "image": "https://placeimg.com/800/600/people",
-      "status": "published",
-      "tags": ["hic", "earum", "eius"],
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "title": "Airsoft on Sunday",
-      "updated": "2018-05-14T03:42:47.554Z"
+    "-LDjREb3ZMrZgWGdDAE4" : {
+      "category" : "news",
+      "date" : "2018-05-30T05:06:45.927Z",
+      "expires" : "2018-06-08T12:00:00.000Z",
+      "image" : "/assets/img/stock/bible-blur-book-895449.jpg",
+      "status" : "draft",
+      "tags" : "",
+      "text" : "<p>On Sunday, we contemplated who God is and our logical response to this knowledge, of complete submission, dedication and reliance/trust. One Biblical example of this is found in the book of Daniel.</p><p>Daniel was a noble Jewish youth of Jerusalem, taken into captivity by King Nebuchadnezzar of Babylon, serving him (and his successors) with loyalty. All the while, Daniel remained true to the God of Israel. He was a wise man in the king’s sight. We read that Nebuchadnezzar had a dream. He then not only asked his wise men to interpret the dream for him, but to also tell him what the dream was (he wouldn’t tell them). They were unable to do so and the king decreed that all wise men, including Daniel, were to be killed.</p><p>When Daniel inquired ‘with discretion and discernment’ as to why the wise men were to be killed, he asked that the king would give him the opportunity to meet the request. Daniel immediately called a prayer meeting (“…so that they might request compassion from the God of heaven concerning this mystery, so that Daniel and his friends would not be destroyed with the rest of the wise men of Babylon.”). God then revealed to him both the dream and its interpretation that night in a vision. Whilst this is very cool indeed, the even cooler part was Daniel’s response to God:</p><p>Daniel said, “Let the name of God be blessed forever and ever, for wisdom and power belong to Him. It is He who changes the times and the epochs; He removes kings and establishes kings; He gives wisdom to wise men and knowledge to men of understanding. It is He who reveals the profound and hidden things; He knows what is in the darkness, and the light dwells with Him. To You, O God of my fathers, I give thanks and praise, for You have given me wisdom and power; even now You have made known to me what we requested of You, for You have made known to us the king’s matter.” (Daniel 2:20 – 23)</p><p>When the king asked Daniel if he was able to make known to him the dream and the interpretation, Daniel said to Him: “…neither wise men, conjurers, magicians, nor diviners are able to declare it to the king. However, there is a God in heaven who reveals mysteries, and He has made known…” Daniel gave all glory to God; the super coolest part of all!</p><p>Blessings,<br>Wendy</p>",
+      "title" : "Weekly notice",
+      "updated" : "2018-05-30T05:07:29.184Z"
     },
-    "6": {
-      "category": "news",
-      "churches": [0],
-      "created": "2018-05-07T03:42:47.554Z",
-      "date": "2018-05-07T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "id": 6,
-      "image": "https://placeimg.com/800/600/people",
-      "status": "published",
-      "tags": ["hic", "earum", "eius", "slide"],
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "title": "Someone is awesome",
-      "updated": "2018-05-14T03:42:47.554Z"
+    "-LECvZMr3n9VMBenN6aV" : {
+      "category" : "news",
+      "date" : "2018-06-05T03:12:09.669Z",
+      "expires" : "2018-07-05T03:12:09.669Z",
+      "status" : "draft",
+      "tags" : "",
+      "text" : "",
+      "title" : "New Notice Content",
+      "updated" : "2018-06-05T03:12:09.669Z"
     },
-    "7": {
-      "category": "event",
-      "churches": "0",
-      "created": "2018-05-08T03:42:47.554Z",
-      "date": "2018-05-08T03:42:47.554Z",
-      "expires": "2018-10-14T03:42:47.554Z",
-      "frequency": "day",
-      "id": 7,
-      "image": "/assets/img/stock/book-chair-chat-711009.jpg",
-      "status": "published",
-      "tags": ["Pizza", "Yum"],
-      "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href=\"#\">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula bh molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-      "title": "Pizza night",
-      "updated": "2018-05-17T06:03:04.010Z"
+    "-LEh8ngCm_U5XD34a7EQ" : {
+      "category" : "news",
+      "date" : "2018-06-11T04:40:46.720Z",
+      "expires" : "2018-07-11T04:40:46.720Z",
+      "image" : "/assets/img/stock/buildings-church-city-335887.jpg",
+      "status" : "published",
+      "tags" : [ "slide" ],
+      "text" : "<p>This September, during the school holidays, Ian Gemmill is going on a volunteer build in Nepal.  The venture includes low key building work as well as optional hikes and other adventures.  There is still room on the team, so if anyone is interested in this or would like more details please contact Ian on 0272780365.&nbsp;</p>",
+      "title" : "Nepal Opportunity",
+      "updated" : "2018-06-11T04:43:37.544Z"
     },
-    "8": {
-      "category": "event",
-      "created": "2018-05-20T12:00:00.000Z",
-      "date": "2018-05-20T12:00:00.000Z",
-      "expires": "2018-05-26T12:00:00.000Z",
-      "image": "/assets/img/stock/bloom-blossom-clean-580871.jpg",
-      "status": "published",
-      "tags": ["Women's Group"],
-      "text": "<p>Saturday 26th May - 6.30 @ Olive Tree - Free Meal Provided</p>",
-      "title": "Women's Group - Natter and Platter",
-      "updated": "2018-05-22T02:18:01.777Z"
+    "-LEh9Ar2YUm36-JKowi9" : {
+      "category" : "need",
+      "date" : "2018-06-11T04:43:29.149Z",
+      "expires" : "2018-07-11T04:43:29.149Z",
+      "image" : "/assets/img/stock/bloom-blossom-clean-580871.jpg",
+      "status" : "published",
+      "tags" : "",
+      "text" : "<p>Does anyone have unused cell phones that can be used with a prepaid card? If you do, please contact Andrea.</p>",
+      "title" : "Cell Phones",
+      "updated" : "2018-06-11T04:44:43.078Z"
+    },
+    "-LEh9bnWePZhtbslrXCk" : {
+      "category" : "news",
+      "date" : "2018-06-11T04:43:29.149Z",
+      "expires" : "2018-07-11T04:43:29.149Z",
+      "status" : "published",
+      "tags" : [ "prayer" ],
+      "text" : "<p>If you have a prayer request and would like the prayer team to pray for it ASAP, you can submit it via the website or contact Lynne directly on vlynne2009@gmail.com .  “Is anyone among you suffering? Let him pray.” (James 5.13).</p>",
+      "title" : "Prayer",
+      "updated" : "2018-06-11T04:46:35.579Z"
+    },
+    "-LEqOGjMc92Uo-q-4umf" : {
+      "category" : "event",
+      "date" : "2018-07-02T19:00:00.000Z",
+      "expires" : "2018-07-12T23:45:45.886Z",
+      "image" : "/assets/img/stock/architecture-art-cathedral-390052.jpg",
+      "status" : "published",
+      "tags" : "",
+      "text" : "<p>asdf</p>",
+      "title" : "Tuesday",
+      "updated" : "2018-06-12T23:55:47.841Z"
+    },
+    "-LEqOQOY6iNfL3jRi4BO" : {
+      "category" : "event",
+      "date" : "2018-06-11T08:00:00.000Z",
+      "expires" : "2018-07-12T23:45:45.886Z",
+      "image" : "/assets/img/stock/beggar-begging-homeless-2128.jpg",
+      "status" : "published",
+      "tags" : "",
+      "text" : "<p>asdfsadf</p>",
+      "title" : "Monday",
+      "updated" : "2018-06-12T23:55:38.679Z"
+    },
+    "-LEqOhqqcV3C7yKIhxEW" : {
+      "category" : "event",
+      "date" : "2018-06-13T09:00:00.000Z",
+      "expires" : "2018-07-12T23:45:45.886Z",
+      "image" : "/assets/img/stock/bloom-blossom-clean-580871.jpg",
+      "status" : "published",
+      "tags" : "",
+      "text" : "<p>asd</p>",
+      "title" : "Wednesday",
+      "updated" : "2018-06-12T23:56:18.426Z"
+    },
+    "-LEqOsbkkUZvreVDckN-" : {
+      "category" : "event",
+      "date" : "2018-06-14T07:00:00.000Z",
+      "expires" : "2018-07-12T23:45:45.886Z",
+      "image" : "/assets/img/stock/ancient-arch-architecture-356658.jpg",
+      "status" : "published",
+      "tags" : "",
+      "text" : "",
+      "title" : "Thursday",
+      "updated" : "2018-06-12T23:55:01.497Z"
+    },
+    "-LEqOwjaltZOXsVtJGbF" : {
+      "category" : "event",
+      "date" : "2018-06-15T08:45:00.000Z",
+      "expires" : "2018-07-12T23:45:45.886Z",
+      "image" : "/assets/img/stock/blur-community-crowd-5156.jpg",
+      "status" : "published",
+      "tags" : "",
+      "text" : "<p>asd</p>",
+      "title" : "Friday",
+      "updated" : "2018-06-13T01:57:35.137Z"
+    },
+    "-LEqQTJJG8DZoQ7CWh31" : {
+      "category" : "event",
+      "date" : "2018-06-16T05:00:00.000Z",
+      "expires" : "2018-07-12T23:54:52.552Z",
+      "image" : "/assets/img/stock/background-beautiful-blossom-268533.jpg",
+      "status" : "published",
+      "tags" : "",
+      "text" : "<p>asd</p>",
+      "title" : "Saturday",
+      "updated" : "2018-06-13T03:16:23.181Z"
+    },
+    "-LEr8HIPa0o3AlsUX9Zw" : {
+      "category" : "event",
+      "date" : "2018-06-16T03:15:00.000Z",
+      "expires" : "2018-07-13T03:15:39.780Z",
+      "image" : "/assets/img/stock/ancient-arch-architecture-356658.jpg",
+      "status" : "published",
+      "tags" : "",
+      "text" : "<p>asd</p>",
+      "title" : "Sat2",
+      "updated" : "2018-06-13T03:16:52.475Z"
     }
   },
-  "pages": [{
-    "churches": [0],
-    "id": 0,
-    "status": "published",
-    "text": "<p>The journey for The Olive Tree Church began when three experienced leaders sat down and over coffee wondered aloud what they would do if they could do it all over again. What would they do the same; what would they do differently; what would theydo if they could start with the proverbial 'blank sheet of paper.' Their thoughts found a commonality of expression and soon other like minded people urged them to do something about it. And so the Olive Tree was born. It is not an attempt todo church the right way (as if there is only one way to love God and love others) just to do it a different way; to intentionally place the emphasis on the basics (original design).</p><p>Given that the Bible has little to say on the 'how' of doing church but a lot on the 'why' we are committed to living together as a church community based primarily on the first principles of scripture. This means that we place more value on people thanon performance or Church 'bling'. We want to keep church simple so that it fulfils its valuable contribution to a well lived Christian life but not at the expense of burning people out. We want to keep it real, which also means allowing peopleto be less than perfect and make mistakes. We want to practice servant leadership, firstly in the church but also in the world where we are consistently rising to the challenge of serving those Jesus describes as 'the least of these.' We don'twant people to come and build the church's vision but rather we want the church to equip and build people to live out their God given visions and dreams. We want to see the Kingdom of God developed in every aspect of where Christians live, notjust for a few hours on a Sunday morning or one night a week.</p><p>This is the journey we are committed to. This is the story we want to write. So what about you? What would you do if your life was a blank piece of paper and you could write what you wanted..?</p>",
-    "title": "About",
-    "updated": "2018-03-01T15:08:46.874Z"
+  "pages" : [ {
+    "churches" : [ 0 ],
+    "id" : 0,
+    "status" : "published",
+    "text" : "<p>The journey for The Olive Tree Church began when three experienced leaders sat down and over coffee wondered aloud what they would do if they could do it all over again. What would they do the same; what would they do differently; what would theydo if they could start with the proverbial 'blank sheet of paper.' Their thoughts found a commonality of expression and soon other like minded people urged them to do something about it. And so the Olive Tree was born. It is not an attempt todo church the right way (as if there is only one way to love God and love others) just to do it a different way; to intentionally place the emphasis on the basics (original design).</p><p>Given that the Bible has little to say on the 'how' of doing church but a lot on the 'why' we are committed to living together as a church community based primarily on the first principles of scripture. This means that we place more value on people thanon performance or Church 'bling'. We want to keep church simple so that it fulfils its valuable contribution to a well lived Christian life but not at the expense of burning people out. We want to keep it real, which also means allowing peopleto be less than perfect and make mistakes. We want to practice servant leadership, firstly in the church but also in the world where we are consistently rising to the challenge of serving those Jesus describes as 'the least of these.' We don'twant people to come and build the church's vision but rather we want the church to equip and build people to live out their God given visions and dreams. We want to see the Kingdom of God developed in every aspect of where Christians live, notjust for a few hours on a Sunday morning or one night a week.</p><p>This is the journey we are committed to. This is the story we want to write. So what about you? What would you do if your life was a blank piece of paper and you could write what you wanted..?</p>",
+    "title" : "About",
+    "updated" : "2018-03-01T15:08:46.874Z"
   }, {
-    "churches": [0],
-    "id": 1,
-    "status": "published",
-    "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-    "title": "Statement of Faith",
-    "updated": "2018-02-01T15:08:46.874Z"
+    "churches" : [ 0 ],
+    "id" : 1,
+    "status" : "published",
+    "text" : "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+    "title" : "Statement of Faith",
+    "updated" : "2018-02-01T15:08:46.874Z"
   }, {
-    "churches": [0],
-    "id": 2,
-    "status": "draft",
-    "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
-    "title": "Draft page",
-    "updated": "2018-02-01T15:08:46.874Z"
-  }],
-  "people": [{
-    "churches": [0],
-    "id": 0,
-    "image": "https://placeimg.com/800/600/people",
-    "name": "Andrea Rounthwaite",
-    "text": "<p>I'm delighted to be part of The Olive Tree. What I hope to bring to this team is my heart for the broken-hearted in this community. I am a counsellor, Life Coach, Behavioural Analyst and Pastor. I have worked in the area of Recovery for over 30 years, specialising in relationships and addiction. I'm presently directing the programme \"Celebrate Recovery\" and \"Boundaries.\" Jesus said He heals and hears the broken hearted, and I pray He will continue to empower me to bring His desire to this community.</p>"
+    "churches" : [ 0 ],
+    "id" : 2,
+    "status" : "draft",
+    "text" : "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>",
+    "title" : "Draft page",
+    "updated" : "2018-02-01T15:08:46.874Z"
+  } ],
+  "people" : [ {
+    "churches" : [ 0 ],
+    "id" : 0,
+    "image" : "https://placeimg.com/800/600/people",
+    "name" : "Andrea Rounthwaite",
+    "text" : "<p>I'm delighted to be part of The Olive Tree. What I hope to bring to this team is my heart for the broken-hearted in this community. I am a counsellor, Life Coach, Behavioural Analyst and Pastor. I have worked in the area of Recovery for over 30 years, specialising in relationships and addiction. I'm presently directing the programme \"Celebrate Recovery\" and \"Boundaries.\" Jesus said He heals and hears the broken hearted, and I pray He will continue to empower me to bring His desire to this community.</p>"
   }, {
-    "churches": [0],
-    "id": 1,
-    "image": "https://placeimg.com/800/600/people",
-    "name": "Bruce Bell",
-    "text": "<p>My background was as a lawyer before moving to work in the areas of law enforcement and defence.  I have always had a passion for the Word of God and this led to further study in theology and biblical studies.  As well as a degree in Law I also have a Post Graduate Diploma in Theology and a PhD in Theology.  I was the teaching pastor at another church before becoming part of the team at The Olive Tree.  I have an abiding interest in philosophy/worldviews, history, science and hermeneutics (interpreting scripture).  Apart from shepherding God’s people on a daily basis and watching them grow and develop, I love nothing more than being able to preach and teach His Word.</p>"
+    "churches" : [ 0 ],
+    "id" : 1,
+    "image" : "https://placeimg.com/800/600/people",
+    "name" : "Bruce Bell",
+    "text" : "<p>My background was as a lawyer before moving to work in the areas of law enforcement and defence.  I have always had a passion for the Word of God and this led to further study in theology and biblical studies.  As well as a degree in Law I also have a Post Graduate Diploma in Theology and a PhD in Theology.  I was the teaching pastor at another church before becoming part of the team at The Olive Tree.  I have an abiding interest in philosophy/worldviews, history, science and hermeneutics (interpreting scripture).  Apart from shepherding God’s people on a daily basis and watching them grow and develop, I love nothing more than being able to preach and teach His Word.</p>"
   }, {
-    "churches": [0],
-    "id": 2,
-    "image": "https://placeimg.com/800/600/people",
-    "name": "Wendy Smythe",
-    "text": "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>"
-  }],
-  "services": {
-    "0": {
-      "churches": [0],
-      "date": "2018-05-13T10:00:00.000Z",
-      "id": 3,
-      "speaker": "Adam Adamson",
-      "topic": "Lorem Ipsum",
-      "updated": "2018-05-20T03:42:47.554Z"
+    "churches" : [ 0 ],
+    "id" : 2,
+    "image" : "https://placeimg.com/800/600/people",
+    "name" : "Wendy Smythe",
+    "text" : "<p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href='#'>Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p><h2>Header Level 2</h2><ol><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ol><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote><h1>Header Level 3</h1><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li><li>Aliquam tincidunt mauris eu risus.</li></ul><pre><code>#header h1 a {display: block;width: 300px;height: 80px;}</code></pre>"
+  } ],
+  "services" : {
+    "0" : {
+      "churches" : [ 0 ],
+      "date" : "2018-05-13T10:00:00.000Z",
+      "id" : 3,
+      "speaker" : "Adam Adamson",
+      "topic" : "Lorem Ipsum",
+      "updated" : "2018-05-20T03:42:47.554Z"
     },
-    "1": {
-      "churches": [0],
-      "date": "2018-05-13T10:00:00.000Z",
-      "id": 4,
-      "speaker": "Bruce Bell",
-      "topic": "Lorem Ipsum",
-      "updated": "2018-05-27T03:42:47.554Z"
+    "1" : {
+      "churches" : [ 0 ],
+      "date" : "2018-05-13T10:00:00.000Z",
+      "id" : 4,
+      "speaker" : "Bruce Bell",
+      "topic" : "Lorem Ipsum",
+      "updated" : "2018-05-27T03:42:47.554Z"
     },
-    "2": {
-      "date": "2018-05-19T22:30:00.000Z",
-      "speaker": "Bruce Bell"
+    "2" : {
+      "date" : "2018-05-19T22:30:00.000Z",
+      "speaker" : "Bruce Bell"
+    },
+    "-LDjMsaw198IkiB_rbke" : {
+      "date" : "2018-06-02T22:30:00.000Z",
+      "speaker" : "Wendy Smythe",
+      "topic" : "Family Service: The Word of their Testimony"
+    },
+    "-LECRosbeRhAU_9gOFBF" : {
+      "date" : "2018-06-09T22:30:00.000Z",
+      "speaker" : "Bernard McClelland"
+    },
+    "-LEh8ay9ov7-beBCQ1Y7" : {
+      "date" : "2018-06-16T22:30:00.000Z",
+      "speaker" : "Bruce Bell"
+    },
+    "-LEqV-m59Hy-KoU7_3K6" : {
+      "date" : "2018-06-17T06:30:00.000Z",
+      "speaker" : "David Door"
     }
   }
 }
