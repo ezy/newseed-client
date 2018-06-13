@@ -6,7 +6,7 @@
 
   {{this-sunday service=nextService}}
 
-  {{this-week }}
+  {{this-week events=eventsOnlyFeed services=model.services}}
 
   <div class="container-fluid">
     {{#if (and (not model.audios) (not eventsOnlyFeed))}}

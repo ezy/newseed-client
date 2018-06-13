@@ -74,7 +74,8 @@
             <div class="col-sm-7">
               {{ember-flatpickr
                 date=model.date
-                dateFormat='d M y'
+                dateFormat='h:i K - d M y'
+                enableTime=true
                 onChange=(action 'saveDate')
                 class="form-control"
                 id="date-publish"
@@ -98,7 +99,8 @@
               <div class="col-sm-7">
                 {{ember-flatpickr
                   date=model.expires
-                  dateFormat='d M y'
+                  dateFormat='h:i K - d M y'
+                  enableTime=true
                   onChange=(action 'saveExpires')
                   class="form-control"
                   id="date-expires"

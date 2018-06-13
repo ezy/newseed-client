@@ -1,1 +1,8 @@
-{{yield}}
+{{#each-in weekSchedule as |week schedule|}}
+  {{week}}
+  {{#each schedule as |event|}}
+    {{#link-to 'notices.show' event.id}}
+      {{date-format event.date 'h:mmA'}} - {{event.title}}
+    {{/link-to}}
+  {{/each}}
+{{/each-in}}
