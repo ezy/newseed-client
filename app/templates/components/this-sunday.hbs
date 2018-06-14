@@ -4,11 +4,11 @@
       <div class="service-times card card-square text-white bg-template">
         <div class="card-body">
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 d-none d-sm-block">
               <span class="hide">THIS WEEK</span>
             </div>
-            <div class="col-6">
-              <span class="float-right">
+            <div class="col-md-6 col-sm-12">
+              <span class="service-info">
                 {{date-format service.date 'dddd'}}, {{date-format service.date 'D MMM'}} | {{date-format service.date 'h:mmA'}}
                 {{#if service.speaker}}
                   | {{service.speaker}}

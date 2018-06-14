@@ -398,6 +398,7 @@
       "category" : "event",
       "date" : "2018-06-15T08:45:00.000Z",
       "expires" : "2018-07-12T23:45:45.886Z",
+      "recurring": "daily",
       "image" : "/assets/img/stock/blur-community-crowd-5156.jpg",
       "status" : "published",
       "tags" : "",

@@ -1,16 +1,18 @@
-<div id="this-week">
-  {{#each-in weekSchedule as |week schedule|}}
-    <div class="day">
-      {{week}}
+<div id="this-week" class="d-flex flex-md-row flex-column justify-content-between align-items-stretch">
+  {{#each-in weekSchedule as |day schedule|}}
+    <div class="week p-2 flex-fill">
+      <div class="day">
+        {{day}}
+      </div>
+      <ul>
+        {{#each schedule as |event|}}
+          <li>
+            {{#link-to 'notices.show' event.id}}
+              {{date-format event.date 'h:mmA'}} - {{event.title}}
+            {{/link-to}}
+          </li>
+        {{/each}}
+      </ul>
     </div>
-    <ul>
-      {{#each schedule as |event|}}
-        <li>
-          {{#link-to 'notices.show' event.id}}
-            {{date-format event.date 'h:mmA'}} - {{event.title}}
-          {{/link-to}}
-        </li>
-      {{/each}}
-    </ul>
   {{/each-in}}
 </div>

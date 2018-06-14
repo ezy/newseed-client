@@ -1,0 +1,26 @@
+#this-week {
+  .week {
+    border: 1px solid $template;
+    border-top: none;
+    @include media-breakpoint-up(md) {
+      border-left: none;
+      border-top: 1px solid $template;
+    }
+    .day {
+      font-weight: $font-thin;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: -0.29px;
+      margin-bottom: .5em;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: $font-medium;
+    font-size: 13px;
+    color: #93B567;
+    letter-spacing: -0.29px;
+  }
+}

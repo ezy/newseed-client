@@ -7,7 +7,7 @@ export default Component.extend({
   weekSchedule: computed('events', 'services', function() {
     let schedule = new EmberObject(),
         events = this.get('events').filter(notice => {
-          return notice.get('category') === 'event';
+          return notice.get('category') === 'event' && notice.get('frequency');
         }),
         today = moment().startOf('day'),
         // set the checkDate to next Sunday just before midnight
@@ -29,8 +29,22 @@ export default Component.extend({
 
     function _setData(data, sched) {
       data.forEach(e => {
-        const key = moment(e.get('date')).format('dddd');
-        sched.get(key).pushObject(e);
+        const freq = e.get('frequency');
+        if (freq === 'day') {
+          const weekDays = 7;
+          // Set numeral for weekday from moment isoWeekday
+          // let daySelector = moment(e.get('date')).isoWeekday();
+          let daySelector = 1;
+          for (let d = daySelector; d <= weekDays; d++) {
+            //  Use count and isoWeekday to push keys
+            let dayName = moment().isoWeekday(d).format('dddd');
+            sched.get(dayName).pushObject(e);
+          }
+        }
+        else {
+          const key = moment(e.get('date')).format('dddd');
+          sched.get(key).pushObject(e);
+        }
       });
     }
 

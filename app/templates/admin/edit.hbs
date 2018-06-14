@@ -82,8 +82,8 @@
               }}
           </div>
         </div>
-        {{#if model.expires}}
-          {{!-- <div class="form-group row">
+        {{#if  (eq model.category 'event')}}
+          <div class="form-group row">
             <label for="category-select" class="col-sm-5 col-form-label">Repeats:</label>
             <div class="col-sm-7">
               <select id="category-select" class="custom-select" onchange= {{action 'saveFreq' value="target.value"}}>
@@ -93,7 +93,9 @@
                 <option value="month" selected="{{if (eq model.frequency 'month') true}}">Monthly</option>
               </select>
             </div>
-          </div> --}}
+          </div>
+        {{/if}}
+        {{#if model.expires}}
           <div class="form-group row">
             <label for="date-expires" class="col-sm-5 col-form-label">Expires:</label>
               <div class="col-sm-7">
