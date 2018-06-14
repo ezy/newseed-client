@@ -3,7 +3,6 @@
   <li>
     <article>
       <header>
-        <span class="category {{notice.category}}">{{notice.category}}</span>
         <h3 class="h3 mt-1 mb-1">
           {{#link-to 'notices.show' notice}}
             {{notice.title}}
@@ -11,18 +10,22 @@
         </h3>
       </header>
       <p class="text-body">{{truncate-text notice.text limit="154" stripHtml=true}}</p>
-      <span class="datestamp">{{date-format notice.date 'D MMM YY'}}</span>
-      {{#if notice.tags}}
-      <p class="float-right">
-        <i class="material-icons">label_outline</i>
-        {{#each notice.tags as |tag|}}
-          {{#link-to 'notices' (query-params tag=tag) class="tag-link"}}
-            {{tag}}
-          {{/link-to}}
-        {{/each}}
-      </p>
-      {{/if}}
-      <hr>
+      <div class="row">
+        <div class="col">
+          <span class="category {{notice.category}}">{{notice.category}}</span><span class="datestamp">&nbsp;&nbsp;&nbsp;&nbsp;{{date-format notice.date 'D MMM YY'}}</span>
+          {{#if notice.tags}}
+          <p class="float-right">
+            <i class="material-icons">label_outline</i>
+            {{#each notice.tags as |tag|}}
+              {{#link-to 'notices' (query-params tag=tag) class="tag-link"}}
+                {{tag}}
+              {{/link-to}}
+            {{/each}}
+          </p>
+          {{/if}}
+          <hr>
+        </div>
+      </div>
     </article>
   </li>
   {{/each}}
