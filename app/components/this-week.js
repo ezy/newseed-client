@@ -30,17 +30,32 @@ export default Component.extend({
     function _setData(data, sched) {
       data.forEach(e => {
         const freq = e.get('frequency');
+        const date = moment(e.get('date'));
         if (freq === 'day') {
           const weekDays = 7;
+          const monday = moment().day(1).startOf('day');
+          const comingSunday = moment().day(7).startOf('day');
           // Set numeral for weekday from moment isoWeekday
-          // let daySelector = moment(e.get('date')).isoWeekday();
-          let daySelector = 1;
-          for (let d = daySelector; d <= weekDays; d++) {
+          let daySelector = () => {
+            if (date.isAfter(comingSunday)) {
+              return 8;
+            }
+            else if (date.isBetween(monday, comingSunday)) {
+              return date.isoWeekday();
+            }
+            else {
+              return 1;
+            }
+          }
+          for (let d = daySelector(); d <= weekDays; d++) {
             //  Use count and isoWeekday to push keys
             let dayName = moment().isoWeekday(d).format('dddd');
             sched.get(dayName).pushObject(e);
           }
         }
+        // else if (freq === 'week') {
+        //
+        // }
         else {
           const key = moment(e.get('date')).format('dddd');
           sched.get(key).pushObject(e);
