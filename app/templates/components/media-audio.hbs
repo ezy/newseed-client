@@ -18,12 +18,14 @@
           <br>
         </div>
         <span class="datestamp">{{date-format media.date 'D MMM YY'}}</span>
+        {{#if media.speaker}}
         <p class="float-right speaker">
           <i class="material-icons">face</i>
           {{#link-to 'audios' (query-params speaker=media.speaker) class="tag-link"}}
             {{media.speaker}}
           {{/link-to}}
         </p>
+        {{/if}}
       </article>
     </li>
     <hr>
