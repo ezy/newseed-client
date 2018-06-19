@@ -31,10 +31,11 @@ export default Component.extend({
       data.forEach(e => {
         const freq = e.get('frequency');
         const date = moment(e.get('date'));
+        const dateDayName = moment(e.get('date')).format('dddd');
+        const monday = moment().day(1).startOf('day');
+        const comingSunday = moment().day(7).endOf('day');
         if (freq === 'day') {
           const weekDays = 7;
-          const monday = moment().day(1).startOf('day');
-          const comingSunday = moment().day(7).startOf('day');
           // Set numeral for weekday from moment isoWeekday
           let daySelector = () => {
             if (date.isAfter(comingSunday)) {
@@ -53,12 +54,15 @@ export default Component.extend({
             sched.get(dayName).pushObject(e);
           }
         }
-        // else if (freq === 'week') {
-        //
-        // }
+        else if (freq === 'month') {
+          const monthDate = moment(date).date();
+          const dateToCurrentMonth = moment().date(monthDate);
+          return dateToCurrentMonth.isBetween(monday, comingSunday)
+            ? sched.get(dateDayName).pushObject(e)
+            : null ;
+        }
         else {
-          const key = moment(e.get('date')).format('dddd');
-          sched.get(key).pushObject(e);
+          sched.get(dateDayName).pushObject(e);
         }
       });
     }
