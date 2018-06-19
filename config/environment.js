@@ -80,7 +80,14 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+    ENV.firebase = {
+      apiKey: "AIzaSyCF-dgU03LP5AlFzAS4T76MhmWd7AMFAIY",
+      authDomain: "olive-8020d.firebaseapp.com",
+      databaseURL: "https://olive-8020d.firebaseio.com",
+      projectId: "olive-8020d",
+      storageBucket: "olive-8020d.appspot.com",
+      messagingSenderId: "7867707961"
+    }
   }
 
   return ENV;
