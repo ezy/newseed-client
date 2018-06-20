@@ -8,9 +8,14 @@
       <ul>
         {{#each schedule as |event|}}
           <li>
-            {{#link-to 'notices.show' event.id}}
+            {{log event}}
+            {{#if (eq event.category 'service')}}
               {{date-format event.date 'h:mmA'}} - {{event.title}}
-            {{/link-to}}
+            {{else}}
+              {{#link-to 'notices.show' event.id}}
+                {{date-format event.date 'h:mmA'}} - {{event.title}}
+              {{/link-to}}
+            {{/if}}
           </li>
         {{/each}}
       </ul>

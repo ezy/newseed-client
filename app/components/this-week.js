@@ -18,6 +18,7 @@ export default Component.extend({
         // set the checkDate to next Sunday just before midnight
         sunday = moment().day(7).endOf('day'),
         services = this.get('services').filter(service => {
+          service.set('category', 'service');
           return moment(service.get('date')).isBetween(today, sunday);
         });
 
