@@ -22,7 +22,6 @@
   </div>
   <div class="input-group mb-3">
     <select class="custom-select" onchange={{action 'filterModels' value="target.value"}}>
-      <option selected>Filter</option>
       {{#each modelItems as |item|}}
         <option value="{{item.modelName}}">{{item.label}}</option>
       {{/each}}
