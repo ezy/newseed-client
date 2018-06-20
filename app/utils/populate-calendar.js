@@ -29,6 +29,14 @@ export default EmberObject.extend({
           sched.get(dayName).pushObject(e);
         }
       }
+      else if (freq === 'fortnight') {
+        const dateWeekParity = moment(date).week() % 2;
+        const thisWeekParity = moment().week() % 2;
+        // Check weeks have parity and event date is before coming Sunday
+        if (thisWeekParity === dateWeekParity && date.isBefore(comingSunday)) {
+          sched.get(dateDayName).pushObject(e);
+        }
+      }
       else if (freq === 'month') {
         const monthDate = moment(date).date();
         const dateToCurrentMonth = moment().date(monthDate);

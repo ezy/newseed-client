@@ -19,7 +19,9 @@
             {{/link-to}}
           {{/if}}
         </h1>
-        <img src="{{model.image}}" alt="{{model.title}}" />
+        {{#if model.image}}
+          <img src="{{model.image}}" alt="{{model.title}}" />
+        {{/if}}
         <p>{{{model.text}}}</p>
       </div>
     </div>
