@@ -6,11 +6,14 @@ import populateCalendar from '../utils/populate-calendar';
 
 export default Component.extend({
   calendar: populateCalendar.create(),
-  weekSchedule: computed('events', 'services', function() {
+  calEvents: computed('events', function() {
+    return this.get('events').filter(notice => {
+      return notice.get('category') === 'event' && notice.get('frequency');
+    })
+  }),
+  weekSchedule: computed('calEvents', 'services', function() {
     let schedule = new EmberObject(),
-        events = this.get('events').filter(notice => {
-          return notice.get('category') === 'event' && notice.get('frequency');
-        }),
+        events = this.get('calEvents'),
         today = moment().startOf('day'),
         // set the checkDate to next Sunday just before midnight
         sunday = moment().day(7).endOf('day'),
