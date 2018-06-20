@@ -29,7 +29,10 @@ export default Controller.extend({
     return !tags.includes('slide');
   }),
   allNoticesFeed: computed('notices', function() {
-    return this.get('notices').slice(0, 6);
+    let notices = this.get('notices').sort((a, b) => {
+      return moment(a.get('updated')).isBefore(moment(b.get('updated'))) ? 1 : -1;
+    });
+    return notices.slice(0, 6);
   }),
   noticesNeedsFeed: computed('notices', function() {
     let filterNotice = this.get('notices').filter(notice => {
