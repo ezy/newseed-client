@@ -114,7 +114,12 @@
       </div>
     {{/if}}
     <div class="mt-4 pb-2 border-bottom">
-      {{medium-content-editable value=model.text onFinishedTyping=(action "saveContent")}}
+      {{medium-editor
+        value=model.text
+        options=(hash)
+        onChange=(action (mut model.text))
+        onFinishedTypingDelay=3000
+        onFinishedTyping=(action "saveContent")}}
     </div>
     {{#if (eq model._internalModel.modelName 'audio')}}
       <div class="form-group">
