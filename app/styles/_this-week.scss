@@ -1,10 +1,9 @@
 #this-week {
   .week {
-    border: 1px solid $template;
-    border-top: none;
+    border-bottom: 1px solid $gray-light;
     @include media-breakpoint-up(md) {
+      border: 1px solid $gray-light;
       border-left: none;
-      border-top: 1px solid $template;
     }
     .day {
       font-weight: $font-thin;
