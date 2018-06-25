@@ -8,7 +8,6 @@
       <ul>
         {{#each schedule as |event|}}
           <li>
-            {{log event}}
             {{#if (eq event.category 'service')}}
               {{date-format event.date 'h:mmA'}} - {{event.title}}
             {{else}}

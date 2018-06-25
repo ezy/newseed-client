@@ -8,7 +8,7 @@ export default Component.extend({
   calendar: populateCalendar.create(),
   calEvents: computed('events', function() {
     return this.get('events').filter(notice => {
-      return notice.get('category') === 'event' && notice.get('frequency');
+      return notice.get('category') === 'event';
     })
   }),
   weekSchedule: computed('calEvents', 'services', function() {
