@@ -21,6 +21,11 @@ export default Controller.extend({
       this.set('model.frequency', value);
       this.send('saveContent');
     },
+    saveSlide(value) {
+      console.log(value);
+      this.set('model.slide', value);
+      this.send('saveContent');
+    },
     saveCat(value) {
       this.set('model.category', value);
       this.send('saveContent');
