@@ -1,9 +1,11 @@
 <div id="sc-carousel" class="carousel slide" data-ride="carousel">
+  {{#if (gt slides.length 1)}}
   <ol class="carousel-indicators">
     {{#each slides as |slide index|}}
       <li data-target="#sc-carousel" data-slide-to={{index}} class="{{if (eq index 0) 'active' }}"></li>
     {{/each}}
   </ol>
+  {{/if}}
   <div class="carousel-inner">
     {{#each slides as |slide index|}}
       <div class="carousel-item {{if (eq index 0) 'active' }}">
@@ -12,9 +14,15 @@
           <h4>{{slide.title}}</h4>
           <p>{{truncate-text slide.text limit="300" stripHtml=true}}</p>
           <p>
+            {{#if slide.category}}
             {{#link-to 'notices.show' slide.id}}
               Read {{slide.title}}
             {{/link-to}}
+            {{else}}
+            {{#link-to 'page' slide.id}}
+              Read {{slide.title}}
+            {{/link-to}}
+            {{/if}}
           </p>
         </div>
         <div class="img-wrapper">

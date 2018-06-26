@@ -7,6 +7,7 @@ export default Route.extend(SetChurchController, {
     return RSVP.hash({
       audios: this.get('store').findAll('audio'),
       notices: this.get('store').findAll('notice'),
+      pages: this.get('store').findAll('page'),
       services: this.get('store').findAll('service')
     });
   },

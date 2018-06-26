@@ -22,7 +22,6 @@ export default Controller.extend({
       this.send('saveContent');
     },
     saveSlide(value) {
-      console.log(value);
       this.set('model.slide', value);
       this.send('saveContent');
     },

@@ -3,6 +3,7 @@ import { get, computed } from '@ember/object';
 import { filter } from '@ember/object/computed';
 import moment from 'moment';
 import EmberObject from '@ember/object';
+import { A } from '@ember/array';
 
 export default Controller.extend({
   filteredNotice: filter('model.notices', function(notice) {
@@ -20,9 +21,15 @@ export default Controller.extend({
   filteredAudio: filter('model.audios', function(audio) {
     return audio.get('status') === 'published';
   }),
-  slides: filter('filteredNotice', function(notice) {
-    let tags = get(notice, 'tags');
-    return tags.includes('slide');
+  slides: computed('filteredNotice', 'model.pages', function() {
+    let slides = this.get('model.pages').filter(page => {
+      return page.get('slide');
+    });
+    let notices = this.get('filteredNotice').filter(notice => {
+      let tags = get(notice, 'tags');
+      return tags.includes('slide');
+    });
+    return slides.concat(notices);
   }),
   notices: filter('filteredNotice', function(notice) {
     let tags = get(notice, 'tags');

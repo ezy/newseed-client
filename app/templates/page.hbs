@@ -7,7 +7,7 @@
         <h1 class="border-bottom pb-3 mb-3">
           {{model.title}}
           {{#if session.isAuthenticated}}
-            {{#link-to 'admin.edit' 'notice' model.id}}
+            {{#link-to 'admin.edit' 'page' model.id}}
               <i class="material-icons">create</i>
             {{/link-to}}
           {{/if}}
