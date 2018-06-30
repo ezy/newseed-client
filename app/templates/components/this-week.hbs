@@ -10,7 +10,7 @@
 </div>
 <div id="this-week" class="d-flex flex-md-row flex-column justify-content-between align-items-stretch">
   {{#each-in weekSchedule as |day schedule|}}
-    <div class="week flex-fill {{if (eq today day) 'today'}}">{{log today day}}
+    <div class="week flex-fill {{if (eq today day) 'today'}}">
       <div class="day">
         {{day}}
       </div>
