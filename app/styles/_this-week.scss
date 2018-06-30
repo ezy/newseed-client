@@ -4,7 +4,7 @@
     display: none;
   }
   h4 {
-    padding: .75em .5em .5em;
+    padding: .75em 0 .5em;
     margin: 0;
     text-transform: uppercase;
   }
@@ -12,6 +12,10 @@
 #this-week {
   .week {
     border-bottom: 1px solid $gray-light;
+    padding: .5em 1em;
+    @include media-breakpoint-up(md) {
+      padding: .5em;
+    }
     @include media-breakpoint-up(md) {
       border: 1px solid $gray-light;
       border-left: none;
