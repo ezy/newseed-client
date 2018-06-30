@@ -10,7 +10,9 @@
     {{#each slides as |slide index|}}
       <div class="carousel-item {{if (eq index 0) 'active' }}">
         <div class="carousel-caption">
-          <span class="category {{slide.category}}">{{slide.category}}</span>
+          {{#if slide.category}}
+            <span class="category {{slide.category}}">{{slide.category}}</span>
+          {{/if}}
           <h4>{{slide.title}}</h4>
           <p>{{truncate-text slide.text limit="300" stripHtml=true}}</p>
           <p>
