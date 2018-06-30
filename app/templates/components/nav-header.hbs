@@ -25,7 +25,21 @@
           {{/link-to}}
         </li>
         {{#if pages}}
-          <li class="nav-item dropdown">
+          {{#each pages as |page|}}
+            <li class="nav-item page-mob-nav">
+              {{#link-to 'page' page.id class='nav-link'}}
+                {{page.title}}
+              {{/link-to}}
+            </li>
+          {{/each}}
+        {{/if}}
+        <li class="nav-item page-mob-nav">
+          {{#link-to 'contact' class='nav-link'}}
+            Contact
+          {{/link-to}}
+        </li>
+        {{#if pages}}
+          <li class="nav-item dropdown page-nav">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
             <div class="dropdown-menu dropdown-menu-right">
               {{#each pages as |page|}}
@@ -39,7 +53,7 @@
             </div>
           </li>
           {{else}}
-          <li class="nav-item">
+          <li class="nav-item page-nav">
             {{#link-to 'contact' class='nav-link'}}
               Contact
             {{/link-to}}
