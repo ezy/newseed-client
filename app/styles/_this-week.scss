@@ -20,6 +20,9 @@
       border: 1px solid $gray-light;
       border-left: none;
     }
+    &.today {
+      background-color: $template-lightest;
+    }
     .day {
       font-weight: $font-thin;
       font-size: 13px;

@@ -11,6 +11,9 @@ export default Component.extend({
       return notice.get('category') === 'event';
     })
   }),
+  today: computed(function() {
+    return moment().format('dddd');
+  }),
   weekSchedule: computed('calEvents', 'services', function() {
     let schedule = new EmberObject(),
         events = this.get('calEvents'),
