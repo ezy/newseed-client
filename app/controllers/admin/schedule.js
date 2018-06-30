@@ -2,7 +2,7 @@ import Controller from '@ember/controller';
 import { computed } from '@ember/object';
 import moment from 'moment';
 
-const thisSunday = moment().day(7).startOf('day');
+const currentSunday = moment().day(0).startOf('day');
 
 export default Controller.extend({
   init() {
@@ -12,7 +12,7 @@ export default Controller.extend({
   upcoming: computed('model.@each', function() {
     return this.get('model')
       .filter(item => {
-        return moment(item.get('date')).isSameOrAfter(thisSunday);
+        return moment(item.get('date')).isSameOrAfter(currentSunday);
       })
       .sort((a, b) => {
         return moment(a.get('updated')).isBefore(moment(b.get('updated'))) ? 1 : -1;
