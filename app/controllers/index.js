@@ -3,7 +3,6 @@ import { get, computed } from '@ember/object';
 import { filter } from '@ember/object/computed';
 import moment from 'moment';
 import EmberObject from '@ember/object';
-import { A } from '@ember/array';
 
 export default Controller.extend({
   filteredNotice: filter('model.notices', function(notice) {
@@ -27,13 +26,15 @@ export default Controller.extend({
     });
     let notices = this.get('filteredNotice').filter(notice => {
       let tags = get(notice, 'tags');
-      return tags.includes('slide');
+      if (tags) {
+        return tags.includes('slide');
+      }
     });
     return slides.concat(notices);
   }),
   notices: filter('filteredNotice', function(notice) {
     let tags = get(notice, 'tags');
-    return !tags.includes('slide');
+    return tags !== null ? !tags.includes('slide') : notice;
   }),
   allNoticesFeed: computed('notices', function() {
     let notices = this.get('notices').sort((a, b) => {
