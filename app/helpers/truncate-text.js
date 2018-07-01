@@ -15,6 +15,7 @@ function truncateText(params, hash) {
 
   if (stripHtml) {
     text = text.replace(/(<([^>]+)>)/ig,"");
+    text = text.replace(/&nbsp;/g, ' ');
   }
 
   return text;
