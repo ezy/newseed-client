@@ -17,7 +17,10 @@ export default Controller.extend({
 
     if (tag) {
       notices = notices.filter(notice => {
-        return notice.get('tags').includes(tag);
+        let tagArr = notice.get('tags');
+        if (Array.isArray(tagArr)) {
+          return tagArr.includes(tag);
+        }
       });
     }
 
