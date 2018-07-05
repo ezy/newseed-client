@@ -3,6 +3,7 @@ import { computed } from '@ember/object';
 import moment from 'moment';
 
 const currentSunday = moment().day(0).startOf('day');
+const thisSunday = moment().day(7).startOf('day'); 
 
 export default Controller.extend({
   init() {
