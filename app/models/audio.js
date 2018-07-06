@@ -10,6 +10,7 @@ export default DS.Model.extend({
   link: DS.attr('string', { defaultValue: () => ''}),
   updated: DS.attr('date', { defaultValue: () => new Date()}),
   status: DS.attr('string', { defaultValue: () => 'draft'}),
+  slug: DS.attr('string', { defaultValue: 'new-media'}),
 
   churches: DS.belongsTo('churches')
 });

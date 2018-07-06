@@ -1,6 +1,7 @@
 import Controller from '@ember/controller';
 import { inject as service } from '@ember/service';
 import { A } from '@ember/array';
+import { slugMe } from 'newseed/helpers/slug-me';
 
 export default Controller.extend({
   firebaseApp: service(),
@@ -50,7 +51,9 @@ export default Controller.extend({
       this.set('isSaving', true);
       this.set('model.updated',  new Date());
       if (this.get('editTitle')) {
-        this.set('model.title', this.get('model.title'));
+        let title = this.get('model.title');
+        this.set('model.title', title);
+        this.set('model.slug', slugMe(title));
         this.set('editTitle', false);
       }
       model.save()

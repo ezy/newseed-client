@@ -66,7 +66,9 @@ export default Controller.extend({
       this.set('showingItem', item[0]);
     },
     createContent(modelName) {
-      let record = this.store.createRecord(modelName, {title: `New ${modelName.capitalize()} Content`});
+      let record = this.store.createRecord(modelName, {
+        title: `New ${modelName.capitalize()} Content`
+      });
       record.save().then(rec => {
         this.store.query(modelName, { id: rec.get('id') })
           .then(res => {
