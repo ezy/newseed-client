@@ -2,6 +2,7 @@ import Controller from '@ember/controller';
 import { inject as service } from '@ember/service';
 import { A } from '@ember/array';
 import { slugMe } from 'newseed/helpers/slug-me';
+import $ from 'jquery';
 
 export default Controller.extend({
   firebaseApp: service(),

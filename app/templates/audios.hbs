@@ -33,7 +33,7 @@
                 </header>
                 <p class="body">{{truncate-text media.text limit="500" stripHtml=true}}</p>
                 <div class="collapse" id="mediaCollapse-{{index}}">
-                  <video controls preload="auto" name="{{media.title}}" poster="/assets/img/audio.png">
+                  <video controls preload="metadata" name="{{media.title}}" poster="/assets/img/audio.png">
                     <source src="{{media.link}}" type="audio/mp3">
                     <p class="body">Your browser doesn't support video/media playback.</p>
                     <p><a href="{{media.link}}" download>Download {{media.title}}</a></p>

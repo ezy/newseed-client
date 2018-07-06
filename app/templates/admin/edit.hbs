@@ -133,7 +133,7 @@
         <div class="col-sm-10">
           {{#if model.link}}
             <p><strong>Upload URL:</strong> {{model.link}}</p>
-            <video controls preload="auto" name="{{model.title}}" poster="/assets/img/audio.png" class="w-25">
+            <video controls preload="metadata" name="{{model.title}}" poster="/assets/img/audio.png" class="w-25">
               <source src="{{model.link}}" type="audio/mp3">
               <p class="body">Your browser doesn't support video/media playback.</p>
               <p><a href="{{model.link}}" download>Download {{media.title}}</a></p>
