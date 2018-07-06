@@ -27,7 +27,7 @@ export default DS.Model.extend({
     }
   }),
   status: DS.attr('string', { defaultValue: 'draft'}),
-  slug: DS.attr('string', { defaultValue: 'new-post'}),
+  slug: DS.attr('string', { defaultValue: () => Date.now() }),
 
   churches: DS.belongsTo('churches')
 });

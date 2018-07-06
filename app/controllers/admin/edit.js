@@ -53,7 +53,7 @@ export default Controller.extend({
       if (this.get('editTitle')) {
         let title = this.get('model.title');
         this.set('model.title', title);
-        this.set('model.slug', slugMe(title));
+        this.set('model.slug', `${Date.now()}-${slugMe(title)}`);
         this.set('editTitle', false);
       }
       model.save()

@@ -6,7 +6,7 @@ export default DS.Model.extend({
   text: DS.attr('string', { defaultValue: () => ''}),
   updated: DS.attr('date', { defaultValue: () => new Date()}),
   status: DS.attr('string', { defaultValue: () => 'draft'}),
-  slug: DS.attr('string', { defaultValue: 'new-ministry'}),
+  slug: DS.attr('string', { defaultValue: () => Date.now() }),
 
   churches: DS.belongsTo('churches')
 });

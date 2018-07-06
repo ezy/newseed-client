@@ -7,7 +7,7 @@ export default DS.Model.extend({
   status: DS.attr('string', { defaultValue: () => 'draft'}),
   slide: DS.attr('number', { defaultValue: () => 0}),
   image: DS.attr('string', { defaultValue: () => null}),
-  slug: DS.attr('string', { defaultValue: 'new-page'}),
+  slug: DS.attr('string', { defaultValue: () => Date.now() }),
 
   churches: DS.belongsTo('churches')
 });
