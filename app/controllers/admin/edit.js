@@ -2,7 +2,8 @@ import Controller from '@ember/controller';
 import { inject as service } from '@ember/service';
 import { A } from '@ember/array';
 import { slugMe } from 'newseed/helpers/slug-me';
-import $ from 'jquery';
+// import $ from 'jquery';
+// import config from 'newseed/config/environment';
 
 export default Controller.extend({
   firebaseApp: service(),
@@ -90,27 +91,40 @@ export default Controller.extend({
       //   output.src = dataURL;
       //   this.set('file', files[0]);
       // });
-      // reader.readAsDataURL(files[0]);
-      this.set('file', files[0]);
-      let storageRef = this.get('firebaseApp').storage().ref();
-      let path = `audio/${this.get('file.name')}`;
-      let uploadTask = storageRef.child(path).put(this.get('file'));
-      uploadTask.on('state_changed', snapshot => {
-        let progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-        this.set('uploadProgress', `width: ${progress}%`);
-      },
-      () => {
-        this.get('flashMessages').danger('Something went wrong - audio not uploaded')
-      },
-      () => {
-        this.set('uploadProgress', null);
-        this.set('model.category', 'sermon');
-        uploadTask.snapshot.ref.getDownloadURL().then(downloadURL => {
-          this.set('model.link', downloadURL);
-          this.send('saveContent');
-          resetInput();
-        });
-      });
+      // reader.readAsDataURL(files[0])
+      // let date = new Date().toGMTString();
+      // this.set('file', files[0]);
+      // let path = `media/${this.get('file.name')}`;
+      // let formData = new FormData();
+      // formData.append('file', files[0]);
+      // $.ajax({
+      //     'type': 'PUT',
+      //     'url': `https://s3-${config.aws.region}.amazonaws.com/${config.aws.bucket}/${path}`,
+      //     'datatype': 'xml',
+      //     'processData': false,
+      //     'contentType': false,
+      //     'crossDomain': true,
+      //     'Authorization': '962859d727c7fcb476d486dd3b35d6b3675fd9763db1d6e71b12bad5799fa6f1',
+      //     'Date': date,
+      //     'x-amz-date': date,
+      //     'data': formData
+      // }).done(data => {
+      //     console.log('SUCCESS', data);
+      // }).fail(err => {
+      //     console.log('FAIL', err);
+      // });
+      // () => {
+      //   this.get('flashMessages').danger('Something went wrong - audio not uploaded')
+      // },
+      // () => {
+      //   this.set('uploadProgress', null);
+      //   this.set('model.category', 'sermon');
+      //   uploadTask.snapshot.ref.getDownloadURL().then(downloadURL => {
+      //     this.set('model.link', downloadURL);
+      //     this.send('saveContent');
+      //     resetInput();
+      //   });
+      // });
     },
     addTag(tag) {
       if (!this.get('model.tags')) {

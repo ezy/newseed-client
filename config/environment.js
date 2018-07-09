@@ -31,6 +31,12 @@ module.exports = function(environment) {
       storageBucket: "olive-dev-c9207.appspot.com",
       messagingSenderId: "249986444927"
     },
+    aws: {
+      accessKeyId: 'AKIAJRBS2GIMDNSGNQLQ',
+      secretAccessKey: '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',
+      region: 'ap-southeast-2',
+      bucket: 'olive-tree',
+    },
     torii: {
       sessionServiceName: 'session'
     },
