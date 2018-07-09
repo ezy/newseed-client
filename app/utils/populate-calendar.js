@@ -9,7 +9,7 @@ export default EmberObject.extend({
       const dateDayName = moment(e.get('date')).format('dddd');
       const monday = moment().day(1).startOf('day');
       const comingSunday = moment().day(7).endOf('day');
-      const thisSunday = moment().day(0).endOf('day');
+      // const thisSunday = moment().day(0).endOf('day');
       if (freq === 'day') {
         const weekDays = 7;
         // Set numeral for weekday from moment isoWeekday
@@ -50,8 +50,8 @@ export default EmberObject.extend({
         if (!e.get('title') === 'Service') {
           sched.get(dateDayName).pushObject(e);
         }
-        // Only push services to array before this Sunday, end of day
-        else if (date.isBefore(thisSunday)) {
+        // Only push services to array before coming Sunday, end of day
+        else if (date.isBefore(comingSunday)) {
           sched.get(dateDayName).pushObject(e);
         }
       }
