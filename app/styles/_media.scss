@@ -16,10 +16,23 @@ Notice styles
     margin: .5em 0;
     a {
       font-weight: $font-bold;
+      &.collapsed {
+        i {
+          &.collapsed-add {
+            display: inline-block;
+          }
+          &.collapsed-remove {
+            display: none;
+          }
+        }
+      }
       i {
         color: $template;
-        vertical-align: text-bottom;
+        vertical-align: -3px;
         font-size: 18px;
+        &.collapsed-add {
+          display: none;
+        }
       }
     }
   }

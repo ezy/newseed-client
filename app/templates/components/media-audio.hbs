@@ -4,8 +4,11 @@
       <article>
         <header>
           <h3>
-            <a data-toggle="collapse" href="#mediaCollapse-{{index}}" aria-expanded="false" aria-controls="#mediaCollapse-{{index}}">
-            <i class="material-icons">video_library</i> {{media.title}}</a>
+            <a data-toggle="collapse" class="collapsed" href="#mediaCollapse-{{index}}" aria-expanded="false" aria-controls="#mediaCollapse-{{index}}">
+              <i class="material-icons collapsed-add">add_circle</i>
+              <i class="material-icons collapsed-remove">remove_circle</i>
+              {{media.title}}
+            </a>
           </h3>
         </header>
         <p class="text-body">{{truncate-text media.text limit="230" stripHtml=true}}</p>
