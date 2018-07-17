@@ -11,6 +11,11 @@
   }
 }
 
+.btn-primary {
+  background-color: $template;
+  border-color: $template;
+}
+
 select {
   &.custom-select {
     background: none;
