@@ -48,7 +48,7 @@ export default EmberObject.extend({
       else {
         // Push all events to array
         if (!e.get('title') === 'Service') {
-          sched.get(dateDayName).pushObject(e);
+          return sched.get(dateDayName).pushObject(e);
         }
         /**
          * Only push services to array before coming Sunday, end of day.
@@ -57,7 +57,10 @@ export default EmberObject.extend({
          * schedule (which was happening with [comingSunday]).
          */
         else if (date.isBefore(thisSunday)) {
-          sched.get(dateDayName).pushObject(e);
+          return sched.get(dateDayName).pushObject(e);
+        }
+        else if (date.isBefore(comingSunday)) {
+          return sched.get(dateDayName).pushObject(e);
         }
       }
     });
